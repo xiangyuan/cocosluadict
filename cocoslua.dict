@@ -1,0 +1,3209 @@
+cc
+
+cc.Action
+cc.Action
+cc.Action
+cc.Action
+cc.ActionCamera
+cc.ActionCamera
+cc.ActionCamera
+cc.ActionCamera
+cc.ActionEase
+cc.ActionEase
+cc.ActionEase
+cc.ActionEase
+cc.ActionInstant
+cc.ActionInstant
+cc.ActionInstant
+cc.ActionInstant
+cc.ActionInterval
+cc.ActionInterval
+cc.ActionInterval
+cc.ActionInterval
+cc.ActionManager
+cc.ActionManager
+cc.ActionManager
+cc.ActionManager
+cc.ActionTween
+cc.ActionTween
+cc.ActionTween
+cc.ActionTween
+cc.Animate
+cc.Animate
+cc.Animate
+cc.Animate
+cc.Animation
+cc.Animation
+cc.Animation
+cc.Animation
+cc.AnimationCache
+cc.AnimationCache
+cc.AnimationCache
+cc.AnimationCache
+cc.AnimationFrame
+cc.AnimationFrame
+cc.AnimationFrame
+cc.AnimationFrame
+cc.Application
+cc.Application
+cc.Application
+cc.Application
+cc.AssetsManager
+cc.AssetsManager
+cc.AssetsManager
+cc.AssetsManager
+cc.AtlasNode
+cc.AtlasNode
+cc.AtlasNode
+cc.AtlasNode
+cc.BezierBy
+cc.BezierBy
+cc.BezierBy
+cc.BezierBy
+cc.BezierTo
+cc.BezierTo
+cc.BezierTo
+cc.BezierTo
+cc.Blink
+cc.Blink
+cc.Blink
+cc.Blink
+cc.CCBAnimationManager
+cc.CCBAnimationManager
+cc.CCBAnimationManager
+cc.CCBAnimationManager
+cc.CCBReader
+cc.CCBReader
+cc.CCBReader
+cc.CCBReader
+cc.CallFunc
+cc.CallFunc
+cc.CallFunc
+cc.CallFunc
+cc.CardinalSplineBy
+cc.CardinalSplineBy
+cc.CardinalSplineBy
+cc.CardinalSplineBy
+cc.CardinalSplineTo
+cc.CardinalSplineTo
+cc.CardinalSplineTo
+cc.CardinalSplineTo
+cc.CatmullRomBy
+cc.CatmullRomBy
+cc.CatmullRomBy
+cc.CatmullRomBy
+cc.CatmullRomTo
+cc.CatmullRomTo
+cc.CatmullRomTo
+cc.CatmullRomTo
+cc.ClippingNode
+cc.ClippingNode
+cc.ClippingNode
+cc.ClippingNode
+cc.Component
+cc.Component
+cc.Component
+cc.Component
+cc.Console
+cc.Console
+cc.Console
+cc.Console
+cc.Control
+cc.Control
+cc.Control
+cc.Control
+cc.ControlButton
+cc.ControlButton
+cc.ControlButton
+cc.ControlButton
+cc.ControlColourPicker
+cc.ControlColourPicker
+cc.ControlColourPicker
+cc.ControlColourPicker
+cc.ControlHuePicker
+cc.ControlHuePicker
+cc.ControlHuePicker
+cc.ControlHuePicker
+cc.ControlPotentiometer
+cc.ControlPotentiometer
+cc.ControlPotentiometer
+cc.ControlPotentiometer
+cc.ControlSaturationBrightnessPicker
+cc.ControlSaturationBrightnessPicker
+cc.ControlSaturationBrightnessPicker
+cc.ControlSaturationBrightnessPicker
+cc.ControlSlider
+cc.ControlSlider
+cc.ControlSlider
+cc.ControlSlider
+cc.ControlStepper
+cc.ControlStepper
+cc.ControlStepper
+cc.ControlStepper
+cc.ControlSwitch
+cc.ControlSwitch
+cc.ControlSwitch
+cc.ControlSwitch
+cc.DelayTime
+cc.DelayTime
+cc.DelayTime
+cc.DelayTime
+cc.Director
+cc.Director
+cc.Director
+cc.Director
+cc.DrawNode
+cc.DrawNode
+cc.DrawNode
+cc.DrawNode
+cc.EaseBackIn
+cc.EaseBackIn
+cc.EaseBackIn
+cc.EaseBackIn
+cc.EaseBackInOut
+cc.EaseBackInOut
+cc.EaseBackInOut
+cc.EaseBackInOut
+cc.EaseBackOut
+cc.EaseBackOut
+cc.EaseBackOut
+cc.EaseBackOut
+cc.EaseBezierAction
+cc.EaseBezierAction
+cc.EaseBezierAction
+cc.EaseBezierAction
+cc.EaseBounce
+cc.EaseBounce
+cc.EaseBounce
+cc.EaseBounce
+cc.EaseBounceIn
+cc.EaseBounceIn
+cc.EaseBounceIn
+cc.EaseBounceIn
+cc.EaseBounceInOut
+cc.EaseBounceInOut
+cc.EaseBounceInOut
+cc.EaseBounceInOut
+cc.EaseBounceOut
+cc.EaseBounceOut
+cc.EaseBounceOut
+cc.EaseBounceOut
+cc.EaseCircleActionIn
+cc.EaseCircleActionIn
+cc.EaseCircleActionIn
+cc.EaseCircleActionIn
+cc.EaseCircleActionInOut
+cc.EaseCircleActionInOut
+cc.EaseCircleActionInOut
+cc.EaseCircleActionInOut
+cc.EaseCircleActionOut
+cc.EaseCircleActionOut
+cc.EaseCircleActionOut
+cc.EaseCircleActionOut
+cc.EaseCubicActionIn
+cc.EaseCubicActionIn
+cc.EaseCubicActionIn
+cc.EaseCubicActionIn
+cc.EaseCubicActionInOut
+cc.EaseCubicActionInOut
+cc.EaseCubicActionInOut
+cc.EaseCubicActionInOut
+cc.EaseCubicActionOut
+cc.EaseCubicActionOut
+cc.EaseCubicActionOut
+cc.EaseCubicActionOut
+cc.EaseElastic
+cc.EaseElastic
+cc.EaseElastic
+cc.EaseElastic
+cc.EaseElasticIn
+cc.EaseElasticIn
+cc.EaseElasticIn
+cc.EaseElasticIn
+cc.EaseElasticInOut
+cc.EaseElasticInOut
+cc.EaseElasticInOut
+cc.EaseElasticInOut
+cc.EaseElasticOut
+cc.EaseElasticOut
+cc.EaseElasticOut
+cc.EaseElasticOut
+cc.EaseExponentialIn
+cc.EaseExponentialIn
+cc.EaseExponentialIn
+cc.EaseExponentialIn
+cc.EaseExponentialInOut
+cc.EaseExponentialInOut
+cc.EaseExponentialInOut
+cc.EaseExponentialInOut
+cc.EaseExponentialOut
+cc.EaseExponentialOut
+cc.EaseExponentialOut
+cc.EaseExponentialOut
+cc.EaseIn
+cc.EaseIn
+cc.EaseIn
+cc.EaseIn
+cc.EaseInOut
+cc.EaseInOut
+cc.EaseInOut
+cc.EaseInOut
+cc.EaseOut
+cc.EaseOut
+cc.EaseOut
+cc.EaseOut
+cc.EaseQuadraticActionIn
+cc.EaseQuadraticActionIn
+cc.EaseQuadraticActionIn
+cc.EaseQuadraticActionIn
+cc.EaseQuadraticActionInOut
+cc.EaseQuadraticActionInOut
+cc.EaseQuadraticActionInOut
+cc.EaseQuadraticActionInOut
+cc.EaseQuadraticActionOut
+cc.EaseQuadraticActionOut
+cc.EaseQuadraticActionOut
+cc.EaseQuadraticActionOut
+cc.EaseQuarticActionIn
+cc.EaseQuarticActionIn
+cc.EaseQuarticActionIn
+cc.EaseQuarticActionIn
+cc.EaseQuarticActionInOut
+cc.EaseQuarticActionInOut
+cc.EaseQuarticActionInOut
+cc.EaseQuarticActionInOut
+cc.EaseQuarticActionOut
+cc.EaseQuarticActionOut
+cc.EaseQuarticActionOut
+cc.EaseQuarticActionOut
+cc.EaseQuinticActionIn
+cc.EaseQuinticActionIn
+cc.EaseQuinticActionIn
+cc.EaseQuinticActionIn
+cc.EaseQuinticActionInOut
+cc.EaseQuinticActionInOut
+cc.EaseQuinticActionInOut
+cc.EaseQuinticActionInOut
+cc.EaseQuinticActionOut
+cc.EaseQuinticActionOut
+cc.EaseQuinticActionOut
+cc.EaseQuinticActionOut
+cc.EaseRateAction
+cc.EaseRateAction
+cc.EaseRateAction
+cc.EaseRateAction
+cc.EaseSineIn
+cc.EaseSineIn
+cc.EaseSineIn
+cc.EaseSineIn
+cc.EaseSineInOut
+cc.EaseSineInOut
+cc.EaseSineInOut
+cc.EaseSineInOut
+cc.EaseSineOut
+cc.EaseSineOut
+cc.EaseSineOut
+cc.EaseSineOut
+cc.EditBox
+cc.EditBox
+cc.EditBox
+cc.EditBox
+cc.Event
+cc.Event
+cc.Event
+cc.Event
+cc.EventAcceleration
+cc.EventAcceleration
+cc.EventAcceleration
+cc.EventAcceleration
+cc.EventCustom
+cc.EventCustom
+cc.EventCustom
+cc.EventCustom
+cc.EventDispatcher
+cc.EventDispatcher
+cc.EventDispatcher
+cc.EventDispatcher
+cc.EventKeyboard
+cc.EventKeyboard
+cc.EventKeyboard
+cc.EventKeyboard
+cc.EventListener
+cc.EventListener
+cc.EventListener
+cc.EventListener
+cc.EventListenerAcceleration
+cc.EventListenerAcceleration
+cc.EventListenerAcceleration
+cc.EventListenerAcceleration
+cc.EventListenerCustom
+cc.EventListenerCustom
+cc.EventListenerCustom
+cc.EventListenerCustom
+cc.EventListenerKeyboard
+cc.EventListenerKeyboard
+cc.EventListenerKeyboard
+cc.EventListenerKeyboard
+cc.EventListenerMouse
+cc.EventListenerMouse
+cc.EventListenerMouse
+cc.EventListenerMouse
+cc.EventListenerPhysicsContact
+cc.EventListenerPhysicsContact
+cc.EventListenerPhysicsContact
+cc.EventListenerPhysicsContact
+cc.EventListenerPhysicsContactWithBodies
+cc.EventListenerPhysicsContactWithBodies
+cc.EventListenerPhysicsContactWithBodies
+cc.EventListenerPhysicsContactWithBodies
+cc.EventListenerPhysicsContactWithGroup
+cc.EventListenerPhysicsContactWithGroup
+cc.EventListenerPhysicsContactWithGroup
+cc.EventListenerPhysicsContactWithGroup
+cc.EventListenerPhysicsContactWithShapes
+cc.EventListenerPhysicsContactWithShapes
+cc.EventListenerPhysicsContactWithShapes
+cc.EventListenerPhysicsContactWithShapes
+cc.EventListenerTouchAllAtOnce
+cc.EventListenerTouchAllAtOnce
+cc.EventListenerTouchAllAtOnce
+cc.EventListenerTouchAllAtOnce
+cc.EventListenerTouchOneByOne
+cc.EventListenerTouchOneByOne
+cc.EventListenerTouchOneByOne
+cc.EventListenerTouchOneByOne
+cc.EventMouse
+cc.EventMouse
+cc.EventMouse
+cc.EventMouse
+cc.EventTouch
+cc.EventTouch
+cc.EventTouch
+cc.EventTouch
+cc.FadeIn
+cc.FadeIn
+cc.FadeIn
+cc.FadeIn
+cc.FadeOut
+cc.FadeOut
+cc.FadeOut
+cc.FadeOut
+cc.FadeOutBLTiles
+cc.FadeOutBLTiles
+cc.FadeOutBLTiles
+cc.FadeOutBLTiles
+cc.FadeOutDownTiles
+cc.FadeOutDownTiles
+cc.FadeOutDownTiles
+cc.FadeOutDownTiles
+cc.FadeOutTRTiles
+cc.FadeOutTRTiles
+cc.FadeOutTRTiles
+cc.FadeOutTRTiles
+cc.FadeOutUpTiles
+cc.FadeOutUpTiles
+cc.FadeOutUpTiles
+cc.FadeOutUpTiles
+cc.FadeTo
+cc.FadeTo
+cc.FadeTo
+cc.FadeTo
+cc.FileUtils
+cc.FileUtils
+cc.FileUtils
+cc.FileUtils
+cc.FiniteTimeAction
+cc.FiniteTimeAction
+cc.FiniteTimeAction
+cc.FiniteTimeAction
+cc.FlipX
+cc.FlipX
+cc.FlipX
+cc.FlipX
+cc.FlipX3D
+cc.FlipX3D
+cc.FlipX3D
+cc.FlipX3D
+cc.FlipY
+cc.FlipY
+cc.FlipY
+cc.FlipY
+cc.FlipY3D
+cc.FlipY3D
+cc.FlipY3D
+cc.FlipY3D
+cc.Follow
+cc.Follow
+cc.Follow
+cc.Follow
+cc.GLProgram
+cc.GLProgram
+cc.GLProgram
+cc.GLProgram
+cc.GLView
+cc.GLView
+cc.GLView
+cc.GLView
+cc.GLViewProtocol
+cc.GLViewProtocol
+cc.GLViewProtocol
+cc.GLViewProtocol
+cc.Grid3D
+cc.Grid3D
+cc.Grid3D
+cc.Grid3D
+cc.Grid3DAction
+cc.Grid3DAction
+cc.Grid3DAction
+cc.Grid3DAction
+cc.GridAction
+cc.GridAction
+cc.GridAction
+cc.GridAction
+cc.GridBase
+cc.GridBase
+cc.GridBase
+cc.GridBase
+cc.Hide
+cc.Hide
+cc.Hide
+cc.Hide
+cc.Image
+cc.Image
+cc.Image
+cc.Image
+cc.JumpBy
+cc.JumpBy
+cc.JumpBy
+cc.JumpBy
+cc.JumpTiles3D
+cc.JumpTiles3D
+cc.JumpTiles3D
+cc.JumpTiles3D
+cc.JumpTo
+cc.JumpTo
+cc.JumpTo
+cc.JumpTo
+cc.Label
+cc.Label
+cc.Label
+cc.Label
+cc.LabelAtlas
+cc.LabelAtlas
+cc.LabelAtlas
+cc.LabelAtlas
+cc.LabelBMFont
+cc.LabelBMFont
+cc.LabelBMFont
+cc.LabelBMFont
+cc.LabelTTF
+cc.LabelTTF
+cc.LabelTTF
+cc.LabelTTF
+cc.Layer
+cc.Layer
+cc.Layer
+cc.Layer
+cc.LayerColor
+cc.LayerColor
+cc.LayerColor
+cc.LayerColor
+cc.LayerGradient
+cc.LayerGradient
+cc.LayerGradient
+cc.LayerGradient
+cc.LayerMultiplex
+cc.LayerMultiplex
+cc.LayerMultiplex
+cc.LayerMultiplex
+cc.Lens3D
+cc.Lens3D
+cc.Lens3D
+cc.Lens3D
+cc.Liquid
+cc.Liquid
+cc.Liquid
+cc.Liquid
+cc.Menu
+cc.Menu
+cc.Menu
+cc.Menu
+cc.MenuItem
+cc.MenuItem
+cc.MenuItem
+cc.MenuItem
+cc.MenuItemAtlasFont
+cc.MenuItemAtlasFont
+cc.MenuItemAtlasFont
+cc.MenuItemAtlasFont
+cc.MenuItemFont
+cc.MenuItemFont
+cc.MenuItemFont
+cc.MenuItemFont
+cc.MenuItemImage
+cc.MenuItemImage
+cc.MenuItemImage
+cc.MenuItemImage
+cc.MenuItemLabel
+cc.MenuItemLabel
+cc.MenuItemLabel
+cc.MenuItemLabel
+cc.MenuItemSprite
+cc.MenuItemSprite
+cc.MenuItemSprite
+cc.MenuItemSprite
+cc.MenuItemToggle
+cc.MenuItemToggle
+cc.MenuItemToggle
+cc.MenuItemToggle
+cc.MotionStreak
+cc.MotionStreak
+cc.MotionStreak
+cc.MotionStreak
+cc.MoveBy
+cc.MoveBy
+cc.MoveBy
+cc.MoveBy
+cc.MoveTo
+cc.MoveTo
+cc.MoveTo
+cc.MoveTo
+cc.Node
+cc.Node
+cc.Node
+cc.Node
+cc.NodeGrid
+cc.NodeGrid
+cc.NodeGrid
+cc.NodeGrid
+cc.OrbitCamera
+cc.OrbitCamera
+cc.OrbitCamera
+cc.OrbitCamera
+cc.PageTurn3D
+cc.PageTurn3D
+cc.PageTurn3D
+cc.PageTurn3D
+cc.ParallaxNode
+cc.ParallaxNode
+cc.ParallaxNode
+cc.ParallaxNode
+cc.ParticleBatchNode
+cc.ParticleBatchNode
+cc.ParticleBatchNode
+cc.ParticleBatchNode
+cc.ParticleExplosion
+cc.ParticleExplosion
+cc.ParticleExplosion
+cc.ParticleExplosion
+cc.ParticleFire
+cc.ParticleFire
+cc.ParticleFire
+cc.ParticleFire
+cc.ParticleFireworks
+cc.ParticleFireworks
+cc.ParticleFireworks
+cc.ParticleFireworks
+cc.ParticleFlower
+cc.ParticleFlower
+cc.ParticleFlower
+cc.ParticleFlower
+cc.ParticleGalaxy
+cc.ParticleGalaxy
+cc.ParticleGalaxy
+cc.ParticleGalaxy
+cc.ParticleMeteor
+cc.ParticleMeteor
+cc.ParticleMeteor
+cc.ParticleMeteor
+cc.ParticleRain
+cc.ParticleRain
+cc.ParticleRain
+cc.ParticleRain
+cc.ParticleSmoke
+cc.ParticleSmoke
+cc.ParticleSmoke
+cc.ParticleSmoke
+cc.ParticleSnow
+cc.ParticleSnow
+cc.ParticleSnow
+cc.ParticleSnow
+cc.ParticleSpiral
+cc.ParticleSpiral
+cc.ParticleSpiral
+cc.ParticleSpiral
+cc.ParticleSun
+cc.ParticleSun
+cc.ParticleSun
+cc.ParticleSun
+cc.ParticleSystem
+cc.ParticleSystem
+cc.ParticleSystem
+cc.ParticleSystem
+cc.ParticleSystemQuad
+cc.ParticleSystemQuad
+cc.ParticleSystemQuad
+cc.ParticleSystemQuad
+cc.PhysicsBody
+cc.PhysicsBody
+cc.PhysicsBody
+cc.PhysicsBody
+cc.PhysicsContact
+cc.PhysicsContact
+cc.PhysicsContact
+cc.PhysicsContact
+cc.PhysicsContactPostSolve
+cc.PhysicsContactPostSolve
+cc.PhysicsContactPostSolve
+cc.PhysicsContactPostSolve
+cc.PhysicsContactPreSolve
+cc.PhysicsContactPreSolve
+cc.PhysicsContactPreSolve
+cc.PhysicsContactPreSolve
+cc.PhysicsDebugDraw
+cc.PhysicsDebugDraw
+cc.PhysicsDebugDraw
+cc.PhysicsDebugDraw
+cc.PhysicsJoint
+cc.PhysicsJoint
+cc.PhysicsJoint
+cc.PhysicsJoint
+cc.PhysicsJointDistance
+cc.PhysicsJointDistance
+cc.PhysicsJointDistance
+cc.PhysicsJointDistance
+cc.PhysicsJointFixed
+cc.PhysicsJointFixed
+cc.PhysicsJointFixed
+cc.PhysicsJointFixed
+cc.PhysicsJointGear
+cc.PhysicsJointGear
+cc.PhysicsJointGear
+cc.PhysicsJointGear
+cc.PhysicsJointGroove
+cc.PhysicsJointGroove
+cc.PhysicsJointGroove
+cc.PhysicsJointGroove
+cc.PhysicsJointLimit
+cc.PhysicsJointLimit
+cc.PhysicsJointLimit
+cc.PhysicsJointLimit
+cc.PhysicsJointMotor
+cc.PhysicsJointMotor
+cc.PhysicsJointMotor
+cc.PhysicsJointMotor
+cc.PhysicsJointPin
+cc.PhysicsJointPin
+cc.PhysicsJointPin
+cc.PhysicsJointPin
+cc.PhysicsJointRatchet
+cc.PhysicsJointRatchet
+cc.PhysicsJointRatchet
+cc.PhysicsJointRatchet
+cc.PhysicsJointRotaryLimit
+cc.PhysicsJointRotaryLimit
+cc.PhysicsJointRotaryLimit
+cc.PhysicsJointRotaryLimit
+cc.PhysicsJointRotarySpring
+cc.PhysicsJointRotarySpring
+cc.PhysicsJointRotarySpring
+cc.PhysicsJointRotarySpring
+cc.PhysicsJointSpring
+cc.PhysicsJointSpring
+cc.PhysicsJointSpring
+cc.PhysicsJointSpring
+cc.PhysicsShape
+cc.PhysicsShape
+cc.PhysicsShape
+cc.PhysicsShape
+cc.PhysicsShapeBox
+cc.PhysicsShapeBox
+cc.PhysicsShapeBox
+cc.PhysicsShapeBox
+cc.PhysicsShapeCircle
+cc.PhysicsShapeCircle
+cc.PhysicsShapeCircle
+cc.PhysicsShapeCircle
+cc.PhysicsShapeEdgeBox
+cc.PhysicsShapeEdgeBox
+cc.PhysicsShapeEdgeBox
+cc.PhysicsShapeEdgeBox
+cc.PhysicsShapeEdgeChain
+cc.PhysicsShapeEdgeChain
+cc.PhysicsShapeEdgeChain
+cc.PhysicsShapeEdgeChain
+cc.PhysicsShapeEdgePolygon
+cc.PhysicsShapeEdgePolygon
+cc.PhysicsShapeEdgePolygon
+cc.PhysicsShapeEdgePolygon
+cc.PhysicsShapeEdgeSegment
+cc.PhysicsShapeEdgeSegment
+cc.PhysicsShapeEdgeSegment
+cc.PhysicsShapeEdgeSegment
+cc.PhysicsShapePolygon
+cc.PhysicsShapePolygon
+cc.PhysicsShapePolygon
+cc.PhysicsShapePolygon
+cc.PhysicsWorld
+cc.PhysicsWorld
+cc.PhysicsWorld
+cc.PhysicsWorld
+cc.Place
+cc.Place
+cc.Place
+cc.Place
+cc.ProgressFromTo
+cc.ProgressFromTo
+cc.ProgressFromTo
+cc.ProgressFromTo
+cc.ProgressTimer
+cc.ProgressTimer
+cc.ProgressTimer
+cc.ProgressTimer
+cc.ProgressTo
+cc.ProgressTo
+cc.ProgressTo
+cc.ProgressTo
+cc.ProtectedNode
+cc.ProtectedNode
+cc.ProtectedNode
+cc.ProtectedNode
+cc.Ref
+cc.Ref
+cc.Ref
+cc.Ref
+cc.RemoveSelf
+cc.RemoveSelf
+cc.RemoveSelf
+cc.RemoveSelf
+cc.RenderTexture
+cc.RenderTexture
+cc.RenderTexture
+cc.RenderTexture
+cc.Repeat
+cc.Repeat
+cc.Repeat
+cc.Repeat
+cc.RepeatForever
+cc.RepeatForever
+cc.RepeatForever
+cc.RepeatForever
+cc.ReuseGrid
+cc.ReuseGrid
+cc.ReuseGrid
+cc.ReuseGrid
+cc.Ripple3D
+cc.Ripple3D
+cc.Ripple3D
+cc.Ripple3D
+cc.RotateBy
+cc.RotateBy
+cc.RotateBy
+cc.RotateBy
+cc.RotateTo
+cc.RotateTo
+cc.RotateTo
+cc.RotateTo
+cc.Scale9Sprite
+cc.Scale9Sprite
+cc.Scale9Sprite
+cc.Scale9Sprite
+cc.ScaleBy
+cc.ScaleBy
+cc.ScaleBy
+cc.ScaleBy
+cc.ScaleTo
+cc.ScaleTo
+cc.ScaleTo
+cc.ScaleTo
+cc.Scene
+cc.Scene
+cc.Scene
+cc.Scene
+cc.Scheduler
+cc.Scheduler
+cc.Scheduler
+cc.Scheduler
+cc.ScrollView
+cc.ScrollView
+cc.ScrollView
+cc.ScrollView
+cc.Sequence
+cc.Sequence
+cc.Sequence
+cc.Sequence
+cc.ShaderCache
+cc.ShaderCache
+cc.ShaderCache
+cc.ShaderCache
+cc.Shaky3D
+cc.Shaky3D
+cc.Shaky3D
+cc.Shaky3D
+cc.ShakyTiles3D
+cc.ShakyTiles3D
+cc.ShakyTiles3D
+cc.ShakyTiles3D
+cc.ShatteredTiles3D
+cc.ShatteredTiles3D
+cc.ShatteredTiles3D
+cc.ShatteredTiles3D
+cc.Show
+cc.Show
+cc.Show
+cc.Show
+cc.ShuffleTiles
+cc.ShuffleTiles
+cc.ShuffleTiles
+cc.ShuffleTiles
+cc.SimpleAudioEngine
+cc.SimpleAudioEngine
+cc.SimpleAudioEngine
+cc.SimpleAudioEngine
+cc.SkewBy
+cc.SkewBy
+cc.SkewBy
+cc.SkewBy
+cc.SkewTo
+cc.SkewTo
+cc.SkewTo
+cc.SkewTo
+cc.Spawn
+cc.Spawn
+cc.Spawn
+cc.Spawn
+cc.Speed
+cc.Speed
+cc.Speed
+cc.Speed
+cc.SplitCols
+cc.SplitCols
+cc.SplitCols
+cc.SplitCols
+cc.SplitRows
+cc.SplitRows
+cc.SplitRows
+cc.SplitRows
+cc.Sprite
+cc.Sprite
+cc.Sprite
+cc.Sprite
+cc.SpriteBatchNode
+cc.SpriteBatchNode
+cc.SpriteBatchNode
+cc.SpriteBatchNode
+cc.SpriteFrame
+cc.SpriteFrame
+cc.SpriteFrame
+cc.SpriteFrame
+cc.SpriteFrameCache
+cc.SpriteFrameCache
+cc.SpriteFrameCache
+cc.SpriteFrameCache
+cc.StopGrid
+cc.StopGrid
+cc.StopGrid
+cc.StopGrid
+cc.TMXLayer
+cc.TMXLayer
+cc.TMXLayer
+cc.TMXLayer
+cc.TMXLayerInfo
+cc.TMXLayerInfo
+cc.TMXLayerInfo
+cc.TMXLayerInfo
+cc.TMXMapInfo
+cc.TMXMapInfo
+cc.TMXMapInfo
+cc.TMXMapInfo
+cc.TMXObjectGroup
+cc.TMXObjectGroup
+cc.TMXObjectGroup
+cc.TMXObjectGroup
+cc.TMXTiledMap
+cc.TMXTiledMap
+cc.TMXTiledMap
+cc.TMXTiledMap
+cc.TMXTilesetInfo
+cc.TMXTilesetInfo
+cc.TMXTilesetInfo
+cc.TMXTilesetInfo
+cc.TableView
+cc.TableView
+cc.TableView
+cc.TableView
+cc.TableViewCell
+cc.TableViewCell
+cc.TableViewCell
+cc.TableViewCell
+cc.TargetedAction
+cc.TargetedAction
+cc.TargetedAction
+cc.TargetedAction
+cc.Texture2D
+cc.Texture2D
+cc.Texture2D
+cc.Texture2D
+cc.TextureCache
+cc.TextureCache
+cc.TextureCache
+cc.TextureCache
+cc.TileMapAtlas
+cc.TileMapAtlas
+cc.TileMapAtlas
+cc.TileMapAtlas
+cc.TiledGrid3D
+cc.TiledGrid3D
+cc.TiledGrid3D
+cc.TiledGrid3D
+cc.TiledGrid3DAction
+cc.TiledGrid3DAction
+cc.TiledGrid3DAction
+cc.TiledGrid3DAction
+cc.Timer
+cc.Timer
+cc.Timer
+cc.Timer
+cc.TintBy
+cc.TintBy
+cc.TintBy
+cc.TintBy
+cc.TintTo
+cc.TintTo
+cc.TintTo
+cc.TintTo
+cc.ToggleVisibility
+cc.ToggleVisibility
+cc.ToggleVisibility
+cc.ToggleVisibility
+cc.Touch
+cc.Touch
+cc.Touch
+cc.Touch
+cc.TransitionCrossFade
+cc.TransitionCrossFade
+cc.TransitionCrossFade
+cc.TransitionCrossFade
+cc.TransitionEaseScene
+cc.TransitionEaseScene
+cc.TransitionEaseScene
+cc.TransitionEaseScene
+cc.TransitionFade
+cc.TransitionFade
+cc.TransitionFade
+cc.TransitionFade
+cc.TransitionFadeBL
+cc.TransitionFadeBL
+cc.TransitionFadeBL
+cc.TransitionFadeBL
+cc.TransitionFadeDown
+cc.TransitionFadeDown
+cc.TransitionFadeDown
+cc.TransitionFadeDown
+cc.TransitionFadeTR
+cc.TransitionFadeTR
+cc.TransitionFadeTR
+cc.TransitionFadeTR
+cc.TransitionFadeUp
+cc.TransitionFadeUp
+cc.TransitionFadeUp
+cc.TransitionFadeUp
+cc.TransitionFlipAngular
+cc.TransitionFlipAngular
+cc.TransitionFlipAngular
+cc.TransitionFlipAngular
+cc.TransitionFlipX
+cc.TransitionFlipX
+cc.TransitionFlipX
+cc.TransitionFlipX
+cc.TransitionFlipY
+cc.TransitionFlipY
+cc.TransitionFlipY
+cc.TransitionFlipY
+cc.TransitionJumpZoom
+cc.TransitionJumpZoom
+cc.TransitionJumpZoom
+cc.TransitionJumpZoom
+cc.TransitionMoveInB
+cc.TransitionMoveInB
+cc.TransitionMoveInB
+cc.TransitionMoveInB
+cc.TransitionMoveInL
+cc.TransitionMoveInL
+cc.TransitionMoveInL
+cc.TransitionMoveInL
+cc.TransitionMoveInR
+cc.TransitionMoveInR
+cc.TransitionMoveInR
+cc.TransitionMoveInR
+cc.TransitionMoveInT
+cc.TransitionMoveInT
+cc.TransitionMoveInT
+cc.TransitionMoveInT
+cc.TransitionPageTurn
+cc.TransitionPageTurn
+cc.TransitionPageTurn
+cc.TransitionPageTurn
+cc.TransitionProgress
+cc.TransitionProgress
+cc.TransitionProgress
+cc.TransitionProgress
+cc.TransitionProgressHorizontal
+cc.TransitionProgressHorizontal
+cc.TransitionProgressHorizontal
+cc.TransitionProgressHorizontal
+cc.TransitionProgressInOut
+cc.TransitionProgressInOut
+cc.TransitionProgressInOut
+cc.TransitionProgressInOut
+cc.TransitionProgressOutIn
+cc.TransitionProgressOutIn
+cc.TransitionProgressOutIn
+cc.TransitionProgressOutIn
+cc.TransitionProgressRadialCCW
+cc.TransitionProgressRadialCCW
+cc.TransitionProgressRadialCCW
+cc.TransitionProgressRadialCCW
+cc.TransitionProgressRadialCW
+cc.TransitionProgressRadialCW
+cc.TransitionProgressRadialCW
+cc.TransitionProgressRadialCW
+cc.TransitionProgressVertical
+cc.TransitionProgressVertical
+cc.TransitionProgressVertical
+cc.TransitionProgressVertical
+cc.TransitionRotoZoom
+cc.TransitionRotoZoom
+cc.TransitionRotoZoom
+cc.TransitionRotoZoom
+cc.TransitionScene
+cc.TransitionScene
+cc.TransitionScene
+cc.TransitionScene
+cc.TransitionSceneOriented
+cc.TransitionSceneOriented
+cc.TransitionSceneOriented
+cc.TransitionSceneOriented
+cc.TransitionShrinkGrow
+cc.TransitionShrinkGrow
+cc.TransitionShrinkGrow
+cc.TransitionShrinkGrow
+cc.TransitionSlideInB
+cc.TransitionSlideInB
+cc.TransitionSlideInB
+cc.TransitionSlideInB
+cc.TransitionSlideInL
+cc.TransitionSlideInL
+cc.TransitionSlideInL
+cc.TransitionSlideInL
+cc.TransitionSlideInR
+cc.TransitionSlideInR
+cc.TransitionSlideInR
+cc.TransitionSlideInR
+cc.TransitionSlideInT
+cc.TransitionSlideInT
+cc.TransitionSlideInT
+cc.TransitionSlideInT
+cc.TransitionSplitCols
+cc.TransitionSplitCols
+cc.TransitionSplitCols
+cc.TransitionSplitCols
+cc.TransitionSplitRows
+cc.TransitionSplitRows
+cc.TransitionSplitRows
+cc.TransitionSplitRows
+cc.TransitionTurnOffTiles
+cc.TransitionTurnOffTiles
+cc.TransitionTurnOffTiles
+cc.TransitionTurnOffTiles
+cc.TransitionZoomFlipAngular
+cc.TransitionZoomFlipAngular
+cc.TransitionZoomFlipAngular
+cc.TransitionZoomFlipAngular
+cc.TransitionZoomFlipX
+cc.TransitionZoomFlipX
+cc.TransitionZoomFlipX
+cc.TransitionZoomFlipX
+cc.TransitionZoomFlipY
+cc.TransitionZoomFlipY
+cc.TransitionZoomFlipY
+cc.TransitionZoomFlipY
+cc.TurnOffTiles
+cc.TurnOffTiles
+cc.TurnOffTiles
+cc.TurnOffTiles
+cc.Twirl
+cc.Twirl
+cc.Twirl
+cc.Twirl
+cc.UserDefault
+cc.UserDefault
+cc.UserDefault
+cc.UserDefault
+cc.Waves
+cc.Waves
+cc.Waves
+cc.Waves
+cc.Waves3D
+cc.Waves3D
+cc.Waves3D
+cc.Waves3D
+cc.WavesTiles3D
+cc.WavesTiles3D
+cc.WavesTiles3D
+cc.WavesTiles3D
+
+sp
+
+sp.Skeleton
+sp.Skeleton
+sp.Skeleton
+sp.Skeleton
+sp.SkeletonAnimation
+sp.SkeletonAnimation
+sp.SkeletonAnimation
+sp.SkeletonAnimation
+
+ccs
+
+ccs.ActionManagerEx
+ccs.ActionManagerEx
+ccs.ActionManagerEx
+ccs.ActionManagerEx
+ccs.ActionObject
+ccs.ActionObject
+ccs.ActionObject
+ccs.ActionObject
+ccs.AnimationData
+ccs.AnimationData
+ccs.AnimationData
+ccs.AnimationData
+ccs.Armature
+ccs.Armature
+ccs.Armature
+ccs.Armature
+ccs.ArmatureAnimation
+ccs.ArmatureAnimation
+ccs.ArmatureAnimation
+ccs.ArmatureAnimation
+ccs.ArmatureData
+ccs.ArmatureData
+ccs.ArmatureData
+ccs.ArmatureData
+ccs.ArmatureDataManager
+ccs.ArmatureDataManager
+ccs.ArmatureDataManager
+ccs.ArmatureDataManager
+ccs.ArmatureDisplayData
+ccs.ArmatureDisplayData
+ccs.ArmatureDisplayData
+ccs.ArmatureDisplayData
+ccs.BaseData
+ccs.BaseData
+ccs.BaseData
+ccs.BaseData
+ccs.BatchNode
+ccs.BatchNode
+ccs.BatchNode
+ccs.BatchNode
+ccs.Bone
+ccs.Bone
+ccs.Bone
+ccs.Bone
+ccs.BoneData
+ccs.BoneData
+ccs.BoneData
+ccs.BoneData
+ccs.ComAttribute
+ccs.ComAttribute
+ccs.ComAttribute
+ccs.ComAttribute
+ccs.ComAudio
+ccs.ComAudio
+ccs.ComAudio
+ccs.ComAudio
+ccs.ComController
+ccs.ComController
+ccs.ComController
+ccs.ComController
+ccs.ComRender
+ccs.ComRender
+ccs.ComRender
+ccs.ComRender
+ccs.ContourData
+ccs.ContourData
+ccs.ContourData
+ccs.ContourData
+ccs.DisplayData
+ccs.DisplayData
+ccs.DisplayData
+ccs.DisplayData
+ccs.DisplayManager
+ccs.DisplayManager
+ccs.DisplayManager
+ccs.DisplayManager
+ccs.FrameData
+ccs.FrameData
+ccs.FrameData
+ccs.FrameData
+ccs.GUIReader
+ccs.GUIReader
+ccs.GUIReader
+ccs.GUIReader
+ccs.MovementBoneData
+ccs.MovementBoneData
+ccs.MovementBoneData
+ccs.MovementBoneData
+ccs.MovementData
+ccs.MovementData
+ccs.MovementData
+ccs.MovementData
+ccs.ParticleDisplayData
+ccs.ParticleDisplayData
+ccs.ParticleDisplayData
+ccs.ParticleDisplayData
+ccs.SceneReader
+ccs.SceneReader
+ccs.SceneReader
+ccs.SceneReader
+ccs.Skin
+ccs.Skin
+ccs.Skin
+ccs.Skin
+ccs.SpriteDisplayData
+ccs.SpriteDisplayData
+ccs.SpriteDisplayData
+ccs.SpriteDisplayData
+ccs.TextureData
+ccs.TextureData
+ccs.TextureData
+ccs.TextureData
+ccs.Tween
+ccs.Tween
+ccs.Tween
+ccs.Tween
+
+ccui
+
+ccui.Button
+ccui.Button
+ccui.Button
+ccui.Button
+ccui.CheckBox
+ccui.CheckBox
+ccui.CheckBox
+ccui.CheckBox
+ccui.Helper
+ccui.Helper
+ccui.Helper
+ccui.Helper
+ccui.ImageView
+ccui.ImageView
+ccui.ImageView
+ccui.ImageView
+ccui.Layout
+ccui.Layout
+ccui.Layout
+ccui.Layout
+ccui.LayoutParameter
+ccui.LayoutParameter
+ccui.LayoutParameter
+ccui.LayoutParameter
+ccui.LinearLayoutParameter
+ccui.LinearLayoutParameter
+ccui.LinearLayoutParameter
+ccui.LinearLayoutParameter
+ccui.ListView
+ccui.ListView
+ccui.ListView
+ccui.ListView
+ccui.LoadingBar
+ccui.LoadingBar
+ccui.LoadingBar
+ccui.LoadingBar
+ccui.PageView
+ccui.PageView
+ccui.PageView
+ccui.PageView
+ccui.RelativeLayoutParameter
+ccui.RelativeLayoutParameter
+ccui.RelativeLayoutParameter
+ccui.RelativeLayoutParameter
+ccui.RichElement
+ccui.RichElement
+ccui.RichElement
+ccui.RichElement
+ccui.RichElementCustomNode
+ccui.RichElementCustomNode
+ccui.RichElementCustomNode
+ccui.RichElementCustomNode
+ccui.RichElementImage
+ccui.RichElementImage
+ccui.RichElementImage
+ccui.RichElementImage
+ccui.RichElementText
+ccui.RichElementText
+ccui.RichElementText
+ccui.RichElementText
+ccui.RichText
+ccui.RichText
+ccui.RichText
+ccui.RichText
+ccui.ScrollView
+ccui.ScrollView
+ccui.ScrollView
+ccui.ScrollView
+ccui.Slider
+ccui.Slider
+ccui.Slider
+ccui.Slider
+ccui.Text
+ccui.Text
+ccui.Text
+ccui.Text
+ccui.TextAtlas
+ccui.TextAtlas
+ccui.TextAtlas
+ccui.TextAtlas
+ccui.TextBMFont
+ccui.TextBMFont
+ccui.TextBMFont
+ccui.TextBMFont
+ccui.TextField
+ccui.TextField
+ccui.TextField
+ccui.TextField
+ccui.Widget
+ccui.Widget
+ccui.Widget
+ccui.Widget
+
+ActionCamera(self)
+ActionManager(self)
+ActionObject(self)
+AnimationCache(self)
+AnimationData(self)
+Armature(self)
+ArmatureAnimation(self)
+ArmatureData(self)
+ArmatureDisplayData(self)
+AssetsManager(self)
+BaseData(self)
+Bone(self)
+BoneData(self)
+Button(self)
+CCBAnimationManager(self)
+CCBReader(self, cc.NodeLoaderLibrary, cc.CCBMemberVariableAssigner, cc.CCBSelectorResolver, cc.NodeLoaderListener)
+CardinalSplineBy(self)
+CardinalSplineTo(self)
+CheckBox(self)
+ComController(self)
+ContourData(self)
+ControlColourPicker(self)
+ControlHuePicker(self)
+ControlPotentiometer(self)
+ControlSaturationBrightnessPicker(self)
+ControlSlider(self)
+ControlStepper(self)
+ControlSwitch(self)
+DisplayData(self)
+DisplayManager(self)
+EditBox(self)
+EventCustom(self, string)
+EventDispatcher(self)
+EventKeyboard(self, cc.EventKeyboard::KeyCode, bool)
+EventMouse(self, cc.EventMouse::MouseEventType)
+EventTouch(self)
+FrameData(self)
+GLProgram(self)
+Grid3D(self)
+Image(self)
+ImageView(self)
+LabelBMFont(self)
+LabelTTF(self)
+Layout(self)
+LayoutParameter(self)
+LinearLayoutParameter(self)
+ListView(self)
+LoadingBar(self)
+MovementBoneData(self)
+MovementData(self)
+PVRImagesHavePremultipliedAlpha(self, bool)
+PageView(self)
+ParticleDisplayData(self)
+RelativeLayoutParameter(self)
+RenderTexture(self)
+RichElement(self)
+RichElementCustomNode(self)
+RichElementImage(self)
+RichElementText(self)
+RichText(self)
+Scale9Sprite(self)
+Scheduler(self)
+ScrollView(self)
+ShaderCache(self)
+Skin(self)
+Slider(self)
+SpriteDisplayData(self)
+TMXLayer(self)
+TMXLayerInfo(self)
+TMXMapInfo(self)
+TMXObjectGroup(self)
+TMXTilesetInfo(self)
+TableView(self)
+TableViewCell(self)
+Text(self)
+TextAtlas(self)
+TextBMFont(self)
+TextField(self)
+Texture2D(self)
+TextureCache(self)
+TextureData(self)
+TileMapAtlas(self)
+TiledGrid3D(self)
+Touch(self)
+TransitionPageTurn(self)
+TransitionProgress(self)
+Tween(self)
+Widget(self)
+_setLocalZOrder(self, int)
+_updateContentSize(self)
+action(self)
+actionForCallbackChannel(self, cc.CCBSequenceProperty)
+actionForSoundChannel(self, cc.CCBSequenceProperty)
+actionWithSize(self, size_table)
+activate(self)
+adaptRenderers(self)
+addAction(self, cc.Action, cc.Node, bool)
+addActionNode(self, ccs.ActionNode)
+addAnimation(self, cc.Animation, string)
+addAnimation(self, int, char, bool, float)
+addAnimationData(self, string, ccs.AnimationData, string)
+addAnimationsWithDictionary(self, map_table, string)
+addAnimationsWithFile(self, string)
+addArmatureData(self, string, ccs.ArmatureData, string)
+addArmatureFileInfo(self, string, string, string)
+addBone(self, ccs.Bone, string)
+addBoneData(self, ccs.BoneData)
+addChild(self, cc.Node, int, int)
+addChild(self, cc.Node, int, point_table, point_table)
+addChildBone(self, ccs.Bone)
+addComponent(self, cc.Component)
+addContourData(self, ccs.ContourData)
+addCustomEventListener(self, string, function)
+addDisplay(self, ccs.DisplayData, int)
+addDisplayData(self, ccs.DisplayData)
+addDocumentCallbackControlEvents(self, cc.Control::EventType)
+addDocumentCallbackName(self, string)
+addDocumentCallbackNode(self, cc.Node)
+addDocumentOutletName(self, string)
+addDocumentOutletNode(self, cc.Node)
+addEventListenerWithFixedPriority(self, cc.EventListener, int)
+addEventListenerWithSceneGraphPriority(self, cc.EventListener, cc.Node)
+addFrameData(self, ccs.FrameData)
+addImage(self, cc.Image, string)
+addJoint(self, cc.PhysicsJoint)
+addLayer(self, cc.Layer)
+addMass(self, float)
+addMoment(self, float)
+addMovement(self, ccs.MovementData)
+addMovementBoneData(self, ccs.MovementBoneData)
+addOwnerCallbackControlEvents(self, cc.Control::EventType)
+addOwnerOutletName(self, string)
+addOwnerOutletNode(self, cc.Node)
+addPage(self, ccui.Layout)
+addParticle(self)
+addProgram(self, cc.GLProgram, string)
+addProtectedChild(self, cc.Node, int, int)
+addSearchPath(self, string)
+addSearchResolutionsOrder(self, string)
+addShape(self, cc.PhysicsShape, bool)
+addSpriteFrame(self, cc.SpriteFrame)
+addSpriteFrame(self, cc.SpriteFrame, string)
+addSpriteFrameFromFile(self, string, string, string)
+addSpriteFrameWithFile(self, string)
+addSpriteFrameWithTexture(self, cc.Texture2D, rect_table)
+addSpriteFramesWithFile(self, string, cc.Texture2D)
+addSpriteWithoutQuad(self, cc.Sprite, int, int)
+addSubItem(self, cc.MenuItem)
+addTextureData(self, string, ccs.TextureData, string)
+addVertex(self, point_table)
+addWidgetToPage(self, ccui.Widget, long, bool)
+afterDraw(self, cc.Node)
+alignItemsHorizontally(self)
+alignItemsHorizontallyWithPadding(self, float)
+alignItemsVertically(self)
+alignItemsVerticallyWithPadding(self, float)
+angleInDegreesBetweenLineFromPoint_toPoint_toLineFromPoint_toPoint(self, point_table, point_table, point_table, point_table)
+appendChild(self, cc.Sprite)
+applyForce(self, point_table, point_table)
+applyImpulse(self, point_table, point_table)
+applyTorque(self, float)
+atlasIndexForChild(self, cc.Sprite, int)
+attachWithIME(self)
+beforeDraw(self)
+begin(self)
+beginWithClear(self, float, float, float, float, float, int)
+bindAttribLocation(self, char, unsigned)
+blit(self)
+calculateArea(self, float)
+calculateArea(self, size_table)
+calculateDefaultMoment(self)
+calculateMoment(self, float, float, point_table)
+calculateMoment(self, float, size_table, point_table)
+calculateVertexPoints(self)
+cancel(self)
+cellAtIndex(self, long)
+changeBoneParent(self, ccs.Bone, string)
+changeDisplayToTexture(self, string)
+changeDisplayWithIndex(self, int, bool)
+changeDisplayWithName(self, string, bool)
+changeHeight(self, float)
+changeWidth(self, float)
+changeWidthAndHeight(self, float, float)
+checkAvailable(self)
+checkChildInfo(self, int, ccui.Widget, point_table)
+checkUpdate(self)
+cleanup(self)
+clear(self)
+clear(self, float, float, float, float)
+clearDepth(self, float)
+clearStencil(self, int)
+clearTrack(self)
+clearTracks(self)
+clippingParentAreaContainPoint(self, point_table)
+clone(self)
+colourSliderValueChanged(self, cc.Ref, cc.Control::EventType)
+construct(self, cc.PhysicsBody, cc.PhysicsBody, float)
+construct(self, cc.PhysicsBody, cc.PhysicsBody, float, float)
+construct(self, cc.PhysicsBody, cc.PhysicsBody, point_table)
+construct(self, cc.PhysicsBody, cc.PhysicsBody, point_table, point_table)
+construct(self, cc.PhysicsBody, cc.PhysicsBody, point_table, point_table, float, float)
+construct(self, cc.PhysicsBody, cc.PhysicsBody, point_table, point_table, point_table)
+containPoint(self, float, float)
+containsPoint(self, point_table)
+convertToGL(self, point_table)
+convertToNodeSpace(self, point_table)
+convertToNodeSpaceAR(self, point_table)
+convertToUI(self, point_table)
+convertToWorldSpace(self, point_table)
+convertToWorldSpaceAR(self, point_table)
+convertTouchToNodeSpace(self, cc.Touch)
+convertTouchToNodeSpaceAR(self, cc.Touch)
+copy(self, ccs.BaseData)
+copy(self, ccs.DisplayData)
+copyProperties(self, ccui.LayoutParameter)
+create(self)
+create(self, array_table, float, unsigned)
+create(self, bool)
+create(self, cc.ActionInterval)
+create(self, cc.ActionInterval, float)
+create(self, cc.Animation)
+create(self, cc.FiniteTimeAction, unsigned)
+create(self, cc.Node)
+create(self, cc.Node, cc.FiniteTimeAction)
+create(self, cc.Node, char)
+create(self, cc.Node, point_table)
+create(self, cc.Node, rect_table)
+create(self, cc.PhysicsBody, cc.PhysicsBody)
+create(self, cc.PhysicsShape, cc.PhysicsShape)
+create(self, cc.Sprite)
+create(self, cc.Sprite, cc.Sprite)
+create(self, cc.Sprite, cc.Sprite, cc.Sprite, cc.Sprite)
+create(self, cc.Sprite, cc.Sprite, cc.Sprite, cc.Sprite, cc.Label, cc.Label)
+create(self, cc.SpriteFrame, float, map_table)
+create(self, cc.TMXTilesetInfo, cc.TMXLayerInfo, cc.TMXMapInfo)
+create(self, ccs.Armature)
+create(self, ccs.Bone)
+create(self, char, char, char)
+create(self, char, char, char, function, function, function)
+create(self, color4B_table, color4B_table, point_table)
+create(self, color4B_table, float, float)
+create(self, float)
+create(self, float, cc.PhysicsMaterial, point_table)
+create(self, float, cc.Scene)
+create(self, float, cc.Scene, bool)
+create(self, float, cc.Scene, cc.TransitionScene::Orientation)
+create(self, float, cc.Scene, color3B_table)
+create(self, float, float)
+create(self, float, float, float)
+create(self, float, float, float, color3B_table, string)
+create(self, float, float, float, float)
+create(self, float, float, float, float, float, float, float)
+create(self, float, int)
+create(self, float, point_table)
+create(self, float, point_table, float, int)
+create(self, float, short, short, short)
+create(self, float, size_table)
+create(self, float, size_table, int, bool)
+create(self, float, size_table, point_table, float)
+create(self, float, size_table, point_table, float, unsigned, float)
+create(self, float, size_table, point_table, unsigned, float)
+create(self, float, size_table, unsigned)
+create(self, float, size_table, unsigned, float)
+create(self, float, size_table, unsigned, float, bool, bool)
+create(self, float, string, float, float)
+create(self, float, unsigned)
+create(self, float, unsigned, unsigned, unsigned)
+create(self, int)
+create(self, int, color3B_table, unsigned, cc.Node)
+create(self, int, color3B_table, unsigned, char)
+create(self, int, color3B_table, unsigned, char, char, float)
+create(self, int, int, cc.Texture2D::PixelFormat, unsigned)
+create(self, point_table)
+create(self, point_table, point_table, cc.PhysicsMaterial, float)
+create(self, size_table, cc.PhysicsMaterial, float, point_table)
+create(self, size_table, cc.PhysicsMaterial, point_table)
+create(self, size_table, cc.Scale9Sprite, cc.Scale9Sprite, cc.Scale9Sprite)
+create(self, size_table, cc.Texture2D, bool)
+create(self, string)
+create(self, string, ccs.Bone)
+create(self, string, ccui.TextureResType)
+create(self, string, int)
+create(self, string, int, int, int)
+create(self, string, long)
+create(self, string, rect_table)
+create(self, string, rect_table, bool, point_table, size_table)
+create(self, string, rect_table, rect_table)
+create(self, string, string)
+create(self, string, string, float)
+create(self, string, string, float, cc.TextHAlignment, point_table)
+create(self, string, string, float, size_table, cc.TextHAlignment, cc.TextVAlignment)
+create(self, string, string, int)
+create(self, string, string, int, int)
+create(self, string, string, int, int, int)
+create(self, string, string, int, int, string)
+create(self, string, string, string, ccui.TextureResType)
+create(self, string, string, string, string, string, ccui.TextureResType)
+createBox(self, size_table, cc.PhysicsMaterial, point_table)
+createCircle(self, float, cc.PhysicsMaterial, point_table)
+createCloneInstance(self)
+createEdgeBox(self, size_table, cc.PhysicsMaterial, float, point_table)
+createEdgeSegment(self, point_table, point_table, cc.PhysicsMaterial, float)
+createInstance(self)
+createNodeWithSceneFile(self, string, ccs.SceneReader::AttachComponentType)
+createWithBMFont(self, string, string, cc.TextHAlignment, int, point_table)
+createWithCharMap(self, string, int, int, int)
+createWithFontDefinition(self, string, cc.FontDefinition)
+createWithFullScreen(self, string)
+createWithPhysics(self)
+createWithRect(self, string, rect_table, float)
+createWithSpriteFrame(self, cc.SpriteFrame)
+createWithSpriteFrame(self, cc.SpriteFrame, rect_table)
+createWithSpriteFrameName(self, string)
+createWithSpriteFrameName(self, string, rect_table)
+createWithSpriteFrames(self, array_table, float, unsigned)
+createWithSystemFont(self, string, string, float, size_table, cc.TextHAlignment, cc.TextVAlignment)
+createWithTexture(self, cc.Texture2D, int)
+createWithTexture(self, cc.Texture2D, long)
+createWithTexture(self, cc.Texture2D, rect_table, bool)
+createWithTexture(self, cc.Texture2D, rect_table, bool, point_table, size_table)
+createWithTotalParticles(self, int)
+createWithXML(self, string, string)
+debug(self)
+deleteVersion(self)
+dequeueCell(self)
+destroy(self, cc.PhysicsJoint)
+destroyInstance(self)
+didNotSelectSelf(self)
+disableCascadeColor(self)
+disableEffect(self)
+disableParticle(self, int)
+disableShadow(self)
+disableStroke(self)
+dispatchEvent(self, cc.Event)
+distanceBetweenPointAndPoint(self, point_table, point_table)
+doesAdjustBackgroundImage(self)
+draw(self, cc.Renderer, kmMat4, bool)
+drawAtPoint(self, point_table)
+drawContour(self)
+drawCubicBezier(self, point_table, point_table, point_table, point_table, unsigned, color4F_table)
+drawDot(self, point_table, float, color4F_table)
+drawInRect(self, rect_table)
+drawQuadraticBezier(self, point_table, point_table, point_table, unsigned, color4F_table)
+drawScene(self)
+drawSegment(self, point_table, point_table, float, color4F_table)
+drawTriangle(self, point_table, point_table, point_table, color4F_table)
+easeActionWithAction(self, cc.ActionInterval)
+enableGlow(self, color4B_table)
+enableOutline(self, color4B_table, int)
+enableShadow(self)
+enableShadow(self, size_table, float, float, bool)
+enableStroke(self, color3B_table, float, bool)
+end(self)
+endToLua(self)
+execute(self)
+finish(self)
+flush(self)
+formatText(self)
+fullPathForFilename(self, string)
+fullPathFromRelativeFile(self, string, string)
+generateMipmap(self)
+getActionByName(self, char, char)
+getActionByTag(self, int)
+getActionByTag(self, int, cc.Node)
+getActionManager(self)
+getActionTag(self)
+getAlign(self)
+getAllBodies(self)
+getAlphaThreshold(self)
+getAmplitude(self)
+getAmplitudeRate(self)
+getAnchorPoint(self)
+getAnchorPointInPoints(self)
+getAnchr1(self)
+getAnchr2(self)
+getAngle(self)
+getAngleVar(self)
+getAngularDamping(self)
+getAngularVelocity(self)
+getAngularVelocityLimit(self)
+getAnimation(self)
+getAnimation(self, string)
+getAnimationData(self)
+getAnimationData(self, string)
+getAnimationDatas(self)
+getAnimationInterval(self)
+getAnimationManager(self)
+getAnimationManagersForNodes(self)
+getArea(self)
+getArmature(self)
+getArmatureData(self)
+getArmatureData(self, string)
+getArmatureDatas(self)
+getArmatureTransformDirty(self)
+getAtlasIndex(self)
+getAttachComponentType(self)
+getAttachWithIME(self)
+getAttribLocation(self, char)
+getAutoPlaySequenceId(self)
+getBMFontFilePath(self)
+getBackGroundColor(self)
+getBackGroundColorOpacity(self)
+getBackGroundColorType(self)
+getBackGroundColorVector(self)
+getBackGroundEndColor(self)
+getBackGroundImageCapInsets(self)
+getBackGroundImageColor(self)
+getBackGroundImageOpacity(self)
+getBackGroundImageTextureSize(self)
+getBackGroundStartColor(self)
+getBackground(self)
+getBackgroundMusicVolume(self)
+getBackgroundSprite(self)
+getBackgroundSpriteForState(self, cc.Control::State)
+getBarChangeRate(self)
+getBatchNode(self)
+getBitPerPixel(self)
+getBitsPerPixelForFormat(self, cc.Texture2D::PixelFormat)
+getBlendFunc(self)
+getBody(self)
+getBody(self, int)
+getBodyA(self)
+getBodyB(self)
+getBone(self)
+getBone(self, string)
+getBoneAtPoint(self, float, float)
+getBoneData(self)
+getBoneData(self, string)
+getBoneDic(self)
+getBool(self, string, bool)
+getBoolForKey(self, char, bool)
+getBottomInParent(self)
+getBoundingBox(self)
+getBrightness(self)
+getCCBRootPath(self)
+getCachedTextureInfo(self)
+getCapInsets(self)
+getCapInsetsBarRenderer(self)
+getCapInsetsDisabledRenderer(self)
+getCapInsetsNormalRenderer(self)
+getCapInsetsPressedRenderer(self)
+getCapInsetsProgressBarRebderer(self)
+getCategoryBitmask(self)
+getCenter(self)
+getChildArmature(self)
+getChildByName(self, char)
+getChildByTag(self, int)
+getChildren(self)
+getChildrenCount(self)
+getClearColor(self)
+getClearDepth(self)
+getClearFlags(self)
+getClearStencil(self)
+getClippingType(self)
+getColliderDetector(self)
+getCollisionBitmask(self)
+getColor(self)
+getCommonLineHeight(self)
+getComponent(self, string)
+getConnectionTimeout(self)
+getConsole(self)
+getContactData(self)
+getContactTestBitmask(self)
+getContainerSize(self, cc.Node)
+getContentScaleFactor(self)
+getContentSize(self)
+getContentSizeInPixels(self)
+getContourData(self, int)
+getCurPageIndex(self)
+getCurSelectedIndex(self)
+getCurrent(self)
+getCurrentDisplayIndex(self)
+getCurrentLanguage(self)
+getCurrentLanguageCode(self)
+getCurrentMovementID(self)
+getCurrentString(self)
+getCurrentTarget(self)
+getCurrentTime(self)
+getCurrentTitle(self)
+getCurrentTitleColor(self)
+getCursorX(self)
+getCursorY(self)
+getCustomSize(self)
+getDamping(self)
+getData(self)
+getDataLen(self)
+getDebugDrawMask(self)
+getDecorativeDisplayList(self)
+getDefaultAlphaPixelFormat(self)
+getDelayPerUnit(self)
+getDelayUnits(self)
+getDeleteBackward(self)
+getDelta(self)
+getDelta(self, size_table)
+getDeltaTime(self)
+getDensity(self)
+getDescription(self)
+getDesignResolutionSize(self)
+getDetachWithIME(self)
+getDimensions(self)
+getDirection(self)
+getDisabledColor(self)
+getDisabledImage(self)
+getDisplayData(self, int)
+getDisplayManager(self)
+getDisplayName(self)
+getDisplayRenderNode(self)
+getDisplayRenderNodeType(self)
+getDisplayedColor(self)
+getDisplayedOpacity(self)
+getDistance(self)
+getDocumentCallbackControlEvents(self)
+getDocumentCallbackNames(self)
+getDocumentCallbackNodes(self)
+getDocumentControllerName(self)
+getDocumentOutletNames(self)
+getDocumentOutletNodes(self)
+getDoubleForKey(self, char, double)
+getDuration(self)
+getEffectsVolume(self)
+getElapsed(self)
+getEmissionRate(self)
+getEmitterMode(self)
+getEndColor(self)
+getEndColorVar(self)
+getEndOpacity(self)
+getEndRadius(self)
+getEndRadiusVar(self)
+getEndSize(self)
+getEndSizeVar(self)
+getEndSpin(self)
+getEndSpinVar(self)
+getEventCode(self)
+getEventDispatcher(self)
+getEventName(self)
+getEye(self)
+getFile(self)
+getFilePath(self)
+getFileType(self)
+getFirstShape(self)
+getFloat(self, string, float)
+getFloatForKey(self, char, float)
+getFntFile(self)
+getFontAtlas(self)
+getFontName(self)
+getFontNameObj(self)
+getFontSize(self)
+getFontSizeObj(self)
+getForcedTarget(self)
+getFragmentShaderLog(self)
+getFrameData(self, int)
+getFrameRate(self)
+getFrameSize(self)
+getFrames(self)
+getFriction(self)
+getGlobalZOrder(self)
+getGravity(self)
+getGrid(self)
+getGridSize(self)
+getGrooveA(self)
+getGrooveB(self)
+getGroup(self)
+getGroupName(self)
+getHeight(self)
+getHorizontalAlignment(self)
+getHorizontalOrigin(self)
+getHue(self)
+getHuePercentage(self)
+getHuePicker(self)
+getID(self)
+getIdx(self)
+getIndex(self, ccui.Widget)
+getInnerAction(self)
+getInnerContainer(self)
+getInnerContainerSize(self)
+getInsertText(self)
+getInsetBottom(self)
+getInsetLeft(self)
+getInsetRight(self)
+getInsetTop(self)
+getInstance(self)
+getInt(self, string, int)
+getIntegerForKey(self, char, int)
+getInterval(self)
+getItem(self, long)
+getItems(self)
+getItemsMargin(self)
+getKeyframeCallbacks(self)
+getLabel(self)
+getLabelAnchorPoint(self)
+getLastCompletedSequenceName(self)
+getLayer(self, string)
+getLayerAttribs(self)
+getLayerName(self)
+getLayerOrientation(self)
+getLayerSize(self)
+getLayers(self)
+getLayoutParameter(self, ccui.LayoutParameterType)
+getLayoutSize(self)
+getLayoutType(self)
+getLeftInParent(self)
+getLensEffect(self)
+getLetter(self, int)
+getLife(self)
+getLifeVar(self)
+getLinearDamping(self)
+getLocalZOrder(self)
+getLocation(self)
+getLocationInView(self)
+getLoop(self)
+getLoops(self)
+getMapOrientation(self)
+getMapSize(self)
+getMapTileSize(self)
+getMass(self)
+getMaterial(self)
+getMax(self)
+getMaxForce(self)
+getMaxLength(self)
+getMaxLineWidth(self)
+getMaxS(self)
+getMaxT(self)
+getMaximumAllowedValue(self)
+getMaximumValue(self)
+getMidpoint(self)
+getMin(self)
+getMinimumAllowedValue(self)
+getMinimumValue(self)
+getMinusLabel(self)
+getMinusSprite(self)
+getMipmaps(self)
+getMoment(self)
+getMouseButton(self)
+getMovement(self, string)
+getMovementBoneData(self, string)
+getMovementCount(self)
+getName(self)
+getNode(self)
+getNodeByTag(self, int)
+getNodeToArmatureTransform(self)
+getNodeToParentAffineTransform(self)
+getNodeToParentTransform(self)
+getNodeToWorldAffineTransform(self)
+getNodeToWorldTransform(self)
+getNodeToWorldTransformAR(self)
+getNodesWithAnimationManagers(self)
+getNormalImage(self)
+getNotificationNode(self)
+getNumberOfMipmaps(self)
+getNumberOfRunningActions(self)
+getNumberOfRunningActionsInTarget(self, cc.Node)
+getObject(self, string)
+getObjectGroup(self, string)
+getObjectGroups(self)
+getObjects(self)
+getOffset(self)
+getOffsetInPixels(self)
+getOffsetPosition(self)
+getOpacity(self)
+getOpenGLView(self)
+getOrderOfArrival(self)
+getOrientation(self)
+getOriginalSize(self)
+getOriginalSizeInPixels(self)
+getOriginalTarget(self)
+getOverlay(self)
+getOwner(self)
+getOwnerCallbackControlEvents(self)
+getOwnerCallbackNames(self)
+getOwnerCallbackNodes(self)
+getOwnerOutletNames(self)
+getOwnerOutletNodes(self)
+getPackageUrl(self)
+getPage(self, long)
+getPages(self)
+getParallaxArray(self)
+getParent(self)
+getParentBone(self)
+getParentElement(self)
+getParentGID(self)
+getParentToNodeAffineTransform(self)
+getParentToNodeTransform(self)
+getParticleCount(self)
+getPasswordStyleText(self)
+getPercent(self)
+getPercentage(self)
+getPeriod(self)
+getPhase(self)
+getPhysicsBody(self)
+getPhysicsWorld(self)
+getPixelFormat(self)
+getPixelsHigh(self)
+getPixelsWide(self)
+getPlaceHolder(self)
+getPlusLabel(self)
+getPlusSprite(self)
+getPoint(self, int)
+getPointA(self)
+getPointB(self)
+getPoints(self)
+getPointsCount(self)
+getPosVar(self)
+getPosition(self)
+getPosition(self, float, float)
+getPosition3D(self)
+getPositionAt(self, point_table)
+getPositionOffset(self)
+getPositionPercent(self)
+getPositionType(self)
+getPositionX(self)
+getPositionY(self)
+getPositionZ(self)
+getPreContactData(self)
+getPreferredSize(self)
+getPreviousLocation(self)
+getPreviousLocationInView(self)
+getProgram(self, string)
+getProgressSprite(self)
+getProgressTimer(self)
+getProperties(self)
+getProperty(self, string)
+getProtectedChildByTag(self, int)
+getQuadsToDraw(self)
+getRadialAccel(self)
+getRadialAccelVar(self)
+getRadius(self)
+getRatchet(self)
+getRate(self)
+getRatio(self)
+getRect(self)
+getRectForGID(self, unsigned)
+getRectInPixels(self)
+getReferenceCount(self)
+getRelativeName(self)
+getRelativeToWidgetName(self)
+getRenderFormat(self)
+getResolutionPolicy(self)
+getRestAngle(self)
+getRestLength(self)
+getRestitution(self)
+getRestoreOriginalFrame(self)
+getReuseGrid(self)
+getRightInParent(self)
+getRootContainerSize(self)
+getRootNode(self)
+getRotatePerSecond(self)
+getRotatePerSecondVar(self)
+getRotation(self)
+getRotation3D(self)
+getRotationIsDir(self)
+getRotationOffset(self)
+getRotationSkewX(self)
+getRotationSkewY(self)
+getRunningScene(self)
+getRunningSequenceName(self)
+getSaturation(self)
+getScale(self)
+getScaleRatio(self)
+getScaleX(self)
+getScaleY(self)
+getScaleZ(self)
+getScene(self)
+getScheduler(self)
+getScissorRect(self)
+getScrollX(self)
+getScrollY(self)
+getSecondsPerFrame(self)
+getSelectedImage(self)
+getSelectedIndex(self)
+getSelectedItem(self)
+getSelectedState(self)
+getSelectedThumbSprite(self)
+getSequenceDuration(self, char)
+getSequenceId(self, char)
+getSequences(self)
+getShaderProgram(self)
+getShadow(self)
+getShape(self, int)
+getShape(self, point_table)
+getShapeA(self)
+getShapeB(self)
+getShapes(self)
+getShapes(self, point_table)
+getSize(self)
+getSizePercent(self)
+getSizeType(self)
+getSkewX(self)
+getSkewY(self)
+getSlider(self)
+getSourcePosition(self)
+getSpeed(self)
+getSpeedScale(self)
+getSpeedVar(self)
+getSprite(self)
+getSpriteFrame(self)
+getSpriteFrameByName(self, string)
+getStartColor(self)
+getStartColorVar(self)
+getStartLocation(self)
+getStartLocationInView(self)
+getStartOpacity(self)
+getStartPos(self)
+getStartRadius(self)
+getStartRadiusVar(self)
+getStartSize(self)
+getStartSizeVar(self)
+getStartSpin(self)
+getStartSpinVar(self)
+getState(self)
+getStencil(self)
+getStep(self)
+getStiffness(self)
+getStoragePath(self)
+getString(self)
+getString(self, string, string)
+getStringForFormat(self)
+getStringForKey(self, char, string)
+getStringFromFile(self, string)
+getStringLength(self)
+getStringNumLines(self)
+getStringValue(self)
+getSurfaceVelocity(self)
+getSystemFontName(self)
+getSystemFontSize(self)
+getTGAInfo(self)
+getTMXFileName(self)
+getTTFConfig(self)
+getTag(self)
+getTangentialAccel(self)
+getTangentialAccelVar(self)
+getTarget(self)
+getTargetCallback(self)
+getTargetPlatform(self)
+getText(self)
+getTextAlignment(self)
+getTextAreaSize(self)
+getTextColor(self)
+getTextDefinition(self)
+getTextHorizontalAlignment(self)
+getTextVerticalAlignment(self)
+getTexture(self)
+getTextureAtlas(self)
+getTextureCache(self)
+getTextureData(self, string)
+getTextureDatas(self)
+getTextureForKey(self, string)
+getTextureRect(self)
+getThumbSprite(self)
+getTileAt(self, point_table)
+getTileGIDAt(self, point_table, cc.TMXTileFlags_)
+getTileProperties(self)
+getTileSet(self)
+getTileSize(self)
+getTilesets(self)
+getTimeScale(self)
+getTitleBMFontForState(self, cc.Control::State)
+getTitleColor(self)
+getTitleColorForState(self, cc.Control::State)
+getTitleFontName(self)
+getTitleFontSize(self)
+getTitleForState(self, cc.Control::State)
+getTitleLabel(self)
+getTitleLabelForState(self, cc.Control::State)
+getTitleTTFForState(self, cc.Control::State)
+getTitleTTFSizeForState(self, cc.Control::State)
+getTitleText(self)
+getTopInParent(self)
+getTotalDelayUnits(self)
+getTotalFrames(self)
+getTotalParticles(self)
+getTotalTime(self)
+getTouchEndPos(self)
+getTouchLocation(self, cc.Touch)
+getTouchMovePos(self)
+getTouchSize(self)
+getTouchStartPos(self)
+getTween(self)
+getTweenData(self)
+getType(self)
+getUniformLocation(self, char)
+getUniformLocationForName(self, char)
+getUnitTime(self)
+getUp(self)
+getUpdateRate(self)
+getUserInfo(self)
+getValue(self)
+getValueMapFromFile(self, string)
+getValueVectorFromFile(self, string)
+getVector(self)
+getVelocity(self)
+getVelocityAtLocalPoint(self, point_table)
+getVelocityAtWorldPoint(self, point_table)
+getVelocityLimit(self)
+getVersion(self)
+getVersionFileUrl(self)
+getVersionInteger(self, char)
+getVertexShaderLog(self)
+getVerticalAlignment(self)
+getVerticalFillOrder(self)
+getVerticalMargin(self)
+getViewName(self)
+getViewPortRect(self)
+getVirtualRenderer(self)
+getVirtualRendererSize(self)
+getVisibleOrigin(self)
+getVisibleRect(self)
+getVisibleSize(self)
+getWidgetType(self)
+getWidth(self)
+getWinSize(self)
+getWinSizeInPixels(self)
+getWorld(self)
+getWorldInfo(self)
+getWorldPosition(self)
+getWorldToNodeAffineTransform(self)
+getWorldToNodeTransform(self)
+getWritablePath(self)
+getXMLFilePath(self)
+getZEye(self)
+getZoomOnTouchDown(self)
+getcolourPicker(self)
+gotoAndPause(self, int)
+gotoAndPlay(self, int)
+hasAlpha(self)
+hasMipmaps(self)
+hasMoved(self)
+hasPremultipliedAlpha(self)
+hasVisibleParents(self)
+hideOutShowIn(self)
+highestAtlasIndexInChild(self, cc.Sprite)
+hitTest(self, cc.PhysicsShape, cc.PhysicsShape)
+hitTest(self, point_table)
+hueSliderValueChanged(self, cc.Ref, cc.Control::EventType)
+ignore(self)
+ignoreAnchorPointForPosition(self, bool)
+ignoreContentAdaptWithSize(self, bool)
+increaseAtlasCapacity(self)
+init(self)
+init(self, ccs.Armature)
+init(self, ccs.Bone)
+init(self, int, color3B_table, unsigned)
+init(self, int, color3B_table, unsigned, cc.Node)
+init(self, int, color3B_table, unsigned, char)
+init(self, int, color3B_table, unsigned, char, char, float)
+init(self, string)
+init(self, string, ccs.Bone)
+initParticle(self, cc.sParticle)
+initWithBatchNode(self, cc.SpriteBatchNode, rect_table, bool, rect_table)
+initWithByteArrays(self, char, char)
+initWithDuration(self, float, cc.Scene, bool)
+initWithDuration(self, float, point_table)
+initWithDuration(self, float, point_table, float)
+initWithFile(self, string)
+initWithFile(self, string, rect_table, rect_table)
+initWithFilenames(self, string, string)
+initWithImage(self, cc.Image, cc.Texture2D::PixelFormat)
+initWithImageFile(self, string)
+initWithMaskSprite(self, cc.Sprite, cc.Sprite, cc.Sprite, cc.Sprite, cc.Label, cc.Label)
+initWithMinusSpriteAndPlusSprite(self, cc.Sprite, cc.Sprite)
+initWithMipmaps(self, cc._MipmapInfo, int, cc.Texture2D::PixelFormat, int, int)
+initWithSize(self, size_table, cc.Texture2D, bool)
+initWithSizeAndBackgroundSprite(self, size_table, cc.Scale9Sprite)
+initWithSpriteFrame(self, cc.SpriteFrame, rect_table)
+initWithSpriteFrameName(self, string)
+initWithSpriteFrameName(self, string, rect_table)
+initWithSprites(self, cc.Sprite, cc.Sprite, cc.Sprite, cc.Sprite)
+initWithString(self, char, char, float, size_table, cc.TextHAlignment, cc.TextVAlignment)
+initWithString(self, string, cc.Texture2D, int, int, int)
+initWithString(self, string, string, float, cc.TextHAlignment, point_table)
+initWithString(self, string, string, float, size_table, cc.TextHAlignment, cc.TextVAlignment)
+initWithStringAndTextDefinition(self, string, cc.FontDefinition)
+initWithTMXFile(self, string)
+initWithTargetAndPos(self, cc.Node, point_table)
+initWithTexture(self, cc.Texture2D, rect_table, bool, point_table, size_table)
+initWithTextureFilename(self, string, rect_table, bool, point_table, size_table)
+initWithTileFile(self, string, string, int, int)
+initWithTilesetInfo(self, cc.TMXTilesetInfo, cc.TMXLayerInfo, cc.TMXMapInfo)
+initWithTrackSprite_ProgressTimer_ThumbSprite(self, cc.Sprite, cc.ProgressTimer, cc.Sprite)
+initWithViewSize(self, size_table, cc.Node)
+initWithWidthAndHeight(self, int, int, cc.Texture2D::PixelFormat, unsigned)
+initWithXML(self, string, string)
+insertCellAtIndex(self, long)
+insertChild(self, cc.ParticleSystem, int)
+insertCustomItem(self, ccui.Widget, long)
+insertDefaultItem(self, long)
+insertElement(self, ccui.RichElement, int)
+insertPage(self, ccui.Layout, int)
+insertQuadFromSprite(self, cc.Sprite, long)
+isAbsolutePath(self, string)
+isActive(self)
+isAutoDraw(self)
+isAutoLoadSpriteFile(self)
+isAutoRemoveOnFinish(self)
+isBackGroundImageScale9Enabled(self)
+isBackgroundMusicPlaying(self)
+isBlendAdditive(self)
+isBlendDirty(self)
+isBounceEnabled(self)
+isBoundarySet(self)
+isBright(self)
+isCascadeColorEnabled(self)
+isCascadeOpacityEnabled(self)
+isClipMarginEnabled(self)
+isClippingEnabled(self)
+isCollisionEnabled(self)
+isCompressed(self)
+isCompressedInterpolation(self)
+isContinuous(self)
+isDirty(self)
+isDisplayStats(self)
+isDone(self)
+isDynamic(self)
+isEnabled(self)
+isFastMode(self)
+isFileExist(self, string)
+isFlippedX(self)
+isFlippedY(self)
+isFocused(self)
+isForceChangeDisplay(self)
+isFrameDisplayed(self, cc.SpriteFrame)
+isFull(self)
+isGravityEnabled(self)
+isHighlighted(self)
+isIgnoreAnchorPointForPosition(self)
+isIgnoreContentAdaptWithSize(self)
+isIgnoreMovementBoneData(self)
+isInertiaScrollEnabled(self)
+isInverted(self)
+isLoop(self)
+isMaxLengthEnabled(self)
+isNextDeltaTimeZero(self)
+isOn(self)
+isOpacityModifyRGB(self)
+isOpenGLReady(self)
+isPasswordEnabled(self)
+isPaused(self)
+isPlaying(self)
+isPopupNotify(self)
+isPremultipliedAlpha(self)
+isPushed(self)
+isResting(self)
+isReverseDirection(self)
+isRotated(self)
+isRotationEnabled(self)
+isRunning(self)
+isScale9Enabled(self)
+isScissorEnabled(self)
+isSelected(self)
+isSendCleanupToScene(self)
+isStartingPositionInitialized(self)
+isStopped(self)
+isStoringCharacters(self)
+isSwallowTouches(self)
+isTextureFlipped(self)
+isTextureRectRotated(self)
+isTouchEnabled(self)
+isTouchInside(self, cc.Touch)
+isTouchScaleChangeEnabled(self)
+isTransformDirty(self)
+isVisible(self)
+isXMLFileExist(self)
+jumpToBottom(self)
+jumpToBottomLeft(self)
+jumpToBottomRight(self)
+jumpToLeft(self)
+jumpToPercentBothDirection(self, point_table)
+jumpToPercentHorizontal(self, float)
+jumpToPercentVertical(self, float)
+jumpToRight(self)
+jumpToTop(self)
+jumpToTopLeft(self)
+jumpToTopRight(self)
+link(self)
+listenOnFileDescriptor(self, int)
+listenOnTCP(self, int)
+loadBarTexture(self, string, ccui.TextureResType)
+loadDefaultShaders(self)
+loadFilenameLookupDictionaryFromFile(self, string)
+loadProgressBarTexture(self, string, ccui.TextureResType)
+loadSlidBallTextureDisabled(self, string, ccui.TextureResType)
+loadSlidBallTextureNormal(self, string, ccui.TextureResType)
+loadSlidBallTexturePressed(self, string, ccui.TextureResType)
+loadSlidBallTextures(self, string, string, string, ccui.TextureResType)
+loadTexture(self, string, ccui.TextureResType)
+loadTextureBackGround(self, string, ccui.TextureResType)
+loadTextureBackGroundDisabled(self, string, ccui.TextureResType)
+loadTextureBackGroundSelected(self, string, ccui.TextureResType)
+loadTextureDisabled(self, string, ccui.TextureResType)
+loadTextureFrontCross(self, string, ccui.TextureResType)
+loadTextureFrontCrossDisabled(self, string, ccui.TextureResType)
+loadTextureNormal(self, string, ccui.TextureResType)
+loadTexturePressed(self, string, ccui.TextureResType)
+loadTextures(self, string, string, string, ccui.TextureResType)
+loadTextures(self, string, string, string, string, string, ccui.TextureResType)
+local2World(self, point_table)
+locationFromTouch(self, cc.Touch)
+log(self, char)
+lowestAtlasIndexInChild(self, cc.Sprite)
+mainLoop(self)
+moveAnimationsFromNode(self, cc.Node, cc.Node)
+needsLayout(self)
+newImage(self)
+onAnimationStateEvent(self, int, spEventType, spEvent, int)
+onDraw(self, kmMat4, bool)
+onEnter(self)
+onExit(self)
+onTouchBegan(self, cc.Touch, cc.Event)
+onTouchCancelled(self, cc.Touch, cc.Event)
+onTouchEnded(self, cc.Touch, cc.Event)
+onTouchMoved(self, cc.Touch, cc.Event)
+parse(self, string)
+parseXMLFile(self, string)
+parseXMLString(self, string)
+pause(self)
+pauseAllEffects(self)
+pauseAllRunningActions(self)
+pauseBackgroundMusic(self)
+pauseEffect(self, unsigned)
+pauseEventListenersForTarget(self, cc.Node, bool)
+pauseTarget(self, cc.Node)
+placeTile(self, point_table, cc.Tile)
+play(self, cc.CallFunc)
+play(self, ccs.MovementBoneData, int, int, int, int)
+play(self, string, int, int)
+playActionByName(self, char, char, cc.CallFunc)
+playBackgroundMusic(self, char, bool)
+playEffect(self, char, bool)
+playEffect(self, char, bool, float, float, float)
+playWithIndex(self, int, int, int)
+playWithIndexes(self, array_table, int, bool)
+playWithNames(self, array_table, int, bool)
+pollInputEvents(self)
+popScene(self)
+popToRootScene(self)
+popToSceneStackLevel(self, int)
+postStep(self)
+potentiometerBegan(self, point_table)
+potentiometerEnded(self, point_table)
+potentiometerMoved(self, point_table)
+preloadBackgroundMusic(self, char)
+preloadEffect(self, char)
+purgeCachedData(self)
+purgeCachedEntries(self)
+pushBackCustomItem(self, ccui.Widget)
+pushBackDefaultItem(self)
+pushBackElement(self, ccui.RichElement)
+pushScene(self, cc.Scene)
+readCallbackKeyframesForSeq(self, cc.CCBSequence)
+readSoundKeyframesForSeq(self, cc.CCBSequence)
+readUTF8(self)
+rebuildIndexInOrder(self, cc.Sprite, long)
+rect(self)
+refreshView(self)
+release(self)
+releaseActions(self)
+releaseMap(self)
+reloadData(self)
+reloadDefaultShaders(self)
+reloadTexture(self, string)
+removeAction(self, cc.Action)
+removeActionByTag(self, int, cc.Node)
+removeActionNode(self, ccs.ActionNode)
+removeAllActions(self)
+removeAllActionsFromTarget(self, cc.Node)
+removeAllBodies(self)
+removeAllChildren(self)
+removeAllChildrenWithCleanup(self, bool)
+removeAllComponents(self)
+removeAllEventListeners(self)
+removeAllItems(self)
+removeAllJoints(self)
+removeAllPages(self)
+removeAllProtectedChildren(self)
+removeAllProtectedChildrenWithCleanup(self, bool)
+removeAllShapes(self)
+removeAllTextures(self)
+removeAnimation(self, string)
+removeAnimationData(self, string)
+removeArmatureData(self, string)
+removeArmatureFileInfo(self, string)
+removeBackGroundImage(self)
+removeBody(self, cc.PhysicsBody)
+removeBone(self, ccs.Bone, bool)
+removeCellAtIndex(self, long)
+removeChild(self, cc.Node, bool)
+removeChildAtIndex(self, int, bool)
+removeChildAtIndex(self, long, bool)
+removeChildBone(self, ccs.Bone, bool)
+removeChildByTag(self, int, bool)
+removeComponent(self, string)
+removeCustomEventListeners(self, string)
+removeDisplay(self, int)
+removeElement(self, int)
+removeEventListener(self, cc.EventListener)
+removeEventListenersForTarget(self, cc.Node, bool)
+removeEventListenersForType(self, cc.EventListener::Type)
+removeFormWorld(self)
+removeFromParent(self, bool)
+removeFromParentAndCleanup(self, bool)
+removeFromWorld(self)
+removeItem(self, long)
+removeJoint(self, cc.PhysicsJoint, bool)
+removeLastItem(self)
+removePage(self, ccui.Layout)
+removePageAtIndex(self, long)
+removeProtectedChild(self, cc.Node, bool)
+removeProtectedChildByTag(self, int, bool)
+removeShape(self, cc.PhysicsShape, bool)
+removeSpriteFrameByName(self, string)
+removeSpriteFrames(self)
+removeSpriteFramesFromFile(self, string)
+removeSpriteFramesFromTexture(self, cc.Texture2D)
+removeSpriteFromAtlas(self, cc.Sprite)
+removeTexture(self, cc.Texture2D)
+removeTextureData(self, string)
+removeTextureForKey(self, string)
+removeTileAt(self, point_table)
+removeUnusedSpriteFrames(self)
+removeUnusedTextures(self)
+reorderBatch(self, bool)
+reorderChild(self, cc.Node, int)
+reorderProtectedChild(self, cc.Node, int)
+replaceScene(self, cc.Scene)
+requestDoLayout(self)
+requestRefreshView(self)
+reset(self)
+resetForces(self)
+resetSystem(self)
+resizableSpriteWithCapInsets(self, rect_table)
+resume(self)
+resumeAllEffects(self)
+resumeBackgroundMusic(self)
+resumeEffect(self, unsigned)
+resumeEventListenersForTarget(self, cc.Node, bool)
+resumeTarget(self, cc.Node)
+resumeTargets(self, array_table)
+retain(self)
+reuse(self)
+reverse(self)
+rewindBackgroundMusic(self)
+runAction(self, cc.Action)
+runAnimationsForSequenceIdTweenDuration(self, int, float)
+runAnimationsForSequenceNamed(self, char)
+runAnimationsForSequenceNamedTweenDuration(self, char, float)
+runWithScene(self, cc.Scene)
+saveToFile(self, string, bool)
+saveToFile(self, string, cc.Image::Format)
+sceneReaderVersion(self)
+scrollToBottom(self, float, bool)
+scrollToBottomLeft(self, float, bool)
+scrollToBottomRight(self, float, bool)
+scrollToLeft(self, float, bool)
+scrollToPage(self, long)
+scrollToPercentBothDirection(self, point_table, float, bool)
+scrollToPercentHorizontal(self, float, float, bool)
+scrollToPercentVertical(self, float, float, bool)
+scrollToRight(self, float, bool)
+scrollToTop(self, float, bool)
+scrollToTopLeft(self, float, bool)
+scrollToTopRight(self, float, bool)
+scrollViewDidScroll(self, cc.ScrollView)
+scrollViewDidZoom(self, cc.ScrollView)
+seekActionWidgetByActionTag(self, ccui.Widget, int)
+seekWidgetByName(self, ccui.Widget, char)
+seekWidgetByTag(self, ccui.Widget, int)
+selected(self)
+sendActionsForControlEvents(self, cc.Control::EventType)
+serialize(self, void)
+set2DProjection(self)
+setActionManager(self, cc.ActionManager)
+setActionTag(self, int)
+setActive(self, bool)
+setAdditionalTransform(self, kmMat4)
+setAdjustBackgroundImage(self, bool)
+setAliasTexParameters(self)
+setAlign(self, ccui.RelativeAlign)
+setAlignment(self, cc.TextHAlignment)
+setAlignment(self, cc.TextHAlignment, cc.TextVAlignment)
+setAlphaBlending(self, bool)
+setAlphaThreshold(self, float)
+setAmplitude(self, float)
+setAmplitudeRate(self, float)
+setAnchorPoint(self, point_table)
+setAnchr1(self, point_table)
+setAnchr2(self, point_table)
+setAngle(self, float)
+setAngleVar(self, float)
+setAngularDamping(self, float)
+setAngularVelocity(self, float)
+setAngularVelocityLimit(self, float)
+setAnimation(self, cc.Animation)
+setAnimation(self, ccs.ArmatureAnimation)
+setAnimation(self, int, char, bool)
+setAnimationData(self, ccs.AnimationData)
+setAnimationInterval(self, double)
+setAnimationManager(self, cc.CCBAnimationManager)
+setAntiAliasTexParameters(self)
+setArmature(self, ccs.Armature)
+setArmatureData(self, ccs.ArmatureData)
+setAtlasIndex(self, int)
+setAtlasIndex(self, long)
+setAttachWithIME(self, bool)
+setAutoDraw(self, bool)
+setAutoPlaySequenceId(self, int)
+setAutoRemoveOnFinish(self, bool)
+setBMFontFilePath(self, string, point_table)
+setBackGroundColor(self, color3B_table, color3B_table)
+setBackGroundColorOpacity(self, unsigned)
+setBackGroundColorType(self, ccui.LayoutBackGroundColorType)
+setBackGroundColorVector(self, point_table)
+setBackGroundImage(self, string, ccui.TextureResType)
+setBackGroundImageCapInsets(self, rect_table)
+setBackGroundImageColor(self, color3B_table)
+setBackGroundImageOpacity(self, unsigned)
+setBackGroundImageScale9Enabled(self, bool)
+setBackground(self, cc.Sprite)
+setBackgroundMusicVolume(self, float)
+setBackgroundSprite(self, cc.Scale9Sprite)
+setBackgroundSprite(self, cc.Sprite)
+setBackgroundSpriteForState(self, cc.Scale9Sprite, cc.Control::State)
+setBackgroundSpriteFrameForState(self, cc.SpriteFrame, cc.Control::State)
+setBarChangeRate(self, point_table)
+setBaseValue(self, cc.Value, cc.Node, string)
+setBatchNode(self, cc.ParticleBatchNode)
+setBatchNode(self, cc.SpriteBatchNode)
+setBatchNode(self, ccs.BatchNode)
+setBezierParamer(self, float, float, float, float)
+setBlendAdditive(self, bool)
+setBlendDirty(self, bool)
+setBlendFunc(self, cc.BlendFunc)
+setBone(self, ccs.Bone)
+setBoneData(self, ccs.BoneData)
+setBonesToSetupPose(self)
+setBool(self, string, bool)
+setBoolForKey(self, char, bool)
+setBoudarySet(self, bool)
+setBounceEnabled(self, bool)
+setBright(self, bool)
+setBrightStyle(self, ccui.BrightStyle)
+setCCBRootPath(self, char)
+setCapInsetProgressBarRebderer(self, rect_table)
+setCapInsets(self, rect_table)
+setCapInsetsBarRenderer(self, rect_table)
+setCapInsetsDisabledRenderer(self, rect_table)
+setCapInsetsNormalRenderer(self, rect_table)
+setCapInsetsPressedRenderer(self, rect_table)
+setCascadeColorEnabled(self, bool)
+setCascadeOpacityEnabled(self, bool)
+setCategoryBitmask(self, int)
+setCenter(self, kmVec3)
+setCharMap(self, string, int, int, int)
+setChildArmature(self, ccs.Armature)
+setClearColor(self, color4F_table)
+setClearDepth(self, float)
+setClearFlags(self, unsigned)
+setClearStencil(self, int)
+setClipMarginEnabled(self, bool)
+setClippingEnabled(self, bool)
+setClippingType(self, ccui.LayoutClippingType)
+setCollisionBitmask(self, int)
+setCollisionEnable(self, bool)
+setColor(self, color3B_table)
+setColor(self, color4B_table)
+setCompressedInterpolation(self, bool)
+setConcave(self, bool)
+setConnectionTimeout(self, unsigned)
+setContactTestBitmask(self, int)
+setContentScaleFactor(self, float)
+setContentSize(self, size_table)
+setCurrentString(self, string)
+setCurrentTime(self, float)
+setCursorPosition(self, float, float)
+setDamping(self, float)
+setDebugDrawMask(self, int)
+setDefaultAlphaPixelFormat(self, cc.Texture2D::PixelFormat)
+setDefaultValues(self)
+setDelayPerUnit(self, float)
+setDelayUnits(self, float)
+setDeleteBackward(self, bool)
+setDensity(self, float)
+setDepthTest(self, bool)
+setDesignResolutionSize(self, float, float, ResolutionPolicy)
+setDetachWithIME(self, bool)
+setDimensions(self, size_table)
+setDimensions(self, unsigned, unsigned)
+setDirection(self, ccui.LoadingBarType)
+setDirection(self, ccui.SCROLLVIEW_DIR)
+setDirty(self, bool)
+setDisabledColor(self, color3B_table)
+setDisabledImage(self, cc.Node)
+setDisabledSpriteFrame(self, cc.SpriteFrame)
+setDisplayFrame(self, cc.SpriteFrame)
+setDisplayFrameWithAnimationName(self, string, long)
+setDisplayStats(self, bool)
+setDistance(self, float)
+setDocumentControllerName(self, string)
+setDoubleForKey(self, char, double)
+setDuration(self, float)
+setDynamic(self, bool)
+setEffectsVolume(self, float)
+setEmissionRate(self, float)
+setEmitterMode(self, cc.ParticleSystem::Mode)
+setEnable(self, bool)
+setEnabled(self, bool)
+setEndColor(self, color3B_table)
+setEndColor(self, color4F_table)
+setEndColorVar(self, color4F_table)
+setEndOpacity(self, unsigned)
+setEndRadius(self, float)
+setEndRadiusVar(self, float)
+setEndSize(self, float)
+setEndSizeVar(self, float)
+setEndSpin(self, float)
+setEndSpinVar(self, float)
+setEventCode(self, cc.EventTouch::EventCode)
+setEventDispatcher(self, cc.EventDispatcher)
+setEye(self, float, float, float)
+setFastMode(self, bool)
+setFile(self, char)
+setFilenameLookupDictionary(self, map_table)
+setFlippedX(self, bool)
+setFlippedY(self, bool)
+setFloat(self, string, float)
+setFloatForKey(self, char, float)
+setFntFile(self, string)
+setFntFile(self, string, point_table)
+setFocused(self, bool)
+setFont(self, char, int)
+setFontColor(self, color3B_table)
+setFontFillColor(self, color3B_table, bool)
+setFontName(self, char)
+setFontName(self, string)
+setFontNameObj(self, string)
+setFontSize(self, float)
+setFontSize(self, int)
+setFontSizeObj(self, int)
+setForceChangeDisplay(self, bool)
+setForcedTarget(self, cc.Node)
+setFrameSize(self, float, float)
+setFrames(self, array_table)
+setFriction(self, float)
+setGLDefaultValues(self)
+setGlobalZOrder(self, float)
+setGravity(self, ccui.LinearGravity)
+setGravity(self, ccui.ListViewGravity)
+setGravity(self, point_table)
+setGravityEnable(self, bool)
+setGrid(self, cc.GridBase)
+setGridSize(self, size_table)
+setGrooveA(self, point_table)
+setGrooveB(self, point_table)
+setGroup(self, int)
+setGroupName(self, string)
+setHeight(self, unsigned)
+setHighlighted(self, bool)
+setHorizontalAlignment(self, cc.TextHAlignment)
+setHue(self, float)
+setHuePercentage(self, float)
+setHuePicker(self, cc.ControlHuePicker)
+setIMEKeyboardState(self, bool)
+setIdx(self, long)
+setInertiaScrollEnabled(self, bool)
+setInnerAction(self, cc.ActionInterval)
+setInnerAction(self, cc.FiniteTimeAction)
+setInnerContainerSize(self, size_table)
+setInputFlag(self, cc.EditBox::InputFlag)
+setInputMode(self, cc.EditBox::InputMode)
+setInsertText(self, bool)
+setInsetBottom(self, float)
+setInsetLeft(self, float)
+setInsetRight(self, float)
+setInsetTop(self, float)
+setInt(self, string, int)
+setIntegerForKey(self, char, int)
+setInterval(self, float)
+setInverted(self, bool)
+setItemModel(self, ccui.Widget)
+setItemsMargin(self, float)
+setKeepMatrix(self, bool)
+setLabel(self, cc.Node)
+setLabelAnchorPoint(self, point_table)
+setLayerAttribs(self, int)
+setLayerName(self, string)
+setLayerOrientation(self, int)
+setLayerSize(self, size_table)
+setLayers(self, array_table)
+setLayoutParameter(self, ccui.LayoutParameter)
+setLayoutType(self, ccui.LayoutType)
+setLensEffect(self, float)
+setLife(self, float)
+setLifeVar(self, float)
+setLineBreakWithoutSpace(self, bool)
+setLinearDamping(self, float)
+setLocalZOrder(self, int)
+setLoop(self, bool)
+setLoops(self, unsigned)
+setMapOrientation(self, int)
+setMapSize(self, size_table)
+setMapTileSize(self, size_table)
+setMargins(self, int, int)
+setMass(self, float)
+setMaterial(self, cc.PhysicsMaterial)
+setMax(self, float)
+setMaxForce(self, float)
+setMaxLength(self, int)
+setMaxLengthEnabled(self, bool)
+setMaxLineWidth(self, unsigned)
+setMaxS(self, float)
+setMaxT(self, float)
+setMaximumAllowedValue(self, float)
+setMaximumValue(self, double)
+setMaximumValue(self, float)
+setMidpoint(self, point_table)
+setMin(self, float)
+setMinimumAllowedValue(self, float)
+setMinimumValue(self, double)
+setMinimumValue(self, float)
+setMinusLabel(self, cc.Label)
+setMinusSprite(self, cc.Sprite)
+setMix(self, char, char, float)
+setMoment(self, float)
+setMouseButton(self, int)
+setName(self, char)
+setName(self, string)
+setNextDeltaTimeZero(self, bool)
+setNode(self, cc.Node)
+setNodeToParentTransform(self, kmMat4)
+setNormalImage(self, cc.Node)
+setNormalSpriteFrame(self, cc.SpriteFrame)
+setNotificationNode(self, cc.Node)
+setObject(self, cc.Ref, cc.Node, string)
+setObjectGroups(self, array_table)
+setObjects(self, array_table)
+setOffset(self, point_table)
+setOffsetInPixels(self, point_table)
+setOn(self, bool, bool)
+setOpacity(self, unsigned)
+setOpacityModifyRGB(self, bool)
+setOpenGLView(self, cc.GLView)
+setOrderOfArrival(self, int)
+setOrientation(self, int)
+setOriginalSize(self, size_table)
+setOriginalSizeInPixels(self, size_table)
+setOriginalTarget(self, cc.Node)
+setOwner(self, cc.Node)
+setPackageUrl(self, char)
+setParallaxArray(self, cc._ccArray)
+setParent(self, cc.Node)
+setParentBone(self, ccs.Bone)
+setParentElement(self, int)
+setParentGID(self, int)
+setPasswordEnabled(self, bool)
+setPasswordStyleText(self, char)
+setPercent(self, int)
+setPercentage(self, float)
+setPeriod(self, float)
+setPhase(self, float)
+setPhysicsBody(self, cc.PhysicsBody)
+setPlaceHolder(self, char)
+setPlaceHolder(self, string)
+setPlaceholderFont(self, char, int)
+setPlaceholderFontColor(self, color3B_table)
+setPlaceholderFontName(self, char)
+setPlaceholderFontSize(self, int)
+setPlusLabel(self, cc.Label)
+setPlusSprite(self, cc.Sprite)
+setPopupNotify(self, bool)
+setPosVar(self, point_table)
+setPosition(self, float, float)
+setPosition(self, point_table)
+setPosition3D(self, cc.Vertex3F)
+setPositionOffset(self, point_table)
+setPositionPercent(self, point_table)
+setPositionType(self, cc.ParticleSystem::PositionType)
+setPositionType(self, ccui.PositionType)
+setPositionX(self, float)
+setPositionY(self, float)
+setPositionZ(self, float)
+setPreferredSize(self, size_table)
+setPressedActionEnabled(self, bool)
+setPreviousLocation(self, point_table)
+setPriority(self, cc.EventListener, int)
+setProgressSprite(self, cc.Sprite)
+setProgressTimer(self, cc.ProgressTimer)
+setProjection(self, cc.Director::Projection)
+setProperties(self, map_table)
+setProperty(self, string, string, int, int, string)
+setQuadsToDraw(self, long)
+setRadialAccel(self, float)
+setRadialAccelVar(self, float)
+setRatchet(self, float)
+setRate(self, float)
+setRatio(self, float)
+setRect(self, rect_table)
+setRectInPixels(self, rect_table)
+setRelativeName(self, char)
+setRelativeToWidgetName(self, char)
+setResolutionScale(self, float)
+setRestAngle(self, float)
+setRestLength(self, float)
+setResting(self, bool)
+setRestitution(self, float)
+setRestoreOriginalFrame(self, bool)
+setReturnType(self, cc.EditBox::KeyboardReturnType)
+setReuseGrid(self, int)
+setReverseAction(self, cc.FadeTo)
+setReverseDirection(self, bool)
+setRootContainerSize(self, size_table)
+setRootNode(self, cc.Node)
+setRotatePerSecond(self, float)
+setRotatePerSecondVar(self, float)
+setRotated(self, bool)
+setRotation(self, float)
+setRotation3D(self, cc.Vertex3F)
+setRotationEnable(self, bool)
+setRotationIsDir(self, bool)
+setRotationOffset(self, float)
+setRotationSkewX(self, float)
+setRotationSkewY(self, float)
+setScale(self, float)
+setScale(self, float, float)
+setScale9Enabled(self, bool)
+setScaleRatio(self, float)
+setScaleX(self, float)
+setScaleY(self, float)
+setScaleZ(self, float)
+setScheduler(self, cc.Scheduler)
+setScissorInPoints(self, float, float, float, float)
+setScrollData(self, float, float)
+setSelected(self, bool)
+setSelectedImage(self, cc.Node)
+setSelectedIndex(self, unsigned)
+setSelectedSpriteFrame(self, cc.SpriteFrame)
+setSelectedState(self, bool)
+setSelectedThumbSprite(self, cc.Sprite)
+setSequences(self, array_table)
+setShaderProgram(self, cc.GLProgram)
+setSize(self, size_table)
+setSizePercent(self, point_table)
+setSizeType(self, ccui.SizeType)
+setSkewX(self, float)
+setSkewY(self, float)
+setSkin(self, char)
+setSlider(self, cc.Sprite)
+setSlotsToSetupPose(self)
+setSourcePosition(self, point_table)
+setSpeed(self, float)
+setSpeedScale(self, float)
+setSpeedVar(self, float)
+setSprite(self, cc.Sprite)
+setSpriteFrame(self, cc.SpriteFrame)
+setSpriteFrame(self, string)
+setStartColor(self, color3B_table)
+setStartColor(self, color4F_table)
+setStartColorVar(self, color4F_table)
+setStartOpacity(self, unsigned)
+setStartRadius(self, float)
+setStartRadiusVar(self, float)
+setStartSize(self, float)
+setStartSizeVar(self, float)
+setStartSpin(self, float)
+setStartSpinVar(self, float)
+setStartingPositionInitialized(self, bool)
+setStencil(self, cc.Node)
+setStep(self, point_table)
+setStepValue(self, double)
+setStiffness(self, float)
+setStoragePath(self, char)
+setStoringCharacters(self, bool)
+setString(self, string)
+setString(self, string, string)
+setStringForKey(self, char, string)
+setStringValue(self, string)
+setSubItems(self, array_table)
+setSurfaceVelocity(self, point_table)
+setSwallowTouches(self, bool)
+setSystemFontName(self, string)
+setSystemFontSize(self, float)
+setTGAInfo(self, cc.sImageTGA)
+setTMXFileName(self, string)
+setTag(self, int)
+setTangentialAccel(self, float)
+setTangentialAccelVar(self, float)
+setTarget(self, cc.Node)
+setTarget(self, function)
+setTargetCallback(self, cc.Ref)
+setText(self, char)
+setText(self, string)
+setTextAreaSize(self, size_table)
+setTextColor(self, color4B_table)
+setTextDefinition(self, cc.FontDefinition)
+setTextHorizontalAlignment(self, cc.TextHAlignment)
+setTextVerticalAlignment(self, cc.TextVAlignment)
+setTexture(self, cc.Texture2D)
+setTexture(self, string)
+setTextureAtlas(self, cc.TextureAtlas)
+setTextureFlipped(self, bool)
+setTextureRect(self, rect_table)
+setTextureRect(self, rect_table, bool, size_table)
+setTextureWithRect(self, cc.Texture2D, rect_table)
+setThumbSprite(self, cc.Sprite)
+setTile(self, color3B_table, point_table)
+setTileGID(self, unsigned, point_table, cc.TMXTileFlags_)
+setTileProperties(self, map_table)
+setTileSet(self, cc.TMXTilesetInfo)
+setTileSize(self, size_table)
+setTiles(self, unsigned)
+setTilesets(self, array_table)
+setTimeScale(self, float)
+setTitleBMFontForState(self, string, cc.Control::State)
+setTitleColor(self, color3B_table)
+setTitleColorForState(self, color3B_table, cc.Control::State)
+setTitleFontName(self, string)
+setTitleFontSize(self, float)
+setTitleForState(self, string, cc.Control::State)
+setTitleLabel(self, cc.Node)
+setTitleLabelForState(self, cc.Node, cc.Control::State)
+setTitleTTFForState(self, string, cc.Control::State)
+setTitleTTFSizeForState(self, float, cc.Control::State)
+setTitleText(self, string)
+setToSetupPose(self)
+setTotalParticles(self, int)
+setTouchAreaEnabled(self, bool)
+setTouchEnabled(self, bool)
+setTouchInfo(self, int, float, float)
+setTouchScaleChangeEnabled(self, bool)
+setTouchSize(self, size_table)
+setTransformDirty(self, bool)
+setType(self, cc.ProgressTimer::Type)
+setUniformLocationWith1i(self, int, int)
+setUniformLocationWith2i(self, int, int, int)
+setUniformLocationWith2iv(self, int, int, unsigned)
+setUniformLocationWith3i(self, int, int, int, int)
+setUniformLocationWith3iv(self, int, int, unsigned)
+setUniformLocationWith4i(self, int, int, int, int, int)
+setUniformLocationWith4iv(self, int, int, unsigned)
+setUniformLocationWithMatrix2fv(self, int, float, unsigned)
+setUniformLocationWithMatrix3fv(self, int, float, unsigned)
+setUniformLocationWithMatrix4fv(self, int, float, unsigned)
+setUniformsForBuiltins(self, kmMat4)
+setUnitTime(self, float)
+setUp(self, kmVec3)
+setUpdateRate(self, int)
+setUserInfo(self, map_table)
+setUserObject(self, cc.Ref)
+setValue(self, double)
+setValue(self, float)
+setValueWithSendingEvent(self, double, bool)
+setVector(self, point_table)
+setVelocity(self, point_table)
+setVelocityLimit(self, float)
+setVersion(self, float)
+setVersionFileUrl(self, char)
+setVertexRect(self, rect_table)
+setVerticalAlignment(self, cc.TextVAlignment)
+setVerticalFillOrder(self, cc.TableView::VerticalFillOrder)
+setVerticalSpace(self, float)
+setViewName(self, string)
+setViewPortInPoints(self, float, float, float, float)
+setViewport(self)
+setVirtualViewport(self, point_table, rect_table, rect_table)
+setVisible(self, bool)
+setWidth(self, float)
+setWidth(self, unsigned)
+setWraps(self, bool)
+setZoomOnTouchDown(self, bool)
+setcolourPicker(self, cc.ControlSaturationBrightnessPicker)
+setupTiles(self)
+setupTimerWithInterval(self, float, unsigned, float)
+shuffle(self, unsigned, unsigned)
+simulationActionUpdate(self, float)
+sortAllChildren(self)
+sortAllProtectedChildren(self)
+sphericalRadius(self, float, float, float)
+startAnimation(self)
+startAutorepeat(self)
+startWithTarget(self, cc.Node)
+step(self, float)
+stop(self)
+stopAction(self, cc.Action)
+stopActionByTag(self, int)
+stopAllActions(self)
+stopAllEffects(self)
+stopAnimation(self)
+stopAutorepeat(self)
+stopBackgroundMusic(self)
+stopBackgroundMusic(self, bool)
+stopEffect(self, unsigned)
+stopPropagation(self)
+stopSystem(self)
+swapBuffers(self)
+switchTo(self, int)
+switchToAndReleaseMe(self, int)
+testFunc(self, size_table, float)
+tintWithColor(self, color3B_table)
+transformTile(self, point_table, float)
+trigger(self)
+turnOffTile(self, point_table)
+turnOnTile(self, point_table)
+unloadEffect(self, char)
+unselected(self)
+update(self)
+update(self, float)
+updateArmatureTransform(self)
+updateAtlasValues(self)
+updateCellAtIndex(self, long)
+updateColor(self)
+updateContent(self)
+updateDisplayedColor(self, color3B_table)
+updateDisplayedOpacity(self, unsigned)
+updateLayoutUsingTouchLocation(self, point_table)
+updateOffsetPoint(self)
+updatePosition(self, point_table)
+updateQuadWithParticle(self, cc.sParticle, point_table)
+updateSizeAndPosition(self, size_table)
+updateToFrameByTime(self, float)
+updateTransform(self)
+updateUniforms(self)
+updateWithBatchNode(self, cc.SpriteBatchNode, rect_table, bool, rect_table)
+updateWithData(self, void, int, int, int, int)
+updateWithNoTime(self)
+updateZOrder(self)
+use(self)
+visit(self, cc.Renderer, kmMat4, bool)
+waitForQuit(self)
+widgetFromJsonFile(self, char)
+willPlayBackgroundMusic(self)
+world2Local(self, point_table)
+writeToFile(self, map_table, string)
