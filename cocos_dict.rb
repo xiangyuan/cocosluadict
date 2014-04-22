@@ -69,7 +69,7 @@ if ARGV.length == 0
             other.sort!
             other.each do |file|
                 p = File.basename(file,'.lua')
-                f.write(p)
+                f.write("#{p}\n")
             end
             f.write('\n')
         end
