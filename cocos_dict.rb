@@ -1,10 +1,12 @@
 require "set"
 
-path = '~/Game/cocos2d-x/cocos/scripting/lua-bindings/auto/api/'
+#path = '~/Game/cocos2d-x/cocos/scripting/lua-bindings/auto/api/'
+path = './cocos3.0rc2' ## the new api path, the top path will lost some api
+                    ## so use the new dir api path some api are in the manual cpp define
 
 curDir = ''
 hash = {}
-if ARGV.length > 0
+if ARGV.length == 0
     #path = ARGV.first
     curDir = Dir.pwd
     path = File.expand_path path
@@ -12,7 +14,8 @@ if ARGV.length > 0
     other=[]
     Dir.glob("*.lua") do |afile|
         fname = File.basename(afile,'.lua')
-        if fname.include? '_api'
+        # if fname.include? '_api'
+        if fname == 'cc' or fname == 'ccs' or fname == 'ccui' or fname == 'sp'
             open(afile, 'r') do |file|
                 file.readlines.each do |readline|
                     readline.match('@module\s\w+') do |m|
@@ -61,6 +64,14 @@ if ARGV.length > 0
                 f.write("#{v}\n")
             end
             f.write("\n")
+        end
+        if other.empty? == false
+            other.sort!
+            other.each do |file|
+                p = File.basename(file,'.lua')
+                f.write(p)
+            end
+            f.write('\n')
         end
     end
 
