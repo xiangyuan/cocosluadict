@@ -38,8 +38,25 @@ if ARGV.length == 0
                                 end
                             elsif index == 2
                                 if a[index].include? '#'
-                                    eidx = a[index].index('#')
-                                    value = a[index][0...eidx]
+                                    m = a[index].match('\w+#\w+')
+                                    if m.nil?
+                                        value = a[3]
+                                    else
+                                        m.to_a.each do |item|
+                                            eidx = a[index].index('#')
+                                            value = a[index][0...eidx]
+                                        end
+                                    end
+                                    # a[index].match('\w+#\w+') do |m|
+                                    #     puts m
+                                    #     if m.nil?
+                                    #         value = a[3]
+                                    #         puts value
+                                    #     else
+                                    #         eidx = a[index].index('#')
+                                    #         value = a[index][0...eidx]
+                                    #     end
+                                    # end
                                 end
                             end
                             if key.empty? || value.empty?
@@ -51,7 +68,9 @@ if ARGV.length == 0
                 end
             end
         else
-            other << afile
+            if fname.include?("_api") == false
+                other << afile
+            end
         end
     end
 
@@ -71,7 +90,7 @@ if ARGV.length == 0
                 p = File.basename(file,'.lua')
                 f.write("#{p}\n")
             end
-            f.write('\n')
+            f.write("\n")
         end
     end
 
