@@ -104,6 +104,9 @@ if ARGV.length == 0
                             params << a[1]
                         end
                     end
+                    text[i].match('@field\s.+') do |field|
+                        s << field.to_s.split(' ')[3]
+                    end
                     text[i].match('@function\s.+') do |fun|
                         func = fun.to_s.split(' ').last
                         if params.empty? == false
