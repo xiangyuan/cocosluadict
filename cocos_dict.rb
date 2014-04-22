@@ -96,6 +96,7 @@ if ARGV.length > 0
                     text[i].match('@function\s.+') do |fun|
                         func = fun.to_s.split(' ').last
                         if params.empty? == false
+                            s << func
                             func << '('
                             i = 1
                             l = params.length

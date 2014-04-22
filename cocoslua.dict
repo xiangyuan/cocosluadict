@@ -1378,221 +1378,425 @@ ccui.Widget
 ccui.Widget
 ccui.Widget
 
+ActionCamera
 ActionCamera(self)
+ActionManager
 ActionManager(self)
+ActionObject
 ActionObject(self)
+AnimationCache
 AnimationCache(self)
+AnimationData
 AnimationData(self)
+Armature
 Armature(self)
+ArmatureAnimation
 ArmatureAnimation(self)
+ArmatureData
 ArmatureData(self)
+ArmatureDisplayData
 ArmatureDisplayData(self)
+AssetsManager
 AssetsManager(self)
+BaseData
 BaseData(self)
+Bone
 Bone(self)
+BoneData
 BoneData(self)
+Button
 Button(self)
+CCBAnimationManager
 CCBAnimationManager(self)
+CCBReader
 CCBReader(self, cc.NodeLoaderLibrary, cc.CCBMemberVariableAssigner, cc.CCBSelectorResolver, cc.NodeLoaderListener)
+CardinalSplineBy
 CardinalSplineBy(self)
+CardinalSplineTo
 CardinalSplineTo(self)
+CheckBox
 CheckBox(self)
+ComController
 ComController(self)
+ContourData
 ContourData(self)
+ControlColourPicker
 ControlColourPicker(self)
+ControlHuePicker
 ControlHuePicker(self)
+ControlPotentiometer
 ControlPotentiometer(self)
+ControlSaturationBrightnessPicker
 ControlSaturationBrightnessPicker(self)
+ControlSlider
 ControlSlider(self)
+ControlStepper
 ControlStepper(self)
+ControlSwitch
 ControlSwitch(self)
+DisplayData
 DisplayData(self)
+DisplayManager
 DisplayManager(self)
+EditBox
 EditBox(self)
+EventCustom
 EventCustom(self, string)
+EventDispatcher
 EventDispatcher(self)
+EventKeyboard
 EventKeyboard(self, cc.EventKeyboard::KeyCode, bool)
+EventMouse
 EventMouse(self, cc.EventMouse::MouseEventType)
+EventTouch
 EventTouch(self)
+FrameData
 FrameData(self)
+GLProgram
 GLProgram(self)
+Grid3D
 Grid3D(self)
+Image
 Image(self)
+ImageView
 ImageView(self)
+LabelBMFont
 LabelBMFont(self)
+LabelTTF
 LabelTTF(self)
+Layout
 Layout(self)
+LayoutParameter
 LayoutParameter(self)
+LinearLayoutParameter
 LinearLayoutParameter(self)
+ListView
 ListView(self)
+LoadingBar
 LoadingBar(self)
+MovementBoneData
 MovementBoneData(self)
+MovementData
 MovementData(self)
+PVRImagesHavePremultipliedAlpha
 PVRImagesHavePremultipliedAlpha(self, bool)
+PageView
 PageView(self)
+ParticleDisplayData
 ParticleDisplayData(self)
+RelativeLayoutParameter
 RelativeLayoutParameter(self)
+RenderTexture
 RenderTexture(self)
+RichElement
 RichElement(self)
+RichElementCustomNode
 RichElementCustomNode(self)
+RichElementImage
 RichElementImage(self)
+RichElementText
 RichElementText(self)
+RichText
 RichText(self)
+Scale9Sprite
 Scale9Sprite(self)
+Scheduler
 Scheduler(self)
+ScrollView
 ScrollView(self)
+ShaderCache
 ShaderCache(self)
+Skin
 Skin(self)
+Slider
 Slider(self)
+SpriteDisplayData
 SpriteDisplayData(self)
+TMXLayer
 TMXLayer(self)
+TMXLayerInfo
 TMXLayerInfo(self)
+TMXMapInfo
 TMXMapInfo(self)
+TMXObjectGroup
 TMXObjectGroup(self)
+TMXTilesetInfo
 TMXTilesetInfo(self)
+TableView
 TableView(self)
+TableViewCell
 TableViewCell(self)
+Text
 Text(self)
+TextAtlas
 TextAtlas(self)
+TextBMFont
 TextBMFont(self)
+TextField
 TextField(self)
+Texture2D
 Texture2D(self)
+TextureCache
 TextureCache(self)
+TextureData
 TextureData(self)
+TileMapAtlas
 TileMapAtlas(self)
+TiledGrid3D
 TiledGrid3D(self)
+Touch
 Touch(self)
+TransitionPageTurn
 TransitionPageTurn(self)
+TransitionProgress
 TransitionProgress(self)
+Tween
 Tween(self)
+Widget
 Widget(self)
+_setLocalZOrder
 _setLocalZOrder(self, int)
+_updateContentSize
 _updateContentSize(self)
+action
 action(self)
+actionForCallbackChannel
 actionForCallbackChannel(self, cc.CCBSequenceProperty)
+actionForSoundChannel
 actionForSoundChannel(self, cc.CCBSequenceProperty)
+actionWithSize
 actionWithSize(self, size_table)
+activate
 activate(self)
+adaptRenderers
 adaptRenderers(self)
+addAction
 addAction(self, cc.Action, cc.Node, bool)
+addActionNode
 addActionNode(self, ccs.ActionNode)
+addAnimation
 addAnimation(self, cc.Animation, string)
 addAnimation(self, int, char, bool, float)
+addAnimationData
 addAnimationData(self, string, ccs.AnimationData, string)
+addAnimationsWithDictionary
 addAnimationsWithDictionary(self, map_table, string)
+addAnimationsWithFile
 addAnimationsWithFile(self, string)
+addArmatureData
 addArmatureData(self, string, ccs.ArmatureData, string)
+addArmatureFileInfo
 addArmatureFileInfo(self, string, string, string)
+addBone
 addBone(self, ccs.Bone, string)
+addBoneData
 addBoneData(self, ccs.BoneData)
+addChild
 addChild(self, cc.Node, int, int)
 addChild(self, cc.Node, int, point_table, point_table)
+addChildBone
 addChildBone(self, ccs.Bone)
+addComponent
 addComponent(self, cc.Component)
+addContourData
 addContourData(self, ccs.ContourData)
+addCustomEventListener
 addCustomEventListener(self, string, function)
+addDisplay
 addDisplay(self, ccs.DisplayData, int)
+addDisplayData
 addDisplayData(self, ccs.DisplayData)
+addDocumentCallbackControlEvents
 addDocumentCallbackControlEvents(self, cc.Control::EventType)
+addDocumentCallbackName
 addDocumentCallbackName(self, string)
+addDocumentCallbackNode
 addDocumentCallbackNode(self, cc.Node)
+addDocumentOutletName
 addDocumentOutletName(self, string)
+addDocumentOutletNode
 addDocumentOutletNode(self, cc.Node)
+addEventListenerWithFixedPriority
 addEventListenerWithFixedPriority(self, cc.EventListener, int)
+addEventListenerWithSceneGraphPriority
 addEventListenerWithSceneGraphPriority(self, cc.EventListener, cc.Node)
+addFrameData
 addFrameData(self, ccs.FrameData)
+addImage
 addImage(self, cc.Image, string)
+addJoint
 addJoint(self, cc.PhysicsJoint)
+addLayer
 addLayer(self, cc.Layer)
+addMass
 addMass(self, float)
+addMoment
 addMoment(self, float)
+addMovement
 addMovement(self, ccs.MovementData)
+addMovementBoneData
 addMovementBoneData(self, ccs.MovementBoneData)
+addOwnerCallbackControlEvents
 addOwnerCallbackControlEvents(self, cc.Control::EventType)
+addOwnerOutletName
 addOwnerOutletName(self, string)
+addOwnerOutletNode
 addOwnerOutletNode(self, cc.Node)
+addPage
 addPage(self, ccui.Layout)
+addParticle
 addParticle(self)
+addProgram
 addProgram(self, cc.GLProgram, string)
+addProtectedChild
 addProtectedChild(self, cc.Node, int, int)
+addSearchPath
 addSearchPath(self, string)
+addSearchResolutionsOrder
 addSearchResolutionsOrder(self, string)
+addShape
 addShape(self, cc.PhysicsShape, bool)
+addSpriteFrame
 addSpriteFrame(self, cc.SpriteFrame)
 addSpriteFrame(self, cc.SpriteFrame, string)
+addSpriteFrameFromFile
 addSpriteFrameFromFile(self, string, string, string)
+addSpriteFrameWithFile
 addSpriteFrameWithFile(self, string)
+addSpriteFrameWithTexture
 addSpriteFrameWithTexture(self, cc.Texture2D, rect_table)
+addSpriteFramesWithFile
 addSpriteFramesWithFile(self, string, cc.Texture2D)
+addSpriteWithoutQuad
 addSpriteWithoutQuad(self, cc.Sprite, int, int)
+addSubItem
 addSubItem(self, cc.MenuItem)
+addTextureData
 addTextureData(self, string, ccs.TextureData, string)
+addVertex
 addVertex(self, point_table)
+addWidgetToPage
 addWidgetToPage(self, ccui.Widget, long, bool)
+afterDraw
 afterDraw(self, cc.Node)
+alignItemsHorizontally
 alignItemsHorizontally(self)
+alignItemsHorizontallyWithPadding
 alignItemsHorizontallyWithPadding(self, float)
+alignItemsVertically
 alignItemsVertically(self)
+alignItemsVerticallyWithPadding
 alignItemsVerticallyWithPadding(self, float)
+angleInDegreesBetweenLineFromPoint_toPoint_toLineFromPoint_toPoint
 angleInDegreesBetweenLineFromPoint_toPoint_toLineFromPoint_toPoint(self, point_table, point_table, point_table, point_table)
+appendChild
 appendChild(self, cc.Sprite)
+applyForce
 applyForce(self, point_table, point_table)
+applyImpulse
 applyImpulse(self, point_table, point_table)
+applyTorque
 applyTorque(self, float)
+atlasIndexForChild
 atlasIndexForChild(self, cc.Sprite, int)
+attachWithIME
 attachWithIME(self)
+beforeDraw
 beforeDraw(self)
+begin
 begin(self)
+beginWithClear
 beginWithClear(self, float, float, float, float, float, int)
+bindAttribLocation
 bindAttribLocation(self, char, unsigned)
+blit
 blit(self)
+calculateArea
 calculateArea(self, float)
 calculateArea(self, size_table)
+calculateDefaultMoment
 calculateDefaultMoment(self)
+calculateMoment
 calculateMoment(self, float, float, point_table)
 calculateMoment(self, float, size_table, point_table)
+calculateVertexPoints
 calculateVertexPoints(self)
+cancel
 cancel(self)
+cellAtIndex
 cellAtIndex(self, long)
+changeBoneParent
 changeBoneParent(self, ccs.Bone, string)
+changeDisplayToTexture
 changeDisplayToTexture(self, string)
+changeDisplayWithIndex
 changeDisplayWithIndex(self, int, bool)
+changeDisplayWithName
 changeDisplayWithName(self, string, bool)
+changeHeight
 changeHeight(self, float)
+changeWidth
 changeWidth(self, float)
+changeWidthAndHeight
 changeWidthAndHeight(self, float, float)
+checkAvailable
 checkAvailable(self)
+checkChildInfo
 checkChildInfo(self, int, ccui.Widget, point_table)
+checkUpdate
 checkUpdate(self)
+cleanup
 cleanup(self)
+clear
 clear(self)
 clear(self, float, float, float, float)
+clearDepth
 clearDepth(self, float)
+clearStencil
 clearStencil(self, int)
+clearTrack
 clearTrack(self)
+clearTracks
 clearTracks(self)
+clippingParentAreaContainPoint
 clippingParentAreaContainPoint(self, point_table)
+clone
 clone(self)
+colourSliderValueChanged
 colourSliderValueChanged(self, cc.Ref, cc.Control::EventType)
+construct
 construct(self, cc.PhysicsBody, cc.PhysicsBody, float)
 construct(self, cc.PhysicsBody, cc.PhysicsBody, float, float)
 construct(self, cc.PhysicsBody, cc.PhysicsBody, point_table)
 construct(self, cc.PhysicsBody, cc.PhysicsBody, point_table, point_table)
 construct(self, cc.PhysicsBody, cc.PhysicsBody, point_table, point_table, float, float)
 construct(self, cc.PhysicsBody, cc.PhysicsBody, point_table, point_table, point_table)
+containPoint
 containPoint(self, float, float)
+containsPoint
 containsPoint(self, point_table)
+convertToGL
 convertToGL(self, point_table)
+convertToNodeSpace
 convertToNodeSpace(self, point_table)
+convertToNodeSpaceAR
 convertToNodeSpaceAR(self, point_table)
+convertToUI
 convertToUI(self, point_table)
+convertToWorldSpace
 convertToWorldSpace(self, point_table)
+convertToWorldSpaceAR
 convertToWorldSpaceAR(self, point_table)
+convertTouchToNodeSpace
 convertTouchToNodeSpace(self, cc.Touch)
+convertTouchToNodeSpaceAR
 convertTouchToNodeSpaceAR(self, cc.Touch)
+copy
 copy(self, ccs.BaseData)
 copy(self, ccs.DisplayData)
+copyProperties
 copyProperties(self, ccui.LayoutParameter)
+create
 create(self)
 create(self, array_table, float, unsigned)
 create(self, bool)
@@ -1675,646 +1879,1268 @@ create(self, string, string, int, int, int)
 create(self, string, string, int, int, string)
 create(self, string, string, string, ccui.TextureResType)
 create(self, string, string, string, string, string, ccui.TextureResType)
+createBox
 createBox(self, size_table, cc.PhysicsMaterial, point_table)
+createCircle
 createCircle(self, float, cc.PhysicsMaterial, point_table)
+createCloneInstance
 createCloneInstance(self)
+createEdgeBox
 createEdgeBox(self, size_table, cc.PhysicsMaterial, float, point_table)
+createEdgeSegment
 createEdgeSegment(self, point_table, point_table, cc.PhysicsMaterial, float)
+createInstance
 createInstance(self)
+createNodeWithSceneFile
 createNodeWithSceneFile(self, string, ccs.SceneReader::AttachComponentType)
+createWithBMFont
 createWithBMFont(self, string, string, cc.TextHAlignment, int, point_table)
+createWithCharMap
 createWithCharMap(self, string, int, int, int)
+createWithFontDefinition
 createWithFontDefinition(self, string, cc.FontDefinition)
+createWithFullScreen
 createWithFullScreen(self, string)
+createWithPhysics
 createWithPhysics(self)
+createWithRect
 createWithRect(self, string, rect_table, float)
+createWithSpriteFrame
 createWithSpriteFrame(self, cc.SpriteFrame)
 createWithSpriteFrame(self, cc.SpriteFrame, rect_table)
+createWithSpriteFrameName
 createWithSpriteFrameName(self, string)
 createWithSpriteFrameName(self, string, rect_table)
+createWithSpriteFrames
 createWithSpriteFrames(self, array_table, float, unsigned)
+createWithSystemFont
 createWithSystemFont(self, string, string, float, size_table, cc.TextHAlignment, cc.TextVAlignment)
+createWithTexture
 createWithTexture(self, cc.Texture2D, int)
 createWithTexture(self, cc.Texture2D, long)
 createWithTexture(self, cc.Texture2D, rect_table, bool)
 createWithTexture(self, cc.Texture2D, rect_table, bool, point_table, size_table)
+createWithTotalParticles
 createWithTotalParticles(self, int)
+createWithXML
 createWithXML(self, string, string)
+debug
 debug(self)
+deleteVersion
 deleteVersion(self)
+dequeueCell
 dequeueCell(self)
+destroy
 destroy(self, cc.PhysicsJoint)
+destroyInstance
 destroyInstance(self)
+didNotSelectSelf
 didNotSelectSelf(self)
+disableCascadeColor
 disableCascadeColor(self)
+disableEffect
 disableEffect(self)
+disableParticle
 disableParticle(self, int)
+disableShadow
 disableShadow(self)
+disableStroke
 disableStroke(self)
+dispatchEvent
 dispatchEvent(self, cc.Event)
+distanceBetweenPointAndPoint
 distanceBetweenPointAndPoint(self, point_table, point_table)
+doesAdjustBackgroundImage
 doesAdjustBackgroundImage(self)
+draw
 draw(self, cc.Renderer, kmMat4, bool)
+drawAtPoint
 drawAtPoint(self, point_table)
+drawContour
 drawContour(self)
+drawCubicBezier
 drawCubicBezier(self, point_table, point_table, point_table, point_table, unsigned, color4F_table)
+drawDot
 drawDot(self, point_table, float, color4F_table)
+drawInRect
 drawInRect(self, rect_table)
+drawQuadraticBezier
 drawQuadraticBezier(self, point_table, point_table, point_table, unsigned, color4F_table)
+drawScene
 drawScene(self)
+drawSegment
 drawSegment(self, point_table, point_table, float, color4F_table)
+drawTriangle
 drawTriangle(self, point_table, point_table, point_table, color4F_table)
+easeActionWithAction
 easeActionWithAction(self, cc.ActionInterval)
+enableGlow
 enableGlow(self, color4B_table)
+enableOutline
 enableOutline(self, color4B_table, int)
+enableShadow
 enableShadow(self)
 enableShadow(self, size_table, float, float, bool)
+enableStroke
 enableStroke(self, color3B_table, float, bool)
+end
 end(self)
+endToLua
 endToLua(self)
+execute
 execute(self)
+finish
 finish(self)
+flush
 flush(self)
+formatText
 formatText(self)
+fullPathForFilename
 fullPathForFilename(self, string)
+fullPathFromRelativeFile
 fullPathFromRelativeFile(self, string, string)
+generateMipmap
 generateMipmap(self)
+getActionByName
 getActionByName(self, char, char)
+getActionByTag
 getActionByTag(self, int)
 getActionByTag(self, int, cc.Node)
+getActionManager
 getActionManager(self)
+getActionTag
 getActionTag(self)
+getAlign
 getAlign(self)
+getAllBodies
 getAllBodies(self)
+getAlphaThreshold
 getAlphaThreshold(self)
+getAmplitude
 getAmplitude(self)
+getAmplitudeRate
 getAmplitudeRate(self)
+getAnchorPoint
 getAnchorPoint(self)
+getAnchorPointInPoints
 getAnchorPointInPoints(self)
+getAnchr1
 getAnchr1(self)
+getAnchr2
 getAnchr2(self)
+getAngle
 getAngle(self)
+getAngleVar
 getAngleVar(self)
+getAngularDamping
 getAngularDamping(self)
+getAngularVelocity
 getAngularVelocity(self)
+getAngularVelocityLimit
 getAngularVelocityLimit(self)
+getAnimation
 getAnimation(self)
 getAnimation(self, string)
+getAnimationData
 getAnimationData(self)
 getAnimationData(self, string)
+getAnimationDatas
 getAnimationDatas(self)
+getAnimationInterval
 getAnimationInterval(self)
+getAnimationManager
 getAnimationManager(self)
+getAnimationManagersForNodes
 getAnimationManagersForNodes(self)
+getArea
 getArea(self)
+getArmature
 getArmature(self)
+getArmatureData
 getArmatureData(self)
 getArmatureData(self, string)
+getArmatureDatas
 getArmatureDatas(self)
+getArmatureTransformDirty
 getArmatureTransformDirty(self)
+getAtlasIndex
 getAtlasIndex(self)
+getAttachComponentType
 getAttachComponentType(self)
+getAttachWithIME
 getAttachWithIME(self)
+getAttribLocation
 getAttribLocation(self, char)
+getAutoPlaySequenceId
 getAutoPlaySequenceId(self)
+getBMFontFilePath
 getBMFontFilePath(self)
+getBackGroundColor
 getBackGroundColor(self)
+getBackGroundColorOpacity
 getBackGroundColorOpacity(self)
+getBackGroundColorType
 getBackGroundColorType(self)
+getBackGroundColorVector
 getBackGroundColorVector(self)
+getBackGroundEndColor
 getBackGroundEndColor(self)
+getBackGroundImageCapInsets
 getBackGroundImageCapInsets(self)
+getBackGroundImageColor
 getBackGroundImageColor(self)
+getBackGroundImageOpacity
 getBackGroundImageOpacity(self)
+getBackGroundImageTextureSize
 getBackGroundImageTextureSize(self)
+getBackGroundStartColor
 getBackGroundStartColor(self)
+getBackground
 getBackground(self)
+getBackgroundMusicVolume
 getBackgroundMusicVolume(self)
+getBackgroundSprite
 getBackgroundSprite(self)
+getBackgroundSpriteForState
 getBackgroundSpriteForState(self, cc.Control::State)
+getBarChangeRate
 getBarChangeRate(self)
+getBatchNode
 getBatchNode(self)
+getBitPerPixel
 getBitPerPixel(self)
+getBitsPerPixelForFormat
 getBitsPerPixelForFormat(self, cc.Texture2D::PixelFormat)
+getBlendFunc
 getBlendFunc(self)
+getBody
 getBody(self)
 getBody(self, int)
+getBodyA
 getBodyA(self)
+getBodyB
 getBodyB(self)
+getBone
 getBone(self)
 getBone(self, string)
+getBoneAtPoint
 getBoneAtPoint(self, float, float)
+getBoneData
 getBoneData(self)
 getBoneData(self, string)
+getBoneDic
 getBoneDic(self)
+getBool
 getBool(self, string, bool)
+getBoolForKey
 getBoolForKey(self, char, bool)
+getBottomInParent
 getBottomInParent(self)
+getBoundingBox
 getBoundingBox(self)
+getBrightness
 getBrightness(self)
+getCCBRootPath
 getCCBRootPath(self)
+getCachedTextureInfo
 getCachedTextureInfo(self)
+getCapInsets
 getCapInsets(self)
+getCapInsetsBarRenderer
 getCapInsetsBarRenderer(self)
+getCapInsetsDisabledRenderer
 getCapInsetsDisabledRenderer(self)
+getCapInsetsNormalRenderer
 getCapInsetsNormalRenderer(self)
+getCapInsetsPressedRenderer
 getCapInsetsPressedRenderer(self)
+getCapInsetsProgressBarRebderer
 getCapInsetsProgressBarRebderer(self)
+getCategoryBitmask
 getCategoryBitmask(self)
+getCenter
 getCenter(self)
+getChildArmature
 getChildArmature(self)
+getChildByName
 getChildByName(self, char)
+getChildByTag
 getChildByTag(self, int)
+getChildren
 getChildren(self)
+getChildrenCount
 getChildrenCount(self)
+getClearColor
 getClearColor(self)
+getClearDepth
 getClearDepth(self)
+getClearFlags
 getClearFlags(self)
+getClearStencil
 getClearStencil(self)
+getClippingType
 getClippingType(self)
+getColliderDetector
 getColliderDetector(self)
+getCollisionBitmask
 getCollisionBitmask(self)
+getColor
 getColor(self)
+getCommonLineHeight
 getCommonLineHeight(self)
+getComponent
 getComponent(self, string)
+getConnectionTimeout
 getConnectionTimeout(self)
+getConsole
 getConsole(self)
+getContactData
 getContactData(self)
+getContactTestBitmask
 getContactTestBitmask(self)
+getContainerSize
 getContainerSize(self, cc.Node)
+getContentScaleFactor
 getContentScaleFactor(self)
+getContentSize
 getContentSize(self)
+getContentSizeInPixels
 getContentSizeInPixels(self)
+getContourData
 getContourData(self, int)
+getCurPageIndex
 getCurPageIndex(self)
+getCurSelectedIndex
 getCurSelectedIndex(self)
+getCurrent
 getCurrent(self)
+getCurrentDisplayIndex
 getCurrentDisplayIndex(self)
+getCurrentLanguage
 getCurrentLanguage(self)
+getCurrentLanguageCode
 getCurrentLanguageCode(self)
+getCurrentMovementID
 getCurrentMovementID(self)
+getCurrentString
 getCurrentString(self)
+getCurrentTarget
 getCurrentTarget(self)
+getCurrentTime
 getCurrentTime(self)
+getCurrentTitle
 getCurrentTitle(self)
+getCurrentTitleColor
 getCurrentTitleColor(self)
+getCursorX
 getCursorX(self)
+getCursorY
 getCursorY(self)
+getCustomSize
 getCustomSize(self)
+getDamping
 getDamping(self)
+getData
 getData(self)
+getDataLen
 getDataLen(self)
+getDebugDrawMask
 getDebugDrawMask(self)
+getDecorativeDisplayList
 getDecorativeDisplayList(self)
+getDefaultAlphaPixelFormat
 getDefaultAlphaPixelFormat(self)
+getDelayPerUnit
 getDelayPerUnit(self)
+getDelayUnits
 getDelayUnits(self)
+getDeleteBackward
 getDeleteBackward(self)
+getDelta
 getDelta(self)
 getDelta(self, size_table)
+getDeltaTime
 getDeltaTime(self)
+getDensity
 getDensity(self)
+getDescription
 getDescription(self)
+getDesignResolutionSize
 getDesignResolutionSize(self)
+getDetachWithIME
 getDetachWithIME(self)
+getDimensions
 getDimensions(self)
+getDirection
 getDirection(self)
+getDisabledColor
 getDisabledColor(self)
+getDisabledImage
 getDisabledImage(self)
+getDisplayData
 getDisplayData(self, int)
+getDisplayManager
 getDisplayManager(self)
+getDisplayName
 getDisplayName(self)
+getDisplayRenderNode
 getDisplayRenderNode(self)
+getDisplayRenderNodeType
 getDisplayRenderNodeType(self)
+getDisplayedColor
 getDisplayedColor(self)
+getDisplayedOpacity
 getDisplayedOpacity(self)
+getDistance
 getDistance(self)
+getDocumentCallbackControlEvents
 getDocumentCallbackControlEvents(self)
+getDocumentCallbackNames
 getDocumentCallbackNames(self)
+getDocumentCallbackNodes
 getDocumentCallbackNodes(self)
+getDocumentControllerName
 getDocumentControllerName(self)
+getDocumentOutletNames
 getDocumentOutletNames(self)
+getDocumentOutletNodes
 getDocumentOutletNodes(self)
+getDoubleForKey
 getDoubleForKey(self, char, double)
+getDuration
 getDuration(self)
+getEffectsVolume
 getEffectsVolume(self)
+getElapsed
 getElapsed(self)
+getEmissionRate
 getEmissionRate(self)
+getEmitterMode
 getEmitterMode(self)
+getEndColor
 getEndColor(self)
+getEndColorVar
 getEndColorVar(self)
+getEndOpacity
 getEndOpacity(self)
+getEndRadius
 getEndRadius(self)
+getEndRadiusVar
 getEndRadiusVar(self)
+getEndSize
 getEndSize(self)
+getEndSizeVar
 getEndSizeVar(self)
+getEndSpin
 getEndSpin(self)
+getEndSpinVar
 getEndSpinVar(self)
+getEventCode
 getEventCode(self)
+getEventDispatcher
 getEventDispatcher(self)
+getEventName
 getEventName(self)
+getEye
 getEye(self)
+getFile
 getFile(self)
+getFilePath
 getFilePath(self)
+getFileType
 getFileType(self)
+getFirstShape
 getFirstShape(self)
+getFloat
 getFloat(self, string, float)
+getFloatForKey
 getFloatForKey(self, char, float)
+getFntFile
 getFntFile(self)
+getFontAtlas
 getFontAtlas(self)
+getFontName
 getFontName(self)
+getFontNameObj
 getFontNameObj(self)
+getFontSize
 getFontSize(self)
+getFontSizeObj
 getFontSizeObj(self)
+getForcedTarget
 getForcedTarget(self)
+getFragmentShaderLog
 getFragmentShaderLog(self)
+getFrameData
 getFrameData(self, int)
+getFrameRate
 getFrameRate(self)
+getFrameSize
 getFrameSize(self)
+getFrames
 getFrames(self)
+getFriction
 getFriction(self)
+getGlobalZOrder
 getGlobalZOrder(self)
+getGravity
 getGravity(self)
+getGrid
 getGrid(self)
+getGridSize
 getGridSize(self)
+getGrooveA
 getGrooveA(self)
+getGrooveB
 getGrooveB(self)
+getGroup
 getGroup(self)
+getGroupName
 getGroupName(self)
+getHeight
 getHeight(self)
+getHorizontalAlignment
 getHorizontalAlignment(self)
+getHorizontalOrigin
 getHorizontalOrigin(self)
+getHue
 getHue(self)
+getHuePercentage
 getHuePercentage(self)
+getHuePicker
 getHuePicker(self)
+getID
 getID(self)
+getIdx
 getIdx(self)
+getIndex
 getIndex(self, ccui.Widget)
+getInnerAction
 getInnerAction(self)
+getInnerContainer
 getInnerContainer(self)
+getInnerContainerSize
 getInnerContainerSize(self)
+getInsertText
 getInsertText(self)
+getInsetBottom
 getInsetBottom(self)
+getInsetLeft
 getInsetLeft(self)
+getInsetRight
 getInsetRight(self)
+getInsetTop
 getInsetTop(self)
+getInstance
 getInstance(self)
+getInt
 getInt(self, string, int)
+getIntegerForKey
 getIntegerForKey(self, char, int)
+getInterval
 getInterval(self)
+getItem
 getItem(self, long)
+getItems
 getItems(self)
+getItemsMargin
 getItemsMargin(self)
+getKeyframeCallbacks
 getKeyframeCallbacks(self)
+getLabel
 getLabel(self)
+getLabelAnchorPoint
 getLabelAnchorPoint(self)
+getLastCompletedSequenceName
 getLastCompletedSequenceName(self)
+getLayer
 getLayer(self, string)
+getLayerAttribs
 getLayerAttribs(self)
+getLayerName
 getLayerName(self)
+getLayerOrientation
 getLayerOrientation(self)
+getLayerSize
 getLayerSize(self)
+getLayers
 getLayers(self)
+getLayoutParameter
 getLayoutParameter(self, ccui.LayoutParameterType)
+getLayoutSize
 getLayoutSize(self)
+getLayoutType
 getLayoutType(self)
+getLeftInParent
 getLeftInParent(self)
+getLensEffect
 getLensEffect(self)
+getLetter
 getLetter(self, int)
+getLife
 getLife(self)
+getLifeVar
 getLifeVar(self)
+getLinearDamping
 getLinearDamping(self)
+getLocalZOrder
 getLocalZOrder(self)
+getLocation
 getLocation(self)
+getLocationInView
 getLocationInView(self)
+getLoop
 getLoop(self)
+getLoops
 getLoops(self)
+getMapOrientation
 getMapOrientation(self)
+getMapSize
 getMapSize(self)
+getMapTileSize
 getMapTileSize(self)
+getMass
 getMass(self)
+getMaterial
 getMaterial(self)
+getMax
 getMax(self)
+getMaxForce
 getMaxForce(self)
+getMaxLength
 getMaxLength(self)
+getMaxLineWidth
 getMaxLineWidth(self)
+getMaxS
 getMaxS(self)
+getMaxT
 getMaxT(self)
+getMaximumAllowedValue
 getMaximumAllowedValue(self)
+getMaximumValue
 getMaximumValue(self)
+getMidpoint
 getMidpoint(self)
+getMin
 getMin(self)
+getMinimumAllowedValue
 getMinimumAllowedValue(self)
+getMinimumValue
 getMinimumValue(self)
+getMinusLabel
 getMinusLabel(self)
+getMinusSprite
 getMinusSprite(self)
+getMipmaps
 getMipmaps(self)
+getMoment
 getMoment(self)
+getMouseButton
 getMouseButton(self)
+getMovement
 getMovement(self, string)
+getMovementBoneData
 getMovementBoneData(self, string)
+getMovementCount
 getMovementCount(self)
+getName
 getName(self)
+getNode
 getNode(self)
+getNodeByTag
 getNodeByTag(self, int)
+getNodeToArmatureTransform
 getNodeToArmatureTransform(self)
+getNodeToParentAffineTransform
 getNodeToParentAffineTransform(self)
+getNodeToParentTransform
 getNodeToParentTransform(self)
+getNodeToWorldAffineTransform
 getNodeToWorldAffineTransform(self)
+getNodeToWorldTransform
 getNodeToWorldTransform(self)
+getNodeToWorldTransformAR
 getNodeToWorldTransformAR(self)
+getNodesWithAnimationManagers
 getNodesWithAnimationManagers(self)
+getNormalImage
 getNormalImage(self)
+getNotificationNode
 getNotificationNode(self)
+getNumberOfMipmaps
 getNumberOfMipmaps(self)
+getNumberOfRunningActions
 getNumberOfRunningActions(self)
+getNumberOfRunningActionsInTarget
 getNumberOfRunningActionsInTarget(self, cc.Node)
+getObject
 getObject(self, string)
+getObjectGroup
 getObjectGroup(self, string)
+getObjectGroups
 getObjectGroups(self)
+getObjects
 getObjects(self)
+getOffset
 getOffset(self)
+getOffsetInPixels
 getOffsetInPixels(self)
+getOffsetPosition
 getOffsetPosition(self)
+getOpacity
 getOpacity(self)
+getOpenGLView
 getOpenGLView(self)
+getOrderOfArrival
 getOrderOfArrival(self)
+getOrientation
 getOrientation(self)
+getOriginalSize
 getOriginalSize(self)
+getOriginalSizeInPixels
 getOriginalSizeInPixels(self)
+getOriginalTarget
 getOriginalTarget(self)
+getOverlay
 getOverlay(self)
+getOwner
 getOwner(self)
+getOwnerCallbackControlEvents
 getOwnerCallbackControlEvents(self)
+getOwnerCallbackNames
 getOwnerCallbackNames(self)
+getOwnerCallbackNodes
 getOwnerCallbackNodes(self)
+getOwnerOutletNames
 getOwnerOutletNames(self)
+getOwnerOutletNodes
 getOwnerOutletNodes(self)
+getPackageUrl
 getPackageUrl(self)
+getPage
 getPage(self, long)
+getPages
 getPages(self)
+getParallaxArray
 getParallaxArray(self)
+getParent
 getParent(self)
+getParentBone
 getParentBone(self)
+getParentElement
 getParentElement(self)
+getParentGID
 getParentGID(self)
+getParentToNodeAffineTransform
 getParentToNodeAffineTransform(self)
+getParentToNodeTransform
 getParentToNodeTransform(self)
+getParticleCount
 getParticleCount(self)
+getPasswordStyleText
 getPasswordStyleText(self)
+getPercent
 getPercent(self)
+getPercentage
 getPercentage(self)
+getPeriod
 getPeriod(self)
+getPhase
 getPhase(self)
+getPhysicsBody
 getPhysicsBody(self)
+getPhysicsWorld
 getPhysicsWorld(self)
+getPixelFormat
 getPixelFormat(self)
+getPixelsHigh
 getPixelsHigh(self)
+getPixelsWide
 getPixelsWide(self)
+getPlaceHolder
 getPlaceHolder(self)
+getPlusLabel
 getPlusLabel(self)
+getPlusSprite
 getPlusSprite(self)
+getPoint
 getPoint(self, int)
+getPointA
 getPointA(self)
+getPointB
 getPointB(self)
+getPoints
 getPoints(self)
+getPointsCount
 getPointsCount(self)
+getPosVar
 getPosVar(self)
+getPosition
 getPosition(self)
 getPosition(self, float, float)
+getPosition3D
 getPosition3D(self)
+getPositionAt
 getPositionAt(self, point_table)
+getPositionOffset
 getPositionOffset(self)
+getPositionPercent
 getPositionPercent(self)
+getPositionType
 getPositionType(self)
+getPositionX
 getPositionX(self)
+getPositionY
 getPositionY(self)
+getPositionZ
 getPositionZ(self)
+getPreContactData
 getPreContactData(self)
+getPreferredSize
 getPreferredSize(self)
+getPreviousLocation
 getPreviousLocation(self)
+getPreviousLocationInView
 getPreviousLocationInView(self)
+getProgram
 getProgram(self, string)
+getProgressSprite
 getProgressSprite(self)
+getProgressTimer
 getProgressTimer(self)
+getProperties
 getProperties(self)
+getProperty
 getProperty(self, string)
+getProtectedChildByTag
 getProtectedChildByTag(self, int)
+getQuadsToDraw
 getQuadsToDraw(self)
+getRadialAccel
 getRadialAccel(self)
+getRadialAccelVar
 getRadialAccelVar(self)
+getRadius
 getRadius(self)
+getRatchet
 getRatchet(self)
+getRate
 getRate(self)
+getRatio
 getRatio(self)
+getRect
 getRect(self)
+getRectForGID
 getRectForGID(self, unsigned)
+getRectInPixels
 getRectInPixels(self)
+getReferenceCount
 getReferenceCount(self)
+getRelativeName
 getRelativeName(self)
+getRelativeToWidgetName
 getRelativeToWidgetName(self)
+getRenderFormat
 getRenderFormat(self)
+getResolutionPolicy
 getResolutionPolicy(self)
+getRestAngle
 getRestAngle(self)
+getRestLength
 getRestLength(self)
+getRestitution
 getRestitution(self)
+getRestoreOriginalFrame
 getRestoreOriginalFrame(self)
+getReuseGrid
 getReuseGrid(self)
+getRightInParent
 getRightInParent(self)
+getRootContainerSize
 getRootContainerSize(self)
+getRootNode
 getRootNode(self)
+getRotatePerSecond
 getRotatePerSecond(self)
+getRotatePerSecondVar
 getRotatePerSecondVar(self)
+getRotation
 getRotation(self)
+getRotation3D
 getRotation3D(self)
+getRotationIsDir
 getRotationIsDir(self)
+getRotationOffset
 getRotationOffset(self)
+getRotationSkewX
 getRotationSkewX(self)
+getRotationSkewY
 getRotationSkewY(self)
+getRunningScene
 getRunningScene(self)
+getRunningSequenceName
 getRunningSequenceName(self)
+getSaturation
 getSaturation(self)
+getScale
 getScale(self)
+getScaleRatio
 getScaleRatio(self)
+getScaleX
 getScaleX(self)
+getScaleY
 getScaleY(self)
+getScaleZ
 getScaleZ(self)
+getScene
 getScene(self)
+getScheduler
 getScheduler(self)
+getScissorRect
 getScissorRect(self)
+getScrollX
 getScrollX(self)
+getScrollY
 getScrollY(self)
+getSecondsPerFrame
 getSecondsPerFrame(self)
+getSelectedImage
 getSelectedImage(self)
+getSelectedIndex
 getSelectedIndex(self)
+getSelectedItem
 getSelectedItem(self)
+getSelectedState
 getSelectedState(self)
+getSelectedThumbSprite
 getSelectedThumbSprite(self)
+getSequenceDuration
 getSequenceDuration(self, char)
+getSequenceId
 getSequenceId(self, char)
+getSequences
 getSequences(self)
+getShaderProgram
 getShaderProgram(self)
+getShadow
 getShadow(self)
+getShape
 getShape(self, int)
 getShape(self, point_table)
+getShapeA
 getShapeA(self)
+getShapeB
 getShapeB(self)
+getShapes
 getShapes(self)
 getShapes(self, point_table)
+getSize
 getSize(self)
+getSizePercent
 getSizePercent(self)
+getSizeType
 getSizeType(self)
+getSkewX
 getSkewX(self)
+getSkewY
 getSkewY(self)
+getSlider
 getSlider(self)
+getSourcePosition
 getSourcePosition(self)
+getSpeed
 getSpeed(self)
+getSpeedScale
 getSpeedScale(self)
+getSpeedVar
 getSpeedVar(self)
+getSprite
 getSprite(self)
+getSpriteFrame
 getSpriteFrame(self)
+getSpriteFrameByName
 getSpriteFrameByName(self, string)
+getStartColor
 getStartColor(self)
+getStartColorVar
 getStartColorVar(self)
+getStartLocation
 getStartLocation(self)
+getStartLocationInView
 getStartLocationInView(self)
+getStartOpacity
 getStartOpacity(self)
+getStartPos
 getStartPos(self)
+getStartRadius
 getStartRadius(self)
+getStartRadiusVar
 getStartRadiusVar(self)
+getStartSize
 getStartSize(self)
+getStartSizeVar
 getStartSizeVar(self)
+getStartSpin
 getStartSpin(self)
+getStartSpinVar
 getStartSpinVar(self)
+getState
 getState(self)
+getStencil
 getStencil(self)
+getStep
 getStep(self)
+getStiffness
 getStiffness(self)
+getStoragePath
 getStoragePath(self)
+getString
 getString(self)
 getString(self, string, string)
+getStringForFormat
 getStringForFormat(self)
+getStringForKey
 getStringForKey(self, char, string)
+getStringFromFile
 getStringFromFile(self, string)
+getStringLength
 getStringLength(self)
+getStringNumLines
 getStringNumLines(self)
+getStringValue
 getStringValue(self)
+getSurfaceVelocity
 getSurfaceVelocity(self)
+getSystemFontName
 getSystemFontName(self)
+getSystemFontSize
 getSystemFontSize(self)
+getTGAInfo
 getTGAInfo(self)
+getTMXFileName
 getTMXFileName(self)
+getTTFConfig
 getTTFConfig(self)
+getTag
 getTag(self)
+getTangentialAccel
 getTangentialAccel(self)
+getTangentialAccelVar
 getTangentialAccelVar(self)
+getTarget
 getTarget(self)
+getTargetCallback
 getTargetCallback(self)
+getTargetPlatform
 getTargetPlatform(self)
+getText
 getText(self)
+getTextAlignment
 getTextAlignment(self)
+getTextAreaSize
 getTextAreaSize(self)
+getTextColor
 getTextColor(self)
+getTextDefinition
 getTextDefinition(self)
+getTextHorizontalAlignment
 getTextHorizontalAlignment(self)
+getTextVerticalAlignment
 getTextVerticalAlignment(self)
+getTexture
 getTexture(self)
+getTextureAtlas
 getTextureAtlas(self)
+getTextureCache
 getTextureCache(self)
+getTextureData
 getTextureData(self, string)
+getTextureDatas
 getTextureDatas(self)
+getTextureForKey
 getTextureForKey(self, string)
+getTextureRect
 getTextureRect(self)
+getThumbSprite
 getThumbSprite(self)
+getTileAt
 getTileAt(self, point_table)
+getTileGIDAt
 getTileGIDAt(self, point_table, cc.TMXTileFlags_)
+getTileProperties
 getTileProperties(self)
+getTileSet
 getTileSet(self)
+getTileSize
 getTileSize(self)
+getTilesets
 getTilesets(self)
+getTimeScale
 getTimeScale(self)
+getTitleBMFontForState
 getTitleBMFontForState(self, cc.Control::State)
+getTitleColor
 getTitleColor(self)
+getTitleColorForState
 getTitleColorForState(self, cc.Control::State)
+getTitleFontName
 getTitleFontName(self)
+getTitleFontSize
 getTitleFontSize(self)
+getTitleForState
 getTitleForState(self, cc.Control::State)
+getTitleLabel
 getTitleLabel(self)
+getTitleLabelForState
 getTitleLabelForState(self, cc.Control::State)
+getTitleTTFForState
 getTitleTTFForState(self, cc.Control::State)
+getTitleTTFSizeForState
 getTitleTTFSizeForState(self, cc.Control::State)
+getTitleText
 getTitleText(self)
+getTopInParent
 getTopInParent(self)
+getTotalDelayUnits
 getTotalDelayUnits(self)
+getTotalFrames
 getTotalFrames(self)
+getTotalParticles
 getTotalParticles(self)
+getTotalTime
 getTotalTime(self)
+getTouchEndPos
 getTouchEndPos(self)
+getTouchLocation
 getTouchLocation(self, cc.Touch)
+getTouchMovePos
 getTouchMovePos(self)
+getTouchSize
 getTouchSize(self)
+getTouchStartPos
 getTouchStartPos(self)
+getTween
 getTween(self)
+getTweenData
 getTweenData(self)
+getType
 getType(self)
+getUniformLocation
 getUniformLocation(self, char)
+getUniformLocationForName
 getUniformLocationForName(self, char)
+getUnitTime
 getUnitTime(self)
+getUp
 getUp(self)
+getUpdateRate
 getUpdateRate(self)
+getUserInfo
 getUserInfo(self)
+getValue
 getValue(self)
+getValueMapFromFile
 getValueMapFromFile(self, string)
+getValueVectorFromFile
 getValueVectorFromFile(self, string)
+getVector
 getVector(self)
+getVelocity
 getVelocity(self)
+getVelocityAtLocalPoint
 getVelocityAtLocalPoint(self, point_table)
+getVelocityAtWorldPoint
 getVelocityAtWorldPoint(self, point_table)
+getVelocityLimit
 getVelocityLimit(self)
+getVersion
 getVersion(self)
+getVersionFileUrl
 getVersionFileUrl(self)
+getVersionInteger
 getVersionInteger(self, char)
+getVertexShaderLog
 getVertexShaderLog(self)
+getVerticalAlignment
 getVerticalAlignment(self)
+getVerticalFillOrder
 getVerticalFillOrder(self)
+getVerticalMargin
 getVerticalMargin(self)
+getViewName
 getViewName(self)
+getViewPortRect
 getViewPortRect(self)
+getVirtualRenderer
 getVirtualRenderer(self)
+getVirtualRendererSize
 getVirtualRendererSize(self)
+getVisibleOrigin
 getVisibleOrigin(self)
+getVisibleRect
 getVisibleRect(self)
+getVisibleSize
 getVisibleSize(self)
+getWidgetType
 getWidgetType(self)
+getWidth
 getWidth(self)
+getWinSize
 getWinSize(self)
+getWinSizeInPixels
 getWinSizeInPixels(self)
+getWorld
 getWorld(self)
+getWorldInfo
 getWorldInfo(self)
+getWorldPosition
 getWorldPosition(self)
+getWorldToNodeAffineTransform
 getWorldToNodeAffineTransform(self)
+getWorldToNodeTransform
 getWorldToNodeTransform(self)
+getWritablePath
 getWritablePath(self)
+getXMLFilePath
 getXMLFilePath(self)
+getZEye
 getZEye(self)
+getZoomOnTouchDown
 getZoomOnTouchDown(self)
+getcolourPicker
 getcolourPicker(self)
+gotoAndPause
 gotoAndPause(self, int)
+gotoAndPlay
 gotoAndPlay(self, int)
+hasAlpha
 hasAlpha(self)
+hasMipmaps
 hasMipmaps(self)
+hasMoved
 hasMoved(self)
+hasPremultipliedAlpha
 hasPremultipliedAlpha(self)
+hasVisibleParents
 hasVisibleParents(self)
+hideOutShowIn
 hideOutShowIn(self)
+highestAtlasIndexInChild
 highestAtlasIndexInChild(self, cc.Sprite)
+hitTest
 hitTest(self, cc.PhysicsShape, cc.PhysicsShape)
 hitTest(self, point_table)
+hueSliderValueChanged
 hueSliderValueChanged(self, cc.Ref, cc.Control::EventType)
+ignore
 ignore(self)
+ignoreAnchorPointForPosition
 ignoreAnchorPointForPosition(self, bool)
+ignoreContentAdaptWithSize
 ignoreContentAdaptWithSize(self, bool)
+increaseAtlasCapacity
 increaseAtlasCapacity(self)
+init
 init(self)
 init(self, ccs.Armature)
 init(self, ccs.Bone)
@@ -2324,886 +3150,1721 @@ init(self, int, color3B_table, unsigned, char)
 init(self, int, color3B_table, unsigned, char, char, float)
 init(self, string)
 init(self, string, ccs.Bone)
+initParticle
 initParticle(self, cc.sParticle)
+initWithBatchNode
 initWithBatchNode(self, cc.SpriteBatchNode, rect_table, bool, rect_table)
+initWithByteArrays
 initWithByteArrays(self, char, char)
+initWithDuration
 initWithDuration(self, float, cc.Scene, bool)
 initWithDuration(self, float, point_table)
 initWithDuration(self, float, point_table, float)
+initWithFile
 initWithFile(self, string)
 initWithFile(self, string, rect_table, rect_table)
+initWithFilenames
 initWithFilenames(self, string, string)
+initWithImage
 initWithImage(self, cc.Image, cc.Texture2D::PixelFormat)
+initWithImageFile
 initWithImageFile(self, string)
+initWithMaskSprite
 initWithMaskSprite(self, cc.Sprite, cc.Sprite, cc.Sprite, cc.Sprite, cc.Label, cc.Label)
+initWithMinusSpriteAndPlusSprite
 initWithMinusSpriteAndPlusSprite(self, cc.Sprite, cc.Sprite)
+initWithMipmaps
 initWithMipmaps(self, cc._MipmapInfo, int, cc.Texture2D::PixelFormat, int, int)
+initWithSize
 initWithSize(self, size_table, cc.Texture2D, bool)
+initWithSizeAndBackgroundSprite
 initWithSizeAndBackgroundSprite(self, size_table, cc.Scale9Sprite)
+initWithSpriteFrame
 initWithSpriteFrame(self, cc.SpriteFrame, rect_table)
+initWithSpriteFrameName
 initWithSpriteFrameName(self, string)
 initWithSpriteFrameName(self, string, rect_table)
+initWithSprites
 initWithSprites(self, cc.Sprite, cc.Sprite, cc.Sprite, cc.Sprite)
+initWithString
 initWithString(self, char, char, float, size_table, cc.TextHAlignment, cc.TextVAlignment)
 initWithString(self, string, cc.Texture2D, int, int, int)
 initWithString(self, string, string, float, cc.TextHAlignment, point_table)
 initWithString(self, string, string, float, size_table, cc.TextHAlignment, cc.TextVAlignment)
+initWithStringAndTextDefinition
 initWithStringAndTextDefinition(self, string, cc.FontDefinition)
+initWithTMXFile
 initWithTMXFile(self, string)
+initWithTargetAndPos
 initWithTargetAndPos(self, cc.Node, point_table)
+initWithTexture
 initWithTexture(self, cc.Texture2D, rect_table, bool, point_table, size_table)
+initWithTextureFilename
 initWithTextureFilename(self, string, rect_table, bool, point_table, size_table)
+initWithTileFile
 initWithTileFile(self, string, string, int, int)
+initWithTilesetInfo
 initWithTilesetInfo(self, cc.TMXTilesetInfo, cc.TMXLayerInfo, cc.TMXMapInfo)
+initWithTrackSprite_ProgressTimer_ThumbSprite
 initWithTrackSprite_ProgressTimer_ThumbSprite(self, cc.Sprite, cc.ProgressTimer, cc.Sprite)
+initWithViewSize
 initWithViewSize(self, size_table, cc.Node)
+initWithWidthAndHeight
 initWithWidthAndHeight(self, int, int, cc.Texture2D::PixelFormat, unsigned)
+initWithXML
 initWithXML(self, string, string)
+insertCellAtIndex
 insertCellAtIndex(self, long)
+insertChild
 insertChild(self, cc.ParticleSystem, int)
+insertCustomItem
 insertCustomItem(self, ccui.Widget, long)
+insertDefaultItem
 insertDefaultItem(self, long)
+insertElement
 insertElement(self, ccui.RichElement, int)
+insertPage
 insertPage(self, ccui.Layout, int)
+insertQuadFromSprite
 insertQuadFromSprite(self, cc.Sprite, long)
+isAbsolutePath
 isAbsolutePath(self, string)
+isActive
 isActive(self)
+isAutoDraw
 isAutoDraw(self)
+isAutoLoadSpriteFile
 isAutoLoadSpriteFile(self)
+isAutoRemoveOnFinish
 isAutoRemoveOnFinish(self)
+isBackGroundImageScale9Enabled
 isBackGroundImageScale9Enabled(self)
+isBackgroundMusicPlaying
 isBackgroundMusicPlaying(self)
+isBlendAdditive
 isBlendAdditive(self)
+isBlendDirty
 isBlendDirty(self)
+isBounceEnabled
 isBounceEnabled(self)
+isBoundarySet
 isBoundarySet(self)
+isBright
 isBright(self)
+isCascadeColorEnabled
 isCascadeColorEnabled(self)
+isCascadeOpacityEnabled
 isCascadeOpacityEnabled(self)
+isClipMarginEnabled
 isClipMarginEnabled(self)
+isClippingEnabled
 isClippingEnabled(self)
+isCollisionEnabled
 isCollisionEnabled(self)
+isCompressed
 isCompressed(self)
+isCompressedInterpolation
 isCompressedInterpolation(self)
+isContinuous
 isContinuous(self)
+isDirty
 isDirty(self)
+isDisplayStats
 isDisplayStats(self)
+isDone
 isDone(self)
+isDynamic
 isDynamic(self)
+isEnabled
 isEnabled(self)
+isFastMode
 isFastMode(self)
+isFileExist
 isFileExist(self, string)
+isFlippedX
 isFlippedX(self)
+isFlippedY
 isFlippedY(self)
+isFocused
 isFocused(self)
+isForceChangeDisplay
 isForceChangeDisplay(self)
+isFrameDisplayed
 isFrameDisplayed(self, cc.SpriteFrame)
+isFull
 isFull(self)
+isGravityEnabled
 isGravityEnabled(self)
+isHighlighted
 isHighlighted(self)
+isIgnoreAnchorPointForPosition
 isIgnoreAnchorPointForPosition(self)
+isIgnoreContentAdaptWithSize
 isIgnoreContentAdaptWithSize(self)
+isIgnoreMovementBoneData
 isIgnoreMovementBoneData(self)
+isInertiaScrollEnabled
 isInertiaScrollEnabled(self)
+isInverted
 isInverted(self)
+isLoop
 isLoop(self)
+isMaxLengthEnabled
 isMaxLengthEnabled(self)
+isNextDeltaTimeZero
 isNextDeltaTimeZero(self)
+isOn
 isOn(self)
+isOpacityModifyRGB
 isOpacityModifyRGB(self)
+isOpenGLReady
 isOpenGLReady(self)
+isPasswordEnabled
 isPasswordEnabled(self)
+isPaused
 isPaused(self)
+isPlaying
 isPlaying(self)
+isPopupNotify
 isPopupNotify(self)
+isPremultipliedAlpha
 isPremultipliedAlpha(self)
+isPushed
 isPushed(self)
+isResting
 isResting(self)
+isReverseDirection
 isReverseDirection(self)
+isRotated
 isRotated(self)
+isRotationEnabled
 isRotationEnabled(self)
+isRunning
 isRunning(self)
+isScale9Enabled
 isScale9Enabled(self)
+isScissorEnabled
 isScissorEnabled(self)
+isSelected
 isSelected(self)
+isSendCleanupToScene
 isSendCleanupToScene(self)
+isStartingPositionInitialized
 isStartingPositionInitialized(self)
+isStopped
 isStopped(self)
+isStoringCharacters
 isStoringCharacters(self)
+isSwallowTouches
 isSwallowTouches(self)
+isTextureFlipped
 isTextureFlipped(self)
+isTextureRectRotated
 isTextureRectRotated(self)
+isTouchEnabled
 isTouchEnabled(self)
+isTouchInside
 isTouchInside(self, cc.Touch)
+isTouchScaleChangeEnabled
 isTouchScaleChangeEnabled(self)
+isTransformDirty
 isTransformDirty(self)
+isVisible
 isVisible(self)
+isXMLFileExist
 isXMLFileExist(self)
+jumpToBottom
 jumpToBottom(self)
+jumpToBottomLeft
 jumpToBottomLeft(self)
+jumpToBottomRight
 jumpToBottomRight(self)
+jumpToLeft
 jumpToLeft(self)
+jumpToPercentBothDirection
 jumpToPercentBothDirection(self, point_table)
+jumpToPercentHorizontal
 jumpToPercentHorizontal(self, float)
+jumpToPercentVertical
 jumpToPercentVertical(self, float)
+jumpToRight
 jumpToRight(self)
+jumpToTop
 jumpToTop(self)
+jumpToTopLeft
 jumpToTopLeft(self)
+jumpToTopRight
 jumpToTopRight(self)
+link
 link(self)
+listenOnFileDescriptor
 listenOnFileDescriptor(self, int)
+listenOnTCP
 listenOnTCP(self, int)
+loadBarTexture
 loadBarTexture(self, string, ccui.TextureResType)
+loadDefaultShaders
 loadDefaultShaders(self)
+loadFilenameLookupDictionaryFromFile
 loadFilenameLookupDictionaryFromFile(self, string)
+loadProgressBarTexture
 loadProgressBarTexture(self, string, ccui.TextureResType)
+loadSlidBallTextureDisabled
 loadSlidBallTextureDisabled(self, string, ccui.TextureResType)
+loadSlidBallTextureNormal
 loadSlidBallTextureNormal(self, string, ccui.TextureResType)
+loadSlidBallTexturePressed
 loadSlidBallTexturePressed(self, string, ccui.TextureResType)
+loadSlidBallTextures
 loadSlidBallTextures(self, string, string, string, ccui.TextureResType)
+loadTexture
 loadTexture(self, string, ccui.TextureResType)
+loadTextureBackGround
 loadTextureBackGround(self, string, ccui.TextureResType)
+loadTextureBackGroundDisabled
 loadTextureBackGroundDisabled(self, string, ccui.TextureResType)
+loadTextureBackGroundSelected
 loadTextureBackGroundSelected(self, string, ccui.TextureResType)
+loadTextureDisabled
 loadTextureDisabled(self, string, ccui.TextureResType)
+loadTextureFrontCross
 loadTextureFrontCross(self, string, ccui.TextureResType)
+loadTextureFrontCrossDisabled
 loadTextureFrontCrossDisabled(self, string, ccui.TextureResType)
+loadTextureNormal
 loadTextureNormal(self, string, ccui.TextureResType)
+loadTexturePressed
 loadTexturePressed(self, string, ccui.TextureResType)
+loadTextures
 loadTextures(self, string, string, string, ccui.TextureResType)
 loadTextures(self, string, string, string, string, string, ccui.TextureResType)
+local2World
 local2World(self, point_table)
+locationFromTouch
 locationFromTouch(self, cc.Touch)
+log
 log(self, char)
+lowestAtlasIndexInChild
 lowestAtlasIndexInChild(self, cc.Sprite)
+mainLoop
 mainLoop(self)
+moveAnimationsFromNode
 moveAnimationsFromNode(self, cc.Node, cc.Node)
+needsLayout
 needsLayout(self)
+newImage
 newImage(self)
+onAnimationStateEvent
 onAnimationStateEvent(self, int, spEventType, spEvent, int)
+onDraw
 onDraw(self, kmMat4, bool)
+onEnter
 onEnter(self)
+onExit
 onExit(self)
+onTouchBegan
 onTouchBegan(self, cc.Touch, cc.Event)
+onTouchCancelled
 onTouchCancelled(self, cc.Touch, cc.Event)
+onTouchEnded
 onTouchEnded(self, cc.Touch, cc.Event)
+onTouchMoved
 onTouchMoved(self, cc.Touch, cc.Event)
+parse
 parse(self, string)
+parseXMLFile
 parseXMLFile(self, string)
+parseXMLString
 parseXMLString(self, string)
+pause
 pause(self)
+pauseAllEffects
 pauseAllEffects(self)
+pauseAllRunningActions
 pauseAllRunningActions(self)
+pauseBackgroundMusic
 pauseBackgroundMusic(self)
+pauseEffect
 pauseEffect(self, unsigned)
+pauseEventListenersForTarget
 pauseEventListenersForTarget(self, cc.Node, bool)
+pauseTarget
 pauseTarget(self, cc.Node)
+placeTile
 placeTile(self, point_table, cc.Tile)
+play
 play(self, cc.CallFunc)
 play(self, ccs.MovementBoneData, int, int, int, int)
 play(self, string, int, int)
+playActionByName
 playActionByName(self, char, char, cc.CallFunc)
+playBackgroundMusic
 playBackgroundMusic(self, char, bool)
+playEffect
 playEffect(self, char, bool)
 playEffect(self, char, bool, float, float, float)
+playWithIndex
 playWithIndex(self, int, int, int)
+playWithIndexes
 playWithIndexes(self, array_table, int, bool)
+playWithNames
 playWithNames(self, array_table, int, bool)
+pollInputEvents
 pollInputEvents(self)
+popScene
 popScene(self)
+popToRootScene
 popToRootScene(self)
+popToSceneStackLevel
 popToSceneStackLevel(self, int)
+postStep
 postStep(self)
+potentiometerBegan
 potentiometerBegan(self, point_table)
+potentiometerEnded
 potentiometerEnded(self, point_table)
+potentiometerMoved
 potentiometerMoved(self, point_table)
+preloadBackgroundMusic
 preloadBackgroundMusic(self, char)
+preloadEffect
 preloadEffect(self, char)
+purgeCachedData
 purgeCachedData(self)
+purgeCachedEntries
 purgeCachedEntries(self)
+pushBackCustomItem
 pushBackCustomItem(self, ccui.Widget)
+pushBackDefaultItem
 pushBackDefaultItem(self)
+pushBackElement
 pushBackElement(self, ccui.RichElement)
+pushScene
 pushScene(self, cc.Scene)
+readCallbackKeyframesForSeq
 readCallbackKeyframesForSeq(self, cc.CCBSequence)
+readSoundKeyframesForSeq
 readSoundKeyframesForSeq(self, cc.CCBSequence)
+readUTF8
 readUTF8(self)
+rebuildIndexInOrder
 rebuildIndexInOrder(self, cc.Sprite, long)
+rect
 rect(self)
+refreshView
 refreshView(self)
+release
 release(self)
+releaseActions
 releaseActions(self)
+releaseMap
 releaseMap(self)
+reloadData
 reloadData(self)
+reloadDefaultShaders
 reloadDefaultShaders(self)
+reloadTexture
 reloadTexture(self, string)
+removeAction
 removeAction(self, cc.Action)
+removeActionByTag
 removeActionByTag(self, int, cc.Node)
+removeActionNode
 removeActionNode(self, ccs.ActionNode)
+removeAllActions
 removeAllActions(self)
+removeAllActionsFromTarget
 removeAllActionsFromTarget(self, cc.Node)
+removeAllBodies
 removeAllBodies(self)
+removeAllChildren
 removeAllChildren(self)
+removeAllChildrenWithCleanup
 removeAllChildrenWithCleanup(self, bool)
+removeAllComponents
 removeAllComponents(self)
+removeAllEventListeners
 removeAllEventListeners(self)
+removeAllItems
 removeAllItems(self)
+removeAllJoints
 removeAllJoints(self)
+removeAllPages
 removeAllPages(self)
+removeAllProtectedChildren
 removeAllProtectedChildren(self)
+removeAllProtectedChildrenWithCleanup
 removeAllProtectedChildrenWithCleanup(self, bool)
+removeAllShapes
 removeAllShapes(self)
+removeAllTextures
 removeAllTextures(self)
+removeAnimation
 removeAnimation(self, string)
+removeAnimationData
 removeAnimationData(self, string)
+removeArmatureData
 removeArmatureData(self, string)
+removeArmatureFileInfo
 removeArmatureFileInfo(self, string)
+removeBackGroundImage
 removeBackGroundImage(self)
+removeBody
 removeBody(self, cc.PhysicsBody)
+removeBone
 removeBone(self, ccs.Bone, bool)
+removeCellAtIndex
 removeCellAtIndex(self, long)
+removeChild
 removeChild(self, cc.Node, bool)
+removeChildAtIndex
 removeChildAtIndex(self, int, bool)
 removeChildAtIndex(self, long, bool)
+removeChildBone
 removeChildBone(self, ccs.Bone, bool)
+removeChildByTag
 removeChildByTag(self, int, bool)
+removeComponent
 removeComponent(self, string)
+removeCustomEventListeners
 removeCustomEventListeners(self, string)
+removeDisplay
 removeDisplay(self, int)
+removeElement
 removeElement(self, int)
+removeEventListener
 removeEventListener(self, cc.EventListener)
+removeEventListenersForTarget
 removeEventListenersForTarget(self, cc.Node, bool)
+removeEventListenersForType
 removeEventListenersForType(self, cc.EventListener::Type)
+removeFormWorld
 removeFormWorld(self)
+removeFromParent
 removeFromParent(self, bool)
+removeFromParentAndCleanup
 removeFromParentAndCleanup(self, bool)
+removeFromWorld
 removeFromWorld(self)
+removeItem
 removeItem(self, long)
+removeJoint
 removeJoint(self, cc.PhysicsJoint, bool)
+removeLastItem
 removeLastItem(self)
+removePage
 removePage(self, ccui.Layout)
+removePageAtIndex
 removePageAtIndex(self, long)
+removeProtectedChild
 removeProtectedChild(self, cc.Node, bool)
+removeProtectedChildByTag
 removeProtectedChildByTag(self, int, bool)
+removeShape
 removeShape(self, cc.PhysicsShape, bool)
+removeSpriteFrameByName
 removeSpriteFrameByName(self, string)
+removeSpriteFrames
 removeSpriteFrames(self)
+removeSpriteFramesFromFile
 removeSpriteFramesFromFile(self, string)
+removeSpriteFramesFromTexture
 removeSpriteFramesFromTexture(self, cc.Texture2D)
+removeSpriteFromAtlas
 removeSpriteFromAtlas(self, cc.Sprite)
+removeTexture
 removeTexture(self, cc.Texture2D)
+removeTextureData
 removeTextureData(self, string)
+removeTextureForKey
 removeTextureForKey(self, string)
+removeTileAt
 removeTileAt(self, point_table)
+removeUnusedSpriteFrames
 removeUnusedSpriteFrames(self)
+removeUnusedTextures
 removeUnusedTextures(self)
+reorderBatch
 reorderBatch(self, bool)
+reorderChild
 reorderChild(self, cc.Node, int)
+reorderProtectedChild
 reorderProtectedChild(self, cc.Node, int)
+replaceScene
 replaceScene(self, cc.Scene)
+requestDoLayout
 requestDoLayout(self)
+requestRefreshView
 requestRefreshView(self)
+reset
 reset(self)
+resetForces
 resetForces(self)
+resetSystem
 resetSystem(self)
+resizableSpriteWithCapInsets
 resizableSpriteWithCapInsets(self, rect_table)
+resume
 resume(self)
+resumeAllEffects
 resumeAllEffects(self)
+resumeBackgroundMusic
 resumeBackgroundMusic(self)
+resumeEffect
 resumeEffect(self, unsigned)
+resumeEventListenersForTarget
 resumeEventListenersForTarget(self, cc.Node, bool)
+resumeTarget
 resumeTarget(self, cc.Node)
+resumeTargets
 resumeTargets(self, array_table)
+retain
 retain(self)
+reuse
 reuse(self)
+reverse
 reverse(self)
+rewindBackgroundMusic
 rewindBackgroundMusic(self)
+runAction
 runAction(self, cc.Action)
+runAnimationsForSequenceIdTweenDuration
 runAnimationsForSequenceIdTweenDuration(self, int, float)
+runAnimationsForSequenceNamed
 runAnimationsForSequenceNamed(self, char)
+runAnimationsForSequenceNamedTweenDuration
 runAnimationsForSequenceNamedTweenDuration(self, char, float)
+runWithScene
 runWithScene(self, cc.Scene)
+saveToFile
 saveToFile(self, string, bool)
 saveToFile(self, string, cc.Image::Format)
+sceneReaderVersion
 sceneReaderVersion(self)
+scrollToBottom
 scrollToBottom(self, float, bool)
+scrollToBottomLeft
 scrollToBottomLeft(self, float, bool)
+scrollToBottomRight
 scrollToBottomRight(self, float, bool)
+scrollToLeft
 scrollToLeft(self, float, bool)
+scrollToPage
 scrollToPage(self, long)
+scrollToPercentBothDirection
 scrollToPercentBothDirection(self, point_table, float, bool)
+scrollToPercentHorizontal
 scrollToPercentHorizontal(self, float, float, bool)
+scrollToPercentVertical
 scrollToPercentVertical(self, float, float, bool)
+scrollToRight
 scrollToRight(self, float, bool)
+scrollToTop
 scrollToTop(self, float, bool)
+scrollToTopLeft
 scrollToTopLeft(self, float, bool)
+scrollToTopRight
 scrollToTopRight(self, float, bool)
+scrollViewDidScroll
 scrollViewDidScroll(self, cc.ScrollView)
+scrollViewDidZoom
 scrollViewDidZoom(self, cc.ScrollView)
+seekActionWidgetByActionTag
 seekActionWidgetByActionTag(self, ccui.Widget, int)
+seekWidgetByName
 seekWidgetByName(self, ccui.Widget, char)
+seekWidgetByTag
 seekWidgetByTag(self, ccui.Widget, int)
+selected
 selected(self)
+sendActionsForControlEvents
 sendActionsForControlEvents(self, cc.Control::EventType)
+serialize
 serialize(self, void)
+set2DProjection
 set2DProjection(self)
+setActionManager
 setActionManager(self, cc.ActionManager)
+setActionTag
 setActionTag(self, int)
+setActive
 setActive(self, bool)
+setAdditionalTransform
 setAdditionalTransform(self, kmMat4)
+setAdjustBackgroundImage
 setAdjustBackgroundImage(self, bool)
+setAliasTexParameters
 setAliasTexParameters(self)
+setAlign
 setAlign(self, ccui.RelativeAlign)
+setAlignment
 setAlignment(self, cc.TextHAlignment)
 setAlignment(self, cc.TextHAlignment, cc.TextVAlignment)
+setAlphaBlending
 setAlphaBlending(self, bool)
+setAlphaThreshold
 setAlphaThreshold(self, float)
+setAmplitude
 setAmplitude(self, float)
+setAmplitudeRate
 setAmplitudeRate(self, float)
+setAnchorPoint
 setAnchorPoint(self, point_table)
+setAnchr1
 setAnchr1(self, point_table)
+setAnchr2
 setAnchr2(self, point_table)
+setAngle
 setAngle(self, float)
+setAngleVar
 setAngleVar(self, float)
+setAngularDamping
 setAngularDamping(self, float)
+setAngularVelocity
 setAngularVelocity(self, float)
+setAngularVelocityLimit
 setAngularVelocityLimit(self, float)
+setAnimation
 setAnimation(self, cc.Animation)
 setAnimation(self, ccs.ArmatureAnimation)
 setAnimation(self, int, char, bool)
+setAnimationData
 setAnimationData(self, ccs.AnimationData)
+setAnimationInterval
 setAnimationInterval(self, double)
+setAnimationManager
 setAnimationManager(self, cc.CCBAnimationManager)
+setAntiAliasTexParameters
 setAntiAliasTexParameters(self)
+setArmature
 setArmature(self, ccs.Armature)
+setArmatureData
 setArmatureData(self, ccs.ArmatureData)
+setAtlasIndex
 setAtlasIndex(self, int)
 setAtlasIndex(self, long)
+setAttachWithIME
 setAttachWithIME(self, bool)
+setAutoDraw
 setAutoDraw(self, bool)
+setAutoPlaySequenceId
 setAutoPlaySequenceId(self, int)
+setAutoRemoveOnFinish
 setAutoRemoveOnFinish(self, bool)
+setBMFontFilePath
 setBMFontFilePath(self, string, point_table)
+setBackGroundColor
 setBackGroundColor(self, color3B_table, color3B_table)
+setBackGroundColorOpacity
 setBackGroundColorOpacity(self, unsigned)
+setBackGroundColorType
 setBackGroundColorType(self, ccui.LayoutBackGroundColorType)
+setBackGroundColorVector
 setBackGroundColorVector(self, point_table)
+setBackGroundImage
 setBackGroundImage(self, string, ccui.TextureResType)
+setBackGroundImageCapInsets
 setBackGroundImageCapInsets(self, rect_table)
+setBackGroundImageColor
 setBackGroundImageColor(self, color3B_table)
+setBackGroundImageOpacity
 setBackGroundImageOpacity(self, unsigned)
+setBackGroundImageScale9Enabled
 setBackGroundImageScale9Enabled(self, bool)
+setBackground
 setBackground(self, cc.Sprite)
+setBackgroundMusicVolume
 setBackgroundMusicVolume(self, float)
+setBackgroundSprite
 setBackgroundSprite(self, cc.Scale9Sprite)
 setBackgroundSprite(self, cc.Sprite)
+setBackgroundSpriteForState
 setBackgroundSpriteForState(self, cc.Scale9Sprite, cc.Control::State)
+setBackgroundSpriteFrameForState
 setBackgroundSpriteFrameForState(self, cc.SpriteFrame, cc.Control::State)
+setBarChangeRate
 setBarChangeRate(self, point_table)
+setBaseValue
 setBaseValue(self, cc.Value, cc.Node, string)
+setBatchNode
 setBatchNode(self, cc.ParticleBatchNode)
 setBatchNode(self, cc.SpriteBatchNode)
 setBatchNode(self, ccs.BatchNode)
+setBezierParamer
 setBezierParamer(self, float, float, float, float)
+setBlendAdditive
 setBlendAdditive(self, bool)
+setBlendDirty
 setBlendDirty(self, bool)
+setBlendFunc
 setBlendFunc(self, cc.BlendFunc)
+setBone
 setBone(self, ccs.Bone)
+setBoneData
 setBoneData(self, ccs.BoneData)
+setBonesToSetupPose
 setBonesToSetupPose(self)
+setBool
 setBool(self, string, bool)
+setBoolForKey
 setBoolForKey(self, char, bool)
+setBoudarySet
 setBoudarySet(self, bool)
+setBounceEnabled
 setBounceEnabled(self, bool)
+setBright
 setBright(self, bool)
+setBrightStyle
 setBrightStyle(self, ccui.BrightStyle)
+setCCBRootPath
 setCCBRootPath(self, char)
+setCapInsetProgressBarRebderer
 setCapInsetProgressBarRebderer(self, rect_table)
+setCapInsets
 setCapInsets(self, rect_table)
+setCapInsetsBarRenderer
 setCapInsetsBarRenderer(self, rect_table)
+setCapInsetsDisabledRenderer
 setCapInsetsDisabledRenderer(self, rect_table)
+setCapInsetsNormalRenderer
 setCapInsetsNormalRenderer(self, rect_table)
+setCapInsetsPressedRenderer
 setCapInsetsPressedRenderer(self, rect_table)
+setCascadeColorEnabled
 setCascadeColorEnabled(self, bool)
+setCascadeOpacityEnabled
 setCascadeOpacityEnabled(self, bool)
+setCategoryBitmask
 setCategoryBitmask(self, int)
+setCenter
 setCenter(self, kmVec3)
+setCharMap
 setCharMap(self, string, int, int, int)
+setChildArmature
 setChildArmature(self, ccs.Armature)
+setClearColor
 setClearColor(self, color4F_table)
+setClearDepth
 setClearDepth(self, float)
+setClearFlags
 setClearFlags(self, unsigned)
+setClearStencil
 setClearStencil(self, int)
+setClipMarginEnabled
 setClipMarginEnabled(self, bool)
+setClippingEnabled
 setClippingEnabled(self, bool)
+setClippingType
 setClippingType(self, ccui.LayoutClippingType)
+setCollisionBitmask
 setCollisionBitmask(self, int)
+setCollisionEnable
 setCollisionEnable(self, bool)
+setColor
 setColor(self, color3B_table)
 setColor(self, color4B_table)
+setCompressedInterpolation
 setCompressedInterpolation(self, bool)
+setConcave
 setConcave(self, bool)
+setConnectionTimeout
 setConnectionTimeout(self, unsigned)
+setContactTestBitmask
 setContactTestBitmask(self, int)
+setContentScaleFactor
 setContentScaleFactor(self, float)
+setContentSize
 setContentSize(self, size_table)
+setCurrentString
 setCurrentString(self, string)
+setCurrentTime
 setCurrentTime(self, float)
+setCursorPosition
 setCursorPosition(self, float, float)
+setDamping
 setDamping(self, float)
+setDebugDrawMask
 setDebugDrawMask(self, int)
+setDefaultAlphaPixelFormat
 setDefaultAlphaPixelFormat(self, cc.Texture2D::PixelFormat)
+setDefaultValues
 setDefaultValues(self)
+setDelayPerUnit
 setDelayPerUnit(self, float)
+setDelayUnits
 setDelayUnits(self, float)
+setDeleteBackward
 setDeleteBackward(self, bool)
+setDensity
 setDensity(self, float)
+setDepthTest
 setDepthTest(self, bool)
+setDesignResolutionSize
 setDesignResolutionSize(self, float, float, ResolutionPolicy)
+setDetachWithIME
 setDetachWithIME(self, bool)
+setDimensions
 setDimensions(self, size_table)
 setDimensions(self, unsigned, unsigned)
+setDirection
 setDirection(self, ccui.LoadingBarType)
 setDirection(self, ccui.SCROLLVIEW_DIR)
+setDirty
 setDirty(self, bool)
+setDisabledColor
 setDisabledColor(self, color3B_table)
+setDisabledImage
 setDisabledImage(self, cc.Node)
+setDisabledSpriteFrame
 setDisabledSpriteFrame(self, cc.SpriteFrame)
+setDisplayFrame
 setDisplayFrame(self, cc.SpriteFrame)
+setDisplayFrameWithAnimationName
 setDisplayFrameWithAnimationName(self, string, long)
+setDisplayStats
 setDisplayStats(self, bool)
+setDistance
 setDistance(self, float)
+setDocumentControllerName
 setDocumentControllerName(self, string)
+setDoubleForKey
 setDoubleForKey(self, char, double)
+setDuration
 setDuration(self, float)
+setDynamic
 setDynamic(self, bool)
+setEffectsVolume
 setEffectsVolume(self, float)
+setEmissionRate
 setEmissionRate(self, float)
+setEmitterMode
 setEmitterMode(self, cc.ParticleSystem::Mode)
+setEnable
 setEnable(self, bool)
+setEnabled
 setEnabled(self, bool)
+setEndColor
 setEndColor(self, color3B_table)
 setEndColor(self, color4F_table)
+setEndColorVar
 setEndColorVar(self, color4F_table)
+setEndOpacity
 setEndOpacity(self, unsigned)
+setEndRadius
 setEndRadius(self, float)
+setEndRadiusVar
 setEndRadiusVar(self, float)
+setEndSize
 setEndSize(self, float)
+setEndSizeVar
 setEndSizeVar(self, float)
+setEndSpin
 setEndSpin(self, float)
+setEndSpinVar
 setEndSpinVar(self, float)
+setEventCode
 setEventCode(self, cc.EventTouch::EventCode)
+setEventDispatcher
 setEventDispatcher(self, cc.EventDispatcher)
+setEye
 setEye(self, float, float, float)
+setFastMode
 setFastMode(self, bool)
+setFile
 setFile(self, char)
+setFilenameLookupDictionary
 setFilenameLookupDictionary(self, map_table)
+setFlippedX
 setFlippedX(self, bool)
+setFlippedY
 setFlippedY(self, bool)
+setFloat
 setFloat(self, string, float)
+setFloatForKey
 setFloatForKey(self, char, float)
+setFntFile
 setFntFile(self, string)
 setFntFile(self, string, point_table)
+setFocused
 setFocused(self, bool)
+setFont
 setFont(self, char, int)
+setFontColor
 setFontColor(self, color3B_table)
+setFontFillColor
 setFontFillColor(self, color3B_table, bool)
+setFontName
 setFontName(self, char)
 setFontName(self, string)
+setFontNameObj
 setFontNameObj(self, string)
+setFontSize
 setFontSize(self, float)
 setFontSize(self, int)
+setFontSizeObj
 setFontSizeObj(self, int)
+setForceChangeDisplay
 setForceChangeDisplay(self, bool)
+setForcedTarget
 setForcedTarget(self, cc.Node)
+setFrameSize
 setFrameSize(self, float, float)
+setFrames
 setFrames(self, array_table)
+setFriction
 setFriction(self, float)
+setGLDefaultValues
 setGLDefaultValues(self)
+setGlobalZOrder
 setGlobalZOrder(self, float)
+setGravity
 setGravity(self, ccui.LinearGravity)
 setGravity(self, ccui.ListViewGravity)
 setGravity(self, point_table)
+setGravityEnable
 setGravityEnable(self, bool)
+setGrid
 setGrid(self, cc.GridBase)
+setGridSize
 setGridSize(self, size_table)
+setGrooveA
 setGrooveA(self, point_table)
+setGrooveB
 setGrooveB(self, point_table)
+setGroup
 setGroup(self, int)
+setGroupName
 setGroupName(self, string)
+setHeight
 setHeight(self, unsigned)
+setHighlighted
 setHighlighted(self, bool)
+setHorizontalAlignment
 setHorizontalAlignment(self, cc.TextHAlignment)
+setHue
 setHue(self, float)
+setHuePercentage
 setHuePercentage(self, float)
+setHuePicker
 setHuePicker(self, cc.ControlHuePicker)
+setIMEKeyboardState
 setIMEKeyboardState(self, bool)
+setIdx
 setIdx(self, long)
+setInertiaScrollEnabled
 setInertiaScrollEnabled(self, bool)
+setInnerAction
 setInnerAction(self, cc.ActionInterval)
 setInnerAction(self, cc.FiniteTimeAction)
+setInnerContainerSize
 setInnerContainerSize(self, size_table)
+setInputFlag
 setInputFlag(self, cc.EditBox::InputFlag)
+setInputMode
 setInputMode(self, cc.EditBox::InputMode)
+setInsertText
 setInsertText(self, bool)
+setInsetBottom
 setInsetBottom(self, float)
+setInsetLeft
 setInsetLeft(self, float)
+setInsetRight
 setInsetRight(self, float)
+setInsetTop
 setInsetTop(self, float)
+setInt
 setInt(self, string, int)
+setIntegerForKey
 setIntegerForKey(self, char, int)
+setInterval
 setInterval(self, float)
+setInverted
 setInverted(self, bool)
+setItemModel
 setItemModel(self, ccui.Widget)
+setItemsMargin
 setItemsMargin(self, float)
+setKeepMatrix
 setKeepMatrix(self, bool)
+setLabel
 setLabel(self, cc.Node)
+setLabelAnchorPoint
 setLabelAnchorPoint(self, point_table)
+setLayerAttribs
 setLayerAttribs(self, int)
+setLayerName
 setLayerName(self, string)
+setLayerOrientation
 setLayerOrientation(self, int)
+setLayerSize
 setLayerSize(self, size_table)
+setLayers
 setLayers(self, array_table)
+setLayoutParameter
 setLayoutParameter(self, ccui.LayoutParameter)
+setLayoutType
 setLayoutType(self, ccui.LayoutType)
+setLensEffect
 setLensEffect(self, float)
+setLife
 setLife(self, float)
+setLifeVar
 setLifeVar(self, float)
+setLineBreakWithoutSpace
 setLineBreakWithoutSpace(self, bool)
+setLinearDamping
 setLinearDamping(self, float)
+setLocalZOrder
 setLocalZOrder(self, int)
+setLoop
 setLoop(self, bool)
+setLoops
 setLoops(self, unsigned)
+setMapOrientation
 setMapOrientation(self, int)
+setMapSize
 setMapSize(self, size_table)
+setMapTileSize
 setMapTileSize(self, size_table)
+setMargins
 setMargins(self, int, int)
+setMass
 setMass(self, float)
+setMaterial
 setMaterial(self, cc.PhysicsMaterial)
+setMax
 setMax(self, float)
+setMaxForce
 setMaxForce(self, float)
+setMaxLength
 setMaxLength(self, int)
+setMaxLengthEnabled
 setMaxLengthEnabled(self, bool)
+setMaxLineWidth
 setMaxLineWidth(self, unsigned)
+setMaxS
 setMaxS(self, float)
+setMaxT
 setMaxT(self, float)
+setMaximumAllowedValue
 setMaximumAllowedValue(self, float)
+setMaximumValue
 setMaximumValue(self, double)
 setMaximumValue(self, float)
+setMidpoint
 setMidpoint(self, point_table)
+setMin
 setMin(self, float)
+setMinimumAllowedValue
 setMinimumAllowedValue(self, float)
+setMinimumValue
 setMinimumValue(self, double)
 setMinimumValue(self, float)
+setMinusLabel
 setMinusLabel(self, cc.Label)
+setMinusSprite
 setMinusSprite(self, cc.Sprite)
+setMix
 setMix(self, char, char, float)
+setMoment
 setMoment(self, float)
+setMouseButton
 setMouseButton(self, int)
+setName
 setName(self, char)
 setName(self, string)
+setNextDeltaTimeZero
 setNextDeltaTimeZero(self, bool)
+setNode
 setNode(self, cc.Node)
+setNodeToParentTransform
 setNodeToParentTransform(self, kmMat4)
+setNormalImage
 setNormalImage(self, cc.Node)
+setNormalSpriteFrame
 setNormalSpriteFrame(self, cc.SpriteFrame)
+setNotificationNode
 setNotificationNode(self, cc.Node)
+setObject
 setObject(self, cc.Ref, cc.Node, string)
+setObjectGroups
 setObjectGroups(self, array_table)
+setObjects
 setObjects(self, array_table)
+setOffset
 setOffset(self, point_table)
+setOffsetInPixels
 setOffsetInPixels(self, point_table)
+setOn
 setOn(self, bool, bool)
+setOpacity
 setOpacity(self, unsigned)
+setOpacityModifyRGB
 setOpacityModifyRGB(self, bool)
+setOpenGLView
 setOpenGLView(self, cc.GLView)
+setOrderOfArrival
 setOrderOfArrival(self, int)
+setOrientation
 setOrientation(self, int)
+setOriginalSize
 setOriginalSize(self, size_table)
+setOriginalSizeInPixels
 setOriginalSizeInPixels(self, size_table)
+setOriginalTarget
 setOriginalTarget(self, cc.Node)
+setOwner
 setOwner(self, cc.Node)
+setPackageUrl
 setPackageUrl(self, char)
+setParallaxArray
 setParallaxArray(self, cc._ccArray)
+setParent
 setParent(self, cc.Node)
+setParentBone
 setParentBone(self, ccs.Bone)
+setParentElement
 setParentElement(self, int)
+setParentGID
 setParentGID(self, int)
+setPasswordEnabled
 setPasswordEnabled(self, bool)
+setPasswordStyleText
 setPasswordStyleText(self, char)
+setPercent
 setPercent(self, int)
+setPercentage
 setPercentage(self, float)
+setPeriod
 setPeriod(self, float)
+setPhase
 setPhase(self, float)
+setPhysicsBody
 setPhysicsBody(self, cc.PhysicsBody)
+setPlaceHolder
 setPlaceHolder(self, char)
 setPlaceHolder(self, string)
+setPlaceholderFont
 setPlaceholderFont(self, char, int)
+setPlaceholderFontColor
 setPlaceholderFontColor(self, color3B_table)
+setPlaceholderFontName
 setPlaceholderFontName(self, char)
+setPlaceholderFontSize
 setPlaceholderFontSize(self, int)
+setPlusLabel
 setPlusLabel(self, cc.Label)
+setPlusSprite
 setPlusSprite(self, cc.Sprite)
+setPopupNotify
 setPopupNotify(self, bool)
+setPosVar
 setPosVar(self, point_table)
+setPosition
 setPosition(self, float, float)
 setPosition(self, point_table)
+setPosition3D
 setPosition3D(self, cc.Vertex3F)
+setPositionOffset
 setPositionOffset(self, point_table)
+setPositionPercent
 setPositionPercent(self, point_table)
+setPositionType
 setPositionType(self, cc.ParticleSystem::PositionType)
 setPositionType(self, ccui.PositionType)
+setPositionX
 setPositionX(self, float)
+setPositionY
 setPositionY(self, float)
+setPositionZ
 setPositionZ(self, float)
+setPreferredSize
 setPreferredSize(self, size_table)
+setPressedActionEnabled
 setPressedActionEnabled(self, bool)
+setPreviousLocation
 setPreviousLocation(self, point_table)
+setPriority
 setPriority(self, cc.EventListener, int)
+setProgressSprite
 setProgressSprite(self, cc.Sprite)
+setProgressTimer
 setProgressTimer(self, cc.ProgressTimer)
+setProjection
 setProjection(self, cc.Director::Projection)
+setProperties
 setProperties(self, map_table)
+setProperty
 setProperty(self, string, string, int, int, string)
+setQuadsToDraw
 setQuadsToDraw(self, long)
+setRadialAccel
 setRadialAccel(self, float)
+setRadialAccelVar
 setRadialAccelVar(self, float)
+setRatchet
 setRatchet(self, float)
+setRate
 setRate(self, float)
+setRatio
 setRatio(self, float)
+setRect
 setRect(self, rect_table)
+setRectInPixels
 setRectInPixels(self, rect_table)
+setRelativeName
 setRelativeName(self, char)
+setRelativeToWidgetName
 setRelativeToWidgetName(self, char)
+setResolutionScale
 setResolutionScale(self, float)
+setRestAngle
 setRestAngle(self, float)
+setRestLength
 setRestLength(self, float)
+setResting
 setResting(self, bool)
+setRestitution
 setRestitution(self, float)
+setRestoreOriginalFrame
 setRestoreOriginalFrame(self, bool)
+setReturnType
 setReturnType(self, cc.EditBox::KeyboardReturnType)
+setReuseGrid
 setReuseGrid(self, int)
+setReverseAction
 setReverseAction(self, cc.FadeTo)
+setReverseDirection
 setReverseDirection(self, bool)
+setRootContainerSize
 setRootContainerSize(self, size_table)
+setRootNode
 setRootNode(self, cc.Node)
+setRotatePerSecond
 setRotatePerSecond(self, float)
+setRotatePerSecondVar
 setRotatePerSecondVar(self, float)
+setRotated
 setRotated(self, bool)
+setRotation
 setRotation(self, float)
+setRotation3D
 setRotation3D(self, cc.Vertex3F)
+setRotationEnable
 setRotationEnable(self, bool)
+setRotationIsDir
 setRotationIsDir(self, bool)
+setRotationOffset
 setRotationOffset(self, float)
+setRotationSkewX
 setRotationSkewX(self, float)
+setRotationSkewY
 setRotationSkewY(self, float)
+setScale
 setScale(self, float)
 setScale(self, float, float)
+setScale9Enabled
 setScale9Enabled(self, bool)
+setScaleRatio
 setScaleRatio(self, float)
+setScaleX
 setScaleX(self, float)
+setScaleY
 setScaleY(self, float)
+setScaleZ
 setScaleZ(self, float)
+setScheduler
 setScheduler(self, cc.Scheduler)
+setScissorInPoints
 setScissorInPoints(self, float, float, float, float)
+setScrollData
 setScrollData(self, float, float)
+setSelected
 setSelected(self, bool)
+setSelectedImage
 setSelectedImage(self, cc.Node)
+setSelectedIndex
 setSelectedIndex(self, unsigned)
+setSelectedSpriteFrame
 setSelectedSpriteFrame(self, cc.SpriteFrame)
+setSelectedState
 setSelectedState(self, bool)
+setSelectedThumbSprite
 setSelectedThumbSprite(self, cc.Sprite)
+setSequences
 setSequences(self, array_table)
+setShaderProgram
 setShaderProgram(self, cc.GLProgram)
+setSize
 setSize(self, size_table)
+setSizePercent
 setSizePercent(self, point_table)
+setSizeType
 setSizeType(self, ccui.SizeType)
+setSkewX
 setSkewX(self, float)
+setSkewY
 setSkewY(self, float)
+setSkin
 setSkin(self, char)
+setSlider
 setSlider(self, cc.Sprite)
+setSlotsToSetupPose
 setSlotsToSetupPose(self)
+setSourcePosition
 setSourcePosition(self, point_table)
+setSpeed
 setSpeed(self, float)
+setSpeedScale
 setSpeedScale(self, float)
+setSpeedVar
 setSpeedVar(self, float)
+setSprite
 setSprite(self, cc.Sprite)
+setSpriteFrame
 setSpriteFrame(self, cc.SpriteFrame)
 setSpriteFrame(self, string)
+setStartColor
 setStartColor(self, color3B_table)
 setStartColor(self, color4F_table)
+setStartColorVar
 setStartColorVar(self, color4F_table)
+setStartOpacity
 setStartOpacity(self, unsigned)
+setStartRadius
 setStartRadius(self, float)
+setStartRadiusVar
 setStartRadiusVar(self, float)
+setStartSize
 setStartSize(self, float)
+setStartSizeVar
 setStartSizeVar(self, float)
+setStartSpin
 setStartSpin(self, float)
+setStartSpinVar
 setStartSpinVar(self, float)
+setStartingPositionInitialized
 setStartingPositionInitialized(self, bool)
+setStencil
 setStencil(self, cc.Node)
+setStep
 setStep(self, point_table)
+setStepValue
 setStepValue(self, double)
+setStiffness
 setStiffness(self, float)
+setStoragePath
 setStoragePath(self, char)
+setStoringCharacters
 setStoringCharacters(self, bool)
+setString
 setString(self, string)
 setString(self, string, string)
+setStringForKey
 setStringForKey(self, char, string)
+setStringValue
 setStringValue(self, string)
+setSubItems
 setSubItems(self, array_table)
+setSurfaceVelocity
 setSurfaceVelocity(self, point_table)
+setSwallowTouches
 setSwallowTouches(self, bool)
+setSystemFontName
 setSystemFontName(self, string)
+setSystemFontSize
 setSystemFontSize(self, float)
+setTGAInfo
 setTGAInfo(self, cc.sImageTGA)
+setTMXFileName
 setTMXFileName(self, string)
+setTag
 setTag(self, int)
+setTangentialAccel
 setTangentialAccel(self, float)
+setTangentialAccelVar
 setTangentialAccelVar(self, float)
+setTarget
 setTarget(self, cc.Node)
 setTarget(self, function)
+setTargetCallback
 setTargetCallback(self, cc.Ref)
+setText
 setText(self, char)
 setText(self, string)
+setTextAreaSize
 setTextAreaSize(self, size_table)
+setTextColor
 setTextColor(self, color4B_table)
+setTextDefinition
 setTextDefinition(self, cc.FontDefinition)
+setTextHorizontalAlignment
 setTextHorizontalAlignment(self, cc.TextHAlignment)
+setTextVerticalAlignment
 setTextVerticalAlignment(self, cc.TextVAlignment)
+setTexture
 setTexture(self, cc.Texture2D)
 setTexture(self, string)
+setTextureAtlas
 setTextureAtlas(self, cc.TextureAtlas)
+setTextureFlipped
 setTextureFlipped(self, bool)
+setTextureRect
 setTextureRect(self, rect_table)
 setTextureRect(self, rect_table, bool, size_table)
+setTextureWithRect
 setTextureWithRect(self, cc.Texture2D, rect_table)
+setThumbSprite
 setThumbSprite(self, cc.Sprite)
+setTile
 setTile(self, color3B_table, point_table)
+setTileGID
 setTileGID(self, unsigned, point_table, cc.TMXTileFlags_)
+setTileProperties
 setTileProperties(self, map_table)
+setTileSet
 setTileSet(self, cc.TMXTilesetInfo)
+setTileSize
 setTileSize(self, size_table)
+setTiles
 setTiles(self, unsigned)
+setTilesets
 setTilesets(self, array_table)
+setTimeScale
 setTimeScale(self, float)
+setTitleBMFontForState
 setTitleBMFontForState(self, string, cc.Control::State)
+setTitleColor
 setTitleColor(self, color3B_table)
+setTitleColorForState
 setTitleColorForState(self, color3B_table, cc.Control::State)
+setTitleFontName
 setTitleFontName(self, string)
+setTitleFontSize
 setTitleFontSize(self, float)
+setTitleForState
 setTitleForState(self, string, cc.Control::State)
+setTitleLabel
 setTitleLabel(self, cc.Node)
+setTitleLabelForState
 setTitleLabelForState(self, cc.Node, cc.Control::State)
+setTitleTTFForState
 setTitleTTFForState(self, string, cc.Control::State)
+setTitleTTFSizeForState
 setTitleTTFSizeForState(self, float, cc.Control::State)
+setTitleText
 setTitleText(self, string)
+setToSetupPose
 setToSetupPose(self)
+setTotalParticles
 setTotalParticles(self, int)
+setTouchAreaEnabled
 setTouchAreaEnabled(self, bool)
+setTouchEnabled
 setTouchEnabled(self, bool)
+setTouchInfo
 setTouchInfo(self, int, float, float)
+setTouchScaleChangeEnabled
 setTouchScaleChangeEnabled(self, bool)
+setTouchSize
 setTouchSize(self, size_table)
+setTransformDirty
 setTransformDirty(self, bool)
+setType
 setType(self, cc.ProgressTimer::Type)
+setUniformLocationWith1i
 setUniformLocationWith1i(self, int, int)
+setUniformLocationWith2i
 setUniformLocationWith2i(self, int, int, int)
+setUniformLocationWith2iv
 setUniformLocationWith2iv(self, int, int, unsigned)
+setUniformLocationWith3i
 setUniformLocationWith3i(self, int, int, int, int)
+setUniformLocationWith3iv
 setUniformLocationWith3iv(self, int, int, unsigned)
+setUniformLocationWith4i
 setUniformLocationWith4i(self, int, int, int, int, int)
+setUniformLocationWith4iv
 setUniformLocationWith4iv(self, int, int, unsigned)
+setUniformLocationWithMatrix2fv
 setUniformLocationWithMatrix2fv(self, int, float, unsigned)
+setUniformLocationWithMatrix3fv
 setUniformLocationWithMatrix3fv(self, int, float, unsigned)
+setUniformLocationWithMatrix4fv
 setUniformLocationWithMatrix4fv(self, int, float, unsigned)
+setUniformsForBuiltins
 setUniformsForBuiltins(self, kmMat4)
+setUnitTime
 setUnitTime(self, float)
+setUp
 setUp(self, kmVec3)
+setUpdateRate
 setUpdateRate(self, int)
+setUserInfo
 setUserInfo(self, map_table)
+setUserObject
 setUserObject(self, cc.Ref)
+setValue
 setValue(self, double)
 setValue(self, float)
+setValueWithSendingEvent
 setValueWithSendingEvent(self, double, bool)
+setVector
 setVector(self, point_table)
+setVelocity
 setVelocity(self, point_table)
+setVelocityLimit
 setVelocityLimit(self, float)
+setVersion
 setVersion(self, float)
+setVersionFileUrl
 setVersionFileUrl(self, char)
+setVertexRect
 setVertexRect(self, rect_table)
+setVerticalAlignment
 setVerticalAlignment(self, cc.TextVAlignment)
+setVerticalFillOrder
 setVerticalFillOrder(self, cc.TableView::VerticalFillOrder)
+setVerticalSpace
 setVerticalSpace(self, float)
+setViewName
 setViewName(self, string)
+setViewPortInPoints
 setViewPortInPoints(self, float, float, float, float)
+setViewport
 setViewport(self)
+setVirtualViewport
 setVirtualViewport(self, point_table, rect_table, rect_table)
+setVisible
 setVisible(self, bool)
+setWidth
 setWidth(self, float)
 setWidth(self, unsigned)
+setWraps
 setWraps(self, bool)
+setZoomOnTouchDown
 setZoomOnTouchDown(self, bool)
+setcolourPicker
 setcolourPicker(self, cc.ControlSaturationBrightnessPicker)
+setupTiles
 setupTiles(self)
+setupTimerWithInterval
 setupTimerWithInterval(self, float, unsigned, float)
+shuffle
 shuffle(self, unsigned, unsigned)
+simulationActionUpdate
 simulationActionUpdate(self, float)
+sortAllChildren
 sortAllChildren(self)
+sortAllProtectedChildren
 sortAllProtectedChildren(self)
+sphericalRadius
 sphericalRadius(self, float, float, float)
+startAnimation
 startAnimation(self)
+startAutorepeat
 startAutorepeat(self)
+startWithTarget
 startWithTarget(self, cc.Node)
+step
 step(self, float)
+stop
 stop(self)
+stopAction
 stopAction(self, cc.Action)
+stopActionByTag
 stopActionByTag(self, int)
+stopAllActions
 stopAllActions(self)
+stopAllEffects
 stopAllEffects(self)
+stopAnimation
 stopAnimation(self)
+stopAutorepeat
 stopAutorepeat(self)
+stopBackgroundMusic
 stopBackgroundMusic(self)
 stopBackgroundMusic(self, bool)
+stopEffect
 stopEffect(self, unsigned)
+stopPropagation
 stopPropagation(self)
+stopSystem
 stopSystem(self)
+swapBuffers
 swapBuffers(self)
+switchTo
 switchTo(self, int)
+switchToAndReleaseMe
 switchToAndReleaseMe(self, int)
+testFunc
 testFunc(self, size_table, float)
+tintWithColor
 tintWithColor(self, color3B_table)
+transformTile
 transformTile(self, point_table, float)
+trigger
 trigger(self)
+turnOffTile
 turnOffTile(self, point_table)
+turnOnTile
 turnOnTile(self, point_table)
+unloadEffect
 unloadEffect(self, char)
+unselected
 unselected(self)
+update
 update(self)
 update(self, float)
+updateArmatureTransform
 updateArmatureTransform(self)
+updateAtlasValues
 updateAtlasValues(self)
+updateCellAtIndex
 updateCellAtIndex(self, long)
+updateColor
 updateColor(self)
+updateContent
 updateContent(self)
+updateDisplayedColor
 updateDisplayedColor(self, color3B_table)
+updateDisplayedOpacity
 updateDisplayedOpacity(self, unsigned)
+updateLayoutUsingTouchLocation
 updateLayoutUsingTouchLocation(self, point_table)
+updateOffsetPoint
 updateOffsetPoint(self)
+updatePosition
 updatePosition(self, point_table)
+updateQuadWithParticle
 updateQuadWithParticle(self, cc.sParticle, point_table)
+updateSizeAndPosition
 updateSizeAndPosition(self, size_table)
+updateToFrameByTime
 updateToFrameByTime(self, float)
+updateTransform
 updateTransform(self)
+updateUniforms
 updateUniforms(self)
+updateWithBatchNode
 updateWithBatchNode(self, cc.SpriteBatchNode, rect_table, bool, rect_table)
+updateWithData
 updateWithData(self, void, int, int, int, int)
+updateWithNoTime
 updateWithNoTime(self)
+updateZOrder
 updateZOrder(self)
+use
 use(self)
+visit
 visit(self, cc.Renderer, kmMat4, bool)
+waitForQuit
 waitForQuit(self)
+widgetFromJsonFile
 widgetFromJsonFile(self, char)
+willPlayBackgroundMusic
 willPlayBackgroundMusic(self)
+world2Local
 world2Local(self, point_table)
+writeToFile
 writeToFile(self, map_table, string)
