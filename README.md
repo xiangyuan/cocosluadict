@@ -1,7 +1,7 @@
 cocosluadict
 ============
 
-####cocos2dx 3.0rc2 lua dictionary生成脚本
+####cocos2dx 3.0 lua dictionary生成脚本
 
     新增websocket,xmlhttprequest api
 
