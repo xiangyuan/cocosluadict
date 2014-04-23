@@ -1,7 +1,7 @@
 require "set"
 
 #path = '~/Game/cocos2d-x/cocos/scripting/lua-bindings/auto/api/'
-path = './cocos3.0rc2' ## the new api path, the top path will lost some api
+path = './cocos3.0' ## the new api path, the top path will lost some api
                     ## so use the new dir api path some api are in the manual cpp define
 
 curDir = ''
